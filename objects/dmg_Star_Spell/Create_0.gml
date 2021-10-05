@@ -1,4 +1,7 @@
 /// @description make smaller
+Tip_X_Distance = 1;
+Tip_Y_Distance = 1;
+
 Damage = 20;
 Cost = 2;
 

@@ -1,6 +1,7 @@
 /// @description stats
 
-
+Tip_X_Distance = 26;
+Tip_Y_Distance = 26;
 
 
 
