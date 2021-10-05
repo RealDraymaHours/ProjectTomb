@@ -10,17 +10,5 @@
     
 // Close application
 //if (kQuit)
- //   game_end();
-
-if global.Points >= 150
-{
-	global.FirstDoor = true;
-}
-if global.Points >= 100
-{
-	global.PlayerStart = true;
-}
-if global.Points >= 10
-{
-	global.First10 = true;
-}
+ //   game_end()
+ 

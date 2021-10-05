@@ -1,1 +1,0 @@
-RoomMessage = "36 - Teamwork is important!";

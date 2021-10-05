@@ -1,1 +1,0 @@
-RoomMessage = "3 - Climb to victory!";

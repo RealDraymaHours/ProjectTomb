@@ -3,7 +3,7 @@
 draw_self();
 if global.Portal = false
 {
-draw_text_color(500, 210, "5", c_purple, c_purple, c_lime, c_lime, 1);
+draw_text_color(1000, 180, "100", c_purple, c_purple, c_lime, c_lime, 1);
 }
 else
 {

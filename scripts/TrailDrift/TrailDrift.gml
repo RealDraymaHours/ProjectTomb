@@ -1,17 +1,21 @@
-/*
-trail_drift(trail,xamount,yamount)
+function TrailDrift(argument0, argument1, argument2) {
+	/*
+	trail_drift(trail,xamount,yamount)
 
-drifts the trail
-*/
+	drifts the trail
+	*/
 
-var (traillength) = ds_grid_width(argument0);
-var i;
+	var (traillength) = ds_grid_width(argument0);
+	var i;
 
-for(i=0; i<traillength; i+=1)
-{
-    if (ds_grid_get(argument0,i,0)!=-1000 or ds_grid_get(argument0,i,1)!=-1000)
-    {
-        ds_grid_set(argument0,i,0,ds_grid_get(argument0,i,0)+argument1);
-        ds_grid_set(argument0,i,1,ds_grid_get(argument0,i,1)+argument2);
-    }
+	for(i=0; i<traillength; i+=1)
+	{
+	    if (ds_grid_get(argument0,i,0)!=-1000 or ds_grid_get(argument0,i,1)!=-1000)
+	    {
+	        ds_grid_set(argument0,i,0,ds_grid_get(argument0,i,0)+argument1);
+	        ds_grid_set(argument0,i,1,ds_grid_get(argument0,i,1)+argument2);
+	    }
+	}
+
+
 }

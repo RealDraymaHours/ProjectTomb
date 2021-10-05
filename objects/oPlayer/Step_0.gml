@@ -1,3 +1,12 @@
+if(place_meeting(x,y,obj_blind))
+{
+	global.InTheOpen = false;
+}
+else
+{
+	global.InTheOpen = true;
+}
+
 // Declare Temp Variables /////////////////////////////////////////////////////
 var kLeft, kRight, kUp, kDown, kJump, kJumpRelease, tempAccel, tempFric;
 ///////////////////////////////////////////////////////////////////////////////
@@ -10,6 +19,10 @@ kUp          = keyboard_check(ord("W"));
 kDown        = keyboard_check(ord("S"));
 kJump        = keyboard_check_pressed(vk_space);
 kJumpRelease = keyboard_check_released(vk_space);
+kWarp        = keyboard_check(ord("Q"));
+
+LeftItem = dmg_Basic_Sword;
+RightItem = obj_bunny_bullet;
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -147,6 +160,16 @@ if (kJump && onGround) {
     }
 }
 
+if (kWarp) {
+ if CanWarp == true
+	{
+		instance_create(oPlayer.x, oPlayer.y -16, obj_bunny_bullet);
+		CanWarp = false;
+		alarm[4] = 60;
+}
+
+}
+
 // Swap facing on walls
 if (!onGround) {
     if (cLeft)
@@ -160,8 +183,17 @@ if (!onGround) {
 // Adjust scaling after squash + stretch
 xscale = Approach(xscale, 1, 0.05);
 yscale = Approach(yscale, 1, 0.05);
-
-
-
 /* */
 /*  */
+
+if global.Health < 1
+{
+ 	game_load("TempSave");
+}
+
+if global.Staggered = true && Staggered = false
+{
+
+	Staggered = true;
+	alarm[1] = 120;
+}

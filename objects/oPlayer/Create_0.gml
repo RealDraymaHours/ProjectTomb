@@ -2,6 +2,10 @@
 h = 0;
 v = 0;
 
+//Item 
+CanRight = true;
+CanLeft = true;
+
 // Collision below
 onGround = false;
 
@@ -85,3 +89,18 @@ xdrift = 0;
 ydrift = 5;
 trail = TrailCreate(length, x, y);
 
+
+CanWarp = true;
+Staggered = false;
+
+
+
+//UI
+healthbar_width = 100;
+healthbar_height = 12;
+healthbar_x = 32;
+healthbar_y = 20;
+flash = 0;
+
+alarm[6] = 240;
+game_save("TempSave");

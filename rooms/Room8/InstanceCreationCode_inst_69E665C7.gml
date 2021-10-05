@@ -1,1 +1,0 @@
-RoomMessage = "8 - Original character \nplz don't steal";

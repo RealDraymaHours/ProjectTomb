@@ -1,1 +1,0 @@
-RoomMessage = "4 - You can walljump on those...";

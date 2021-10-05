@@ -1,1 +1,0 @@
-RoomMessage = "14 - If you think I am running out of ideas then you have seen nothing yet";

@@ -1,1 +1,0 @@
-RoomMessage = "17 - Now is THIS po- \noke i'll stop, I am sorry";

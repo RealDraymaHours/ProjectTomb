@@ -1,1 +1,0 @@
-RoomMessage = "39 - Springs aren't always fun";

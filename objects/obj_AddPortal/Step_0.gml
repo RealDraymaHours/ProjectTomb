@@ -3,13 +3,13 @@
 if global.Gems > 0
 {
 	visible = true;
-if global.Gems >= 5
+if global.Gems >= 100
 {
 	if mouse_check_button_released(mb_left)
 	{
 		if position_meeting(mouse_x, mouse_y, obj_AddPortal)
 			{
-				global.Gems -= 5;
+				global.Gems -= 100;
 				global.Portal = true;
 				sprite_index = spr_bought;
 			}

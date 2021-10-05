@@ -4,5 +4,5 @@ draw_self();
 //draw_text_color(100, 68, global.Gems, c_purple, c_purple, c_lime, c_lime, 1);
 if global.FurnaceBought1 = false
 {
-	draw_text(obj_Furnace2.x + 20, obj_Furnace2.y, "500");
+	draw_text_color(obj_Furnace2.x + 20, obj_Furnace2.y, "1", c_purple, c_purple, c_lime, c_lime, 1);
 }

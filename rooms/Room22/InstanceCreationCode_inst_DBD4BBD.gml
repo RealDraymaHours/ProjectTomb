@@ -1,1 +1,0 @@
-RoomMessage = "22 - USE ALL THE MECHANICS!!!";

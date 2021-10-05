@@ -1,8 +1,12 @@
 {
-    "id": "da3f1da9-0e92-4d9b-98e4-d9ee2fecb27c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TrailCreate",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Trails",
+    "path": "folders/Scripts/Trails.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TrailCreate",
+  "tags": [],
+  "resourceType": "GMScript",
 }

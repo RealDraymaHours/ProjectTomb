@@ -1,1 +1,0 @@
-RoomMessage = "30 - Run through the fire";

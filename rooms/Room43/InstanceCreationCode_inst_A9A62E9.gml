@@ -1,1 +1,0 @@
-RoomMessage = "Now its his time to help out";

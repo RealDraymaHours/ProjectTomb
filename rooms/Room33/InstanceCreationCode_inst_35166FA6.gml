@@ -1,1 +1,0 @@
-RoomMessage = "31 - Its like chess... but without the pieces!";

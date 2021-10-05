@@ -1,1 +1,0 @@
-RoomMessage = "40 - BANG, BANG, BANG, pull my block trigger!";

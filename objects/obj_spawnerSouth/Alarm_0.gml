@@ -1,4 +1,0 @@
-/// @description Insert description here
-// You can write your code in this editor
-//instance_create(x,y,obj_Bullet_South);
-//alarm[0] = 100;

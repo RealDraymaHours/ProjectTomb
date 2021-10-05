@@ -1,1 +1,0 @@
-RoomMessage = "18 - Wait you are a cat not a hedg- \nwait are you even a cat? What even are you?";

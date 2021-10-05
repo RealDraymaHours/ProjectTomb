@@ -1,8 +1,12 @@
 {
-    "id": "db845e0f-2dfa-43ac-8f66-08d4936f3841",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TrailDrift",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Trails",
+    "path": "folders/Scripts/Trails.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TrailDrift",
+  "tags": [],
+  "resourceType": "GMScript",
 }

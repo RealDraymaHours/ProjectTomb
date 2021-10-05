@@ -1,1 +1,0 @@
-RoomMessage = "15 - Watch out for the edge";

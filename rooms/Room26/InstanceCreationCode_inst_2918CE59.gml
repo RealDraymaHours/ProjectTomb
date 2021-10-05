@@ -1,1 +1,0 @@
-RoomMessage = "26 - I should \nreally think\nabout giving \nmyself more\nspace for these";

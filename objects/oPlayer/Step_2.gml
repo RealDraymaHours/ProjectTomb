@@ -15,11 +15,11 @@ for (i = 0; i < abs(v); ++i) {
 for (i = 0; i < abs(h); ++i) {
     // UP slope
     if (place_meeting(x + sign(h), y, oParSolid) && !place_meeting(x + sign(h), y - 1, oParSolid))
-        --y;
+        y = --y;
     
     // DOWN slope
     if (!place_meeting(x + sign(h), y, oParSolid) && !place_meeting(x + sign(h), y + 1, oParSolid) && place_meeting(x + sign(h), y + 2, oParSolid))
-        ++y;      
+        y = ++y;      
         
     if (!place_meeting(x + sign(h), y, oParSolid))
         x += sign(h); 

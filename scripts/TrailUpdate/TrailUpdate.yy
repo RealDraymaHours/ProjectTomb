@@ -1,8 +1,12 @@
 {
-    "id": "3cd241ea-19a8-4a7c-a1ac-9b333309e9bb",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TrailUpdate",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Trails",
+    "path": "folders/Scripts/Trails.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TrailUpdate",
+  "tags": [],
+  "resourceType": "GMScript",
 }

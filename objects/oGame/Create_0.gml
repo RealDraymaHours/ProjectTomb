@@ -8,27 +8,28 @@
 //fontAng = 0;
 //fontDir = 1;
 
-global.MultiCost = 20;
-global.Multiplier = 1;
-global.Points = 0;
-global.WorkerCost = 20;
-global.Workers = 0;
+//Player variables
+global.InTheOpen = true;
+global.BunnyBulletActive = false;
+global.GunActive = true;
+global.Health = 3;
+global.MaxHealth = 3;
+global.Staggered = false;
+global.Mana = 10;
+global.MaxMana = 10;
+
+global.LeftItem = dmg_Basic_Sword;
+global.RightItem = dmg_Basic_Wand;
+
+
+///////////////////////////////////////////////////////////////////////////////
+randomize();
+
+
 global.Gems = 0;
-
-
-global.WorkerPass = false;
-global.FirstDoor = false;
-global.PlayerStart = false;
-global.First10 = false
-global.Portal = false;
-//furnaces
 global.FurnaceBought1 = false;
 global.FurnaceBought2 = false;
 global.FurnaceBought3 = false;
 global.FurnaceBought4 = false;
 global.FurnaceBought5 = false;
-
-alarm[0] = 100;
-
-///////////////////////////////////////////////////////////////////////////////
-
+global.Portal = false;

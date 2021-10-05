@@ -18,3 +18,4 @@ cLeft  = place_meeting(x - 1, y, oBlock);
 cRight = place_meeting(x + 1, y, oBlock); 
 cAbove = place_meeting(x, y - 1, oParSolid);
 
+//Check if the gun is active

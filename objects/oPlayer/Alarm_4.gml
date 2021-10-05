@@ -1,4 +1,2 @@
-// (later versions)
-shake     = false;
-babyShake = false;
-
+/// @description Warp cooldown
+CanWarp = true;

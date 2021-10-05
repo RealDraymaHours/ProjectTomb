@@ -1,1 +1,0 @@
-RoomMessage = "47 - I am not going to ask it.";

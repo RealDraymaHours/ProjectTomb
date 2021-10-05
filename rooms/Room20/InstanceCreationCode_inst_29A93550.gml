@@ -1,1 +1,0 @@
-RoomMessage = "20 - Nightmare fuel";

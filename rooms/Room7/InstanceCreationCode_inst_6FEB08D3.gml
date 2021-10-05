@@ -1,1 +1,0 @@
-RoomMessage = "7 - Maybe this is pole dancing?";

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Shoot basic bullet
 if canSpell == true
 {
 instance_create(obj_Gunner.x,obj_Gunner.y, obj_friendly_bullet);
