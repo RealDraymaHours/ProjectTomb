@@ -1,0 +1,1 @@
+RoomMessage = "24 - Bump in the dark";

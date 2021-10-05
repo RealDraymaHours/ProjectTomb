@@ -1,0 +1,1 @@
+RoomMessage = "16 - Patience, Speed or luck? \n Use them all!!!";

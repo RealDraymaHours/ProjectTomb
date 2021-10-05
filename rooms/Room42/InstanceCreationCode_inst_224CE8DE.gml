@@ -1,0 +1,1 @@
+RoomMessage = "42 - If you want someone to not mess up make sure its impossible to do so!";

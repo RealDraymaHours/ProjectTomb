@@ -1,0 +1,1 @@
+RoomMessage = "38 - Remember this room";

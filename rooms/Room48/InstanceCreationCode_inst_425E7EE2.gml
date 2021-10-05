@@ -1,0 +1,1 @@
+RoomMessage = "48 - You either choose or f#ck up and kill yourself \nBasicly like this whole test to be honest";
