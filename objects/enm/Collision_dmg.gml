@@ -17,13 +17,14 @@ Staggered = true;
         alarm[0] = 8;
         screenShake = true;
     }
+			var xp, yp;
+		xp = other.x + other.Tip_X_Distance*cos(degtorad(other.image_angle+90));
+		yp = other.y - other.Tip_Y_Distance*sin(degtorad(other.image_angle+90));	
 	
 	repeat(10)
 	{
-		var xp, yp;
-		xp = other.x + other.Tip_X_Distance*cos(degtorad(image_angle+90));
-		yp = other.y - other.Tip_Y_Distance*sin(degtorad(image_angle+90));	
-		instance_create_layer(xp, yp, "Effects", obj_SoulHit);
+
+		instance_create(xp, yp, obj_SoulHit);
 		
 	}
 }

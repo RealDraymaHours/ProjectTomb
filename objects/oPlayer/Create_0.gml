@@ -3,7 +3,7 @@ h = 0;
 v = 0;
 
 //Item 
-CanRight = true;
+Parry = false;
 CanLeft = true;
 
 // Collision below

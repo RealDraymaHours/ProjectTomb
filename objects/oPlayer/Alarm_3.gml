@@ -1,3 +1,3 @@
-/// @description Right cooldown
-CanRight = true;
+/// @description Parry cooldown
+Parry = false;
 

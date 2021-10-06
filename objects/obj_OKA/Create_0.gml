@@ -3,6 +3,8 @@
 Health = 200;
 Staggered = false;
 StaggerTime = 20;
+Stunned = false;
+StunnedTime = 120;
 
 Idle = true;
 

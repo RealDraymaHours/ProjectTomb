@@ -1,12 +1,13 @@
-/// @desc right item
+/// @desc Parry
 
 if (!global.Staggered)
 {
-	if CanRight == true
+	if CanLeft == true && Parry = false
 	{
-		instance_create(oPlayer.x, oPlayer.y, global.RightItem);
-		CanRight = false;
-		alarm[3] = global.RightItem.CoolTime;
+		instance_create(oPlayer.x, oPlayer.y, dmg_Shield);
+		speed = 0;
+		Parry = true;	
+		alarm[3] = 20;
 	}
 }
 

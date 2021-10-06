@@ -7,6 +7,8 @@ else
 	global.InTheOpen = true;
 }
 
+
+
 // Declare Temp Variables /////////////////////////////////////////////////////
 var kLeft, kRight, kUp, kDown, kJump, kJumpRelease, tempAccel, tempFric;
 ///////////////////////////////////////////////////////////////////////////////
@@ -65,6 +67,7 @@ if (!onGround) {
     }
 }
 ///////////////////////////////////////////////////////////////////////////////
+
 
 // Left 
 if (kLeft && !kRight && !sticking) {
@@ -185,6 +188,14 @@ xscale = Approach(xscale, 1, 0.05);
 yscale = Approach(yscale, 1, 0.05);
 /* */
 /*  */
+
+if Parry = true
+{
+	speed = 0;
+	h = 0;
+	v = 0;
+}
+
 
 if global.Health < 1
 {

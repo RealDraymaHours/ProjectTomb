@@ -1,4 +1,4 @@
-/// @description left item
+/// @description Weapon
 
 if (!global.Staggered)
 {
