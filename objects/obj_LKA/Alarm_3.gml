@@ -21,6 +21,8 @@ CurrentPlayerY = 0;
 ScreamStart = false;
 Scream = false;
 
+Tantrum = false;
+
 
 vspeed = 0;
 hspeed = 0;
@@ -30,5 +32,7 @@ if (y != 293)
 {
 	y = 293;
 }
+
+image_index = 0;
 
 alarm[6] = 60;

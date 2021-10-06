@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tomb",
-    "path": "folders/Sprites/Enemies/Bosses/Tomb.yy",
+    "name": "OKA",
+    "path": "folders/Sprites/Enemies/Bosses/Tomb/OKA.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_OKA_Trigger",

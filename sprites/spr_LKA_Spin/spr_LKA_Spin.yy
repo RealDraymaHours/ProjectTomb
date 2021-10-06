@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tomb",
-    "path": "folders/Sprites/Enemies/Bosses/Tomb.yy",
+    "name": "LKA",
+    "path": "folders/Sprites/Enemies/Bosses/Tomb/LKA.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_LKA_Spin",

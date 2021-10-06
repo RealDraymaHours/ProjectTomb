@@ -20,6 +20,55 @@ else
 	CloseToPlayer = false;
 }
 
+if Stunned = true
+{
+	StaggerTime = 20;
+	Staggered = false;
+	Stunned = false;
+
+	CloseToPlayer = false;
+
+	Idle = false;
+
+	SlashCount = 7;
+	Slash = false;
+	StartSlashing = false;
+	SlashCooldown = false;
+
+	SpinStart = false;
+	Spinning = false;
+	Spin = false;
+	CurrentPlayerX = 0;
+	CurrentPlayerY = 0;
+
+
+	ScreamStart = false;
+	Scream = false;
+	sprite_index = spr_LKA_Stunned;
+	
+	vspeed = 0;
+	hspeed = 0;
+	
+	
+	alarm[3] = 90;
+	
+	Stunned = false;
+	
+}
+
+
+if Tantrum = true
+{
+	sprite_index = spr_LKA_TantrumStart
+	
+	if image_index > image_number - 1
+	{
+		sprite_index = spr_LKA_Tantrum;
+		alarm[3] = 120;
+		Tantrum = false;
+	}
+	
+}
 
 if Scream = true
 {
@@ -80,38 +129,37 @@ if Spin = true
 
 if Slash = true
 {
+	IsAttacking = true;
 	if StartSlashing = false
 	{
 		image_index = 0;
 		sprite_index = spr_LKA_Slashing;
 		if x < oPlayer.x
 		{
-			hspeed = 8;
+			hspeed = 6;
 		}
 		else
 		{
-			hspeed = -8;
+			hspeed = -6;
 		}
 		StartSlashing= true;
-		alarm[5] = 30;
 		alarm[3] = 258;
 	}
 	AnimationLock = true;
 
 	
 
-	if place_meeting(x,y,obj_InvFloor1)
+	if place_meeting(x + 120,y,obj_InvFloor1) && self.hspeed = 6
 	{
-		if hspeed = 6
-		{			
-			hspeed = -6;
-			image_xscale = 1;
-		}
-		else
-		{
-			hspeed = 6;
-			image_xscale = -1;
-		}
+
+		hspeed = -6;
+		image_xscale = 1;
+
+	}
+	else if place_meeting(x - 120,y,obj_InvFloor1) && self.hspeed = -6
+	{			
+		hspeed = 6;
+		image_xscale = -1;
 	}
 	
 	

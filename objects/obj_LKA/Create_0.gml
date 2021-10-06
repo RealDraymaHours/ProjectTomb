@@ -7,6 +7,7 @@ move = 0;
 Health = 200;
 StaggerTime = 20;
 Staggered = false;
+Stunned = false;
 
 CloseToPlayer = false;
 
@@ -17,6 +18,8 @@ Slash = false;
 StartSlashing = false;
 SlashCooldown = false;
 
+IsAttacking = false;
+
 SpinStart = false;
 Spinning = false;
 Spin = false;
@@ -26,3 +29,5 @@ CurrentPlayerY = 0;
 
 ScreamStart = false;
 Scream = false;
+
+Tantrum = false;

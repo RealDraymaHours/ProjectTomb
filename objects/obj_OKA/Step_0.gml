@@ -33,7 +33,7 @@ if Stunned = true
 	ForwardAttack = false;
 
 	RampageCount = 10;
-	RampageTop = true;
+	RampageTop = false;
 	Rampage = false;
 
 	AnimationLock = false;
@@ -41,8 +41,9 @@ if Stunned = true
 	
 	sprite_index = spr_OKA_Staggered;
 	
-	alarm[10] = 120;
+	alarm[2] = 120;
 	
+
 	Stunned = false;
 }
 

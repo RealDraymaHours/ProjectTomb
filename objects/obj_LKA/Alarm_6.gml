@@ -3,14 +3,7 @@
 
 if CloseToPlayer = true
 {
-	if move = 1
-	{
-		move = 0;
-	}
-	else
-	{
-		move = 1;
-	}
+move = irandom(2);
 	
 	switch (move)
 	{
@@ -20,6 +13,10 @@ if CloseToPlayer = true
 	
 		case 1:
 		Scream = true;
+		break;
+		
+		case 2:
+		Tantrum = true;
 		break;
 	}
 }
