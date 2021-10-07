@@ -192,6 +192,7 @@
     {"id":{"name":"obj_Furnace4","path":"objects/obj_Furnace4/obj_Furnace4.yy",},"order":3,},
     {"id":{"name":"spr_LKA_Flash","path":"sprites/spr_LKA_Flash/spr_LKA_Flash.yy",},"order":0,},
     {"id":{"name":"spr_Lost_Trigger_4","path":"sprites/spr_Lost_Trigger_4/spr_Lost_Trigger_4.yy",},"order":11,},
+    {"id":{"name":"spr_FLKA_Idle","path":"sprites/spr_FLKA_Idle/spr_FLKA_Idle.yy",},"order":1,},
     {"id":{"name":"spr_Lost_Trigger_2","path":"sprites/spr_Lost_Trigger_2/spr_Lost_Trigger_2.yy",},"order":9,},
     {"id":{"name":"obj_Furnace5","path":"objects/obj_Furnace5/obj_Furnace5.yy",},"order":4,},
     {"id":{"name":"obj_portal1","path":"objects/obj_portal1/obj_portal1.yy",},"order":7,},

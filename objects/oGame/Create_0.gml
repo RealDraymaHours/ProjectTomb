@@ -12,8 +12,8 @@
 global.InTheOpen = true;
 global.BunnyBulletActive = false;
 global.GunActive = true;
-global.Health = 3;
-global.MaxHealth = 3;
+global.Health = 5;
+global.MaxHealth = 5;
 global.Staggered = false;
 global.Mana = 10;
 global.MaxMana = 10;
