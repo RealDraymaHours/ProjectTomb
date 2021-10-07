@@ -55,7 +55,7 @@
     {"instances":[],"visible":true,"depth":10,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_OKA","path":"objects/obj_OKA/obj_OKA.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":574.0,"y":292.0,"resourceVersion":"1.0","name":"inst_3C060ABC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_FLKA","path":"objects/obj_FLKA/obj_FLKA.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":288.0,"resourceVersion":"1.0","name":"inst_5CF4499F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":110,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Damage_Layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":210,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"TombBack","path":"sprites/TombBack/TombBack.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":310,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Backgrounds_1","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -73,7 +73,7 @@
     {"name":"inst_75CD979C","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_71BEA9F7","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_2753B220","path":"rooms/RoomSpawn/RoomSpawn.yy",},
-    {"name":"inst_3C060ABC","path":"rooms/RoomSpawn/RoomSpawn.yy",},
+    {"name":"inst_5CF4499F","path":"rooms/RoomSpawn/RoomSpawn.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

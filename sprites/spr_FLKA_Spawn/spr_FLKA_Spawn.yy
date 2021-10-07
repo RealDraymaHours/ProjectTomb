@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 98,
-  "bbox_right": 125,
-  "bbox_top": 100,
-  "bbox_bottom": 199,
+  "bbox_left": 190,
+  "bbox_right": 223,
+  "bbox_top": 137,
+  "bbox_bottom": 200,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -466,7 +466,11 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 54.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "events": {"Keyframes":[
+        {"id":"b41cc9d3-ee7f-49e7-b0e2-36d9d173821a","Key":53.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+                "Spawn_Done",
+              ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
+      ],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
