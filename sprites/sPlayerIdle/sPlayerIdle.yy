@@ -169,8 +169,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "BasePlayer",
+    "path": "folders/Sprites/Player/BasePlayer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerIdle",

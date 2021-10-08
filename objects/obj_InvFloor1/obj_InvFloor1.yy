@@ -4,7 +4,7 @@
     "path": "sprites/spr_Block_INV/spr_Block_INV.yy",
   },
   "solid": true,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

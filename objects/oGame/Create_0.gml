@@ -11,7 +11,6 @@
 //Player variables
 global.InTheOpen = true;
 global.BunnyBulletActive = false;
-global.GunActive = true;
 global.Health = 5;
 global.MaxHealth = 5;
 global.Staggered = false;
@@ -26,10 +25,3 @@ global.RightItem = dmg_Basic_Wand;
 randomize();
 
 
-global.Gems = 0;
-global.FurnaceBought1 = false;
-global.FurnaceBought2 = false;
-global.FurnaceBought3 = false;
-global.FurnaceBought4 = false;
-global.FurnaceBought5 = false;
-global.Portal = false;

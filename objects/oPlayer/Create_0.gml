@@ -2,6 +2,17 @@
 h = 0;
 v = 0;
 
+//sprite
+Sprite = "Base";
+sIdle = sPlayerIdle;
+sRun = sPlayerRun;
+sJumpD = sPlayerJumpD;
+sJumpM = sPlayerJumpM;
+sJumpU = sPlayerJumpU;
+sSlide = sPlayerSlide;
+sParry = sPlayerParry;
+
+
 //Item 
 Parry = false;
 CanLeft = true;
