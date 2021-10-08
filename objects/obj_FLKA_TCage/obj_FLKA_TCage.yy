@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_FLKA_Tornado",
-    "path": "sprites/spr_FLKA_Tornado/spr_FLKA_Tornado.yy",
+    "name": "spr_FLKA_TCage",
+    "path": "sprites/spr_FLKA_TCage/spr_FLKA_TCage.yy",
   },
   "solid": false,
   "visible": true,

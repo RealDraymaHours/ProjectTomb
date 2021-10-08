@@ -43,15 +43,15 @@ else if ChaseSwitch = 1
 else if ChaseSwitch = 2
 {
 		instance_create(Tx1, -16, obj_FLKA_Tornado);
-		Tx1 += 16;
+		Tx1 += 32;
 		instance_create(Tx2, -16, obj_FLKA_Tornado);
-		Tx2 -= 16;
+		Tx2 -= 32;
 		
 		CurrentChase += 1;
 
 		alarm[1] = 8;
 		
-		if CurrentChase > 90
+		if CurrentChase > 62
 		{
 			ChaseSwitch = 3;
 		}

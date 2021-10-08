@@ -24,6 +24,6 @@ ChaseActive = false;
 
 TornadoCage = false;
 
-HeadSlam = true;
+HeadSlam = false;
 
 
