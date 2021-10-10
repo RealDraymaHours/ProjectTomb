@@ -16,6 +16,9 @@ sParry = sPlayerParry;
 //Item 
 Parry = false;
 CanLeft = true;
+CanWarp = true;
+Can1 = true;
+Can2 = true;
 
 // Collision below
 onGround = false;
@@ -101,7 +104,7 @@ ydrift = 5;
 trail = TrailCreate(length, x, y);
 
 
-CanWarp = true;
+
 Staggered = false;
 
 

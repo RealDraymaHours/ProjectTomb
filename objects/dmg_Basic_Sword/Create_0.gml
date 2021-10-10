@@ -1,4 +1,10 @@
 /// @description Timers and stats
+Name = "Soul Sword";
+
+Description = "Made out of a brave but weak soul."
+
+icon = spr_inv_sword;
+
 Tip_X_Distance = 59;
 Tip_Y_Distance = 59;
 

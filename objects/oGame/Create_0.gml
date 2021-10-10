@@ -17,10 +17,26 @@ global.Staggered = false;
 global.Mana = 10;
 global.MaxMana = 10;
 
-global.LeftItem = dmg_Basic_Sword;
-global.RightItem = dmg_Basic_Wand;
+//UI
+global.MainIcon = sPlayerIdle;
+global.FirstSpellIcon = sPlayerIdle;
+global.SecondSpellIcon = spr_gunner;
 
+//Equipables
+global.LeftItem = dmg_Soul_Spear;
+global.Armor = "Base";
+global.Spell1 = dmg_Star_Wand;
+global.Spell2 = obj_Gunner;
 
+//Collected Weapons
+global.SoulSword = true;
+global.SoulSpear = false;
+
+//Collected Armor
+global.Helmet = true;
+
+//Triggers
+global.OKA = false;
 ///////////////////////////////////////////////////////////////////////////////
 randomize();
 

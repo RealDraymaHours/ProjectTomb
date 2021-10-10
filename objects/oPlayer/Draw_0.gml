@@ -1,5 +1,5 @@
 // Draw sprite depending on player state
-switch(Sprite)
+switch(global.Armor)
 {
 	case("Base"):
 	sIdle = sPlayerIdle;
