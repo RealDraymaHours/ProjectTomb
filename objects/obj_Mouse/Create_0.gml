@@ -210,7 +210,9 @@ stateFree = function()
 	if (mouse_check_button(mb_left)) && (slotHoverArmor != -1) && (inventoryHoverArmor.inventory[slotHoverArmor] != -1)
 	{
 		global.Armor = inventoryToString(inventoryHoverArmor.inventory[slotHoverArmor]);
-		//global.SecondSpellIcon = inventoryToSprite(inventoryHoverArmor.inventory[slotHoverArmor]);
+		Stats = inventoryToStats(inventoryHoverArmor.inventory[slotHoverArmor]);
+		global.MaxHealth = 5 + Stats[0];
+		global.MaxMana = 10 + Stats[1];
 	}
 	
 		//description

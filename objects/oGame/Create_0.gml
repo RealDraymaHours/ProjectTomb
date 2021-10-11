@@ -18,9 +18,9 @@ global.Mana = 10;
 global.MaxMana = 10;
 
 //UI
-global.MainIcon = sPlayerIdle;
-global.FirstSpellIcon = sPlayerIdle;
-global.SecondSpellIcon = spr_gunner;
+global.MainIcon = spr_Hitbox;
+global.FirstSpellIcon = spr_Hitbox;
+global.SecondSpellIcon = spr_Hitbox;
 global.Inventory = false;
 
 //Equipables

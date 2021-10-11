@@ -16,7 +16,8 @@ if Health < 30
 
 if Health < 1
 {
-	instance_destroy();
+	Death = true;
+	sprite_index = spr_Lost_Trigger_4;
 }
 
 

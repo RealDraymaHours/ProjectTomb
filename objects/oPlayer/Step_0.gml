@@ -166,7 +166,16 @@ if (kJump && onGround) {
 if (kWarp) {
  if CanWarp == true
 	{
-		instance_create(oPlayer.x, oPlayer.y -16, obj_bunny_bullet);
+		Extra = 0;
+		if mouse_x > oPlayer.x
+		{
+			Extra = 16;
+		}
+		else
+		{
+			Extra = -16;
+		}
+		instance_create(oPlayer.x + Extra, oPlayer.y -16, obj_bunny_bullet);
 		CanWarp = false;
 		alarm[4] = 60;
 }

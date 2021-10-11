@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Lost_Trigger_1",
-    "path": "sprites/spr_Lost_Trigger_1/spr_Lost_Trigger_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

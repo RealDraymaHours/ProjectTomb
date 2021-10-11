@@ -64,6 +64,21 @@ function inventoryToString(inventoryIndex)
 	return Armor;
 }
 
+function inventoryToStats(inventoryIndex)
+{
+	Stats = [1,2];	///[Health, Mana]
+		switch(inventoryIndex)
+		{
+			case 4:
+				Stats = [0,0];
+			break;
+			case 5:
+				Stats = [2,0];
+			break;
+		}
+	return Stats;
+}
+
 function inventoryToDescription(inventoryIndex)
 {
 	Desc = "somefuckuped"
@@ -126,3 +141,4 @@ function inventoryToDescription(inventoryIndex)
 		}
 	return Desc;
 }
+
