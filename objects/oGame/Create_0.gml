@@ -21,9 +21,10 @@ global.MaxMana = 10;
 global.MainIcon = sPlayerIdle;
 global.FirstSpellIcon = sPlayerIdle;
 global.SecondSpellIcon = spr_gunner;
+global.Inventory = false;
 
 //Equipables
-global.LeftItem = dmg_Soul_Spear;
+global.LeftItem = dmg_Basic_Sword;
 global.Armor = "Base";
 global.Spell1 = dmg_Star_Wand;
 global.Spell2 = obj_Gunner;

@@ -174,6 +174,7 @@ stateFree = function()
 	mouseOverArmor();
 	
 	//StartCode if you click the thing
+	//Weapons
 	if (mouse_check_button(mb_left)) && (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
 	{
 		global.LeftItem = inventoryToObject(inventoryHover.inventory[slotHover]);
@@ -181,6 +182,7 @@ stateFree = function()
 		
 	}
 	
+		//spells
 	if (mouse_check_button(mb_left)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
 	{
 		global.Spell1 = inventoryToObject(inventoryHoverSpell.inventory[slotHoverSpell]);
@@ -193,6 +195,7 @@ stateFree = function()
 		global.SecondSpellIcon = inventoryToSprite(inventoryHoverSpell.inventory[slotHoverSpell]);
 	}
 	
+	 //summons
 	if (mouse_check_button(mb_left)) && (slotHoverSummon != -1) && (inventoryHoverSummon.inventory[slotHoverSummon] != -1)
 	{
 		global.Spell1 = inventoryToObject(inventoryHoverSummon.inventory[slotHoverSummon]);
@@ -203,12 +206,30 @@ stateFree = function()
 		global.Spell2 = inventoryToObject(inventoryHoverSummon.inventory[slotHoverSummon]);
 		global.SecondSpellIcon = inventoryToSprite(inventoryHoverSummon.inventory[slotHoverSummon]);
 	}
+		//armor
 	if (mouse_check_button(mb_left)) && (slotHoverArmor != -1) && (inventoryHoverArmor.inventory[slotHoverArmor] != -1)
 	{
 		global.Armor = inventoryToString(inventoryHoverArmor.inventory[slotHoverArmor]);
 		//global.SecondSpellIcon = inventoryToSprite(inventoryHoverArmor.inventory[slotHoverArmor]);
 	}
 	
+		//description
+	if((slotHoverArmor != -1) && (inventoryHoverArmor.inventory[slotHoverArmor] != -1))
+	{
+		obj_Description.Description = inventoryToDescription((inventoryHoverArmor.inventory[slotHoverArmor]))
+	}
+	else if (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
+	{
+		obj_Description.Description = inventoryToDescription((inventoryHover.inventory[slotHover]))
+	}
+	else if (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
+	{
+		obj_Description.Description = inventoryToDescription((inventoryHoverSpell.inventory[slotHoverSpell]))
+	}
+	else if (slotHoverSummon != -1) && (inventoryHoverSummon.inventory[slotHoverSummon] != -1)
+	{
+		obj_Description.Description = inventoryToDescription((inventoryHoverSummon.inventory[slotHoverSummon]))
+	}
 	
 }
 

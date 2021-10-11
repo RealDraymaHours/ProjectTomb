@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Description",
+    "path": "sprites/spr_Description/spr_Description.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -29,7 +32,7 @@
     "path": "folders/Objects/Inventory.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SpellInventory",
+  "name": "obj_Description",
   "tags": [],
   "resourceType": "GMObject",
 }

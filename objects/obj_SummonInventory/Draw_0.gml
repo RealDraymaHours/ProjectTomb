@@ -1,8 +1,7 @@
 /// @description Draw inv
+if global.Inventory = true
+{
 InvSprite = spr_FurnaceActive;
-
-
-
 draw_sprite_stretched
 (
 	spr_Inventory,
@@ -28,4 +27,5 @@ for (var i = 0; i < INVENTORY_SLOTS_SUMMON; i += 1)
 		draw_sprite(InvSprite,0,xx,yy);
 		draw_set_alpha(1.0);
 	}
+}
 }
