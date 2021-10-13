@@ -213,7 +213,7 @@
     {"id":{"name":"obj_AddWorker","path":"objects/obj_AddWorker/obj_AddWorker.yy",},"order":0,},
     {"id":{"name":"obj_TextBox","path":"objects/obj_TextBox/obj_TextBox.yy",},"order":2,},
     {"id":{"name":"spr_HealthBar","path":"sprites/spr_HealthBar/spr_HealthBar.yy",},"order":0,},
-    {"id":{"name":"obj_Fireball","path":"objects/obj_Fireball/obj_Fireball.yy",},"order":18,},
+    {"id":{"name":"obj_Fireball","path":"objects/obj_Fireball/obj_Fireball.yy",},"order":2,},
     {"id":{"name":"obj_AddPortal","path":"objects/obj_AddPortal/obj_AddPortal.yy",},"order":1,},
     {"id":{"name":"Object71","path":"objects/Object71/Object71.yy",},"order":2,},
     {"id":{"name":"obj_emptyButton","path":"objects/obj_emptyButton/obj_emptyButton.yy",},"order":2,},

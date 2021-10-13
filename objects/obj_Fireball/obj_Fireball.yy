@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Tomb",
+    "path": "folders/Objects/Enemies/Tomb.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Fireball",
