@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_Lost_Mage_1",
-    "path": "sprites/spr_Lost_Mage_1/spr_Lost_Mage_1.yy",
+    "name": "eff_FireHit2",
+    "path": "sprites/eff_FireHit2/eff_FireHit2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "enm",
-    "path": "objects/enm/enm.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,20 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":76,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tomb",
-    "path": "folders/Objects/Enemies/Tomb.yy",
+    "name": "Effects",
+    "path": "folders/Objects/Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "enm_Lost_Mage",
+  "name": "obj_FireHit2",
   "tags": [],
   "resourceType": "GMObject",
 }

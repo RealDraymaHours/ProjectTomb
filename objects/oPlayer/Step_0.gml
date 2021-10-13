@@ -208,7 +208,8 @@ if Parry = true
 
 if global.Health < 1
 {
- 	game_load("TempSave");
+ 	Load();
+	global.Health = 3;
 }
 
 if global.Staggered = true && Staggered = false
