@@ -4,25 +4,32 @@ draw_self();
 
 image_speed = 0.40;
 
-if IsAttacking
+if !Death
 {
-	if Health < 60
+	if IsAttacking
 	{
-		sprite_index = spr_Lost_Slasher_2;	
+		if Health < 60
+		{
+			sprite_index = spr_Lost_Slasher_2;	
+		}
+		else
+		{
+			sprite_index = spr_Lost_Slasher;	
+		}
 	}
 	else
 	{
-		sprite_index = spr_Lost_Slasher;	
+		if Health < 60
+		{
+			sprite_index = spr_Lost_Slasher_Idle_2;	
+		}
+		else
+		{
+			sprite_index = spr_Lost_Slasher_Idle;	
+		}
 	}
 }
 else
 {
-	if Health < 60
-	{
-		sprite_index = spr_Lost_Slasher_Idle_2;	
-	}
-	else
-	{
-		sprite_index = spr_Lost_Slasher_Idle;	
-	}
+	sprite_index = spr_Lost_Slasher_Death;
 }

@@ -21,6 +21,9 @@ function inventoryToSprite(inventoryIndex)
 		case 5:
 			InvSprite = spr_inv_Knight;
 		break;
+		case 6:
+			InvSprite = spr_inv_Mage;
+		break;
 	}
 		
 	return InvSprite;
@@ -58,6 +61,9 @@ function inventoryToString(inventoryIndex)
 		case 5:
 			Armor = "Knight";
 		break;
+		case 6:
+			Armor = "Mage";
+		break;
 
 	}
 	
@@ -74,6 +80,9 @@ function inventoryToStats(inventoryIndex)
 			break;
 			case 5:
 				Stats = [2,0];
+			break;
+			case 6:
+				Stats = [0,10];
 			break;
 		}
 	return Stats;
@@ -138,6 +147,19 @@ function inventoryToDescription(inventoryIndex)
 				   "any advantages or disadvantages to him. It was just cute.\n\n" +
 				   "One could say it was fate that you found this helmet."
 			break;
+			case 6:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+				Desc= "Mences mage hat\n\n" +
+					  "A big hat that increases your mana pool.\n\n" +
+					  "There was once a mage who specialized in fungal magic.\n" +
+					  "He believed that it was the key to solve many illnesses.\n" +
+					  "However one day he overstepped and hit himself with his \n" +
+					  "own spell. This caused him to grow muschrooms all over his\n" +
+					  "body. Eventually the shrooms fused together and formed one\n" +
+					  "giant muschroom hat on top of his head.\n\n" +
+					  "People however hailed him as a genius for his breakthroughs.\n" +
+					  "The classic mage hat being an imitation of his muschroom head.\n"+
+					  "Even though the school of Mences abandoned medicine long ago,\n" +
+					  "their hat will forever be a symbol of their roots."
 		}
 	return Desc;
 }

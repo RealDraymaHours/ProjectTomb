@@ -36,4 +36,12 @@ for (i = 0; i < abs(h); ++i) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
+if global.Health > global.MaxHealth
+{
+	global.Health = global.MaxHealth;
+}
 
+if global.Mana > global.MaxMana
+{
+	global.Mana = global.MaxMana;
+}

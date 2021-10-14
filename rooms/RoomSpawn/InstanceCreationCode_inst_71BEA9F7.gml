@@ -1,3 +1,3 @@
-TargetRoom = Rm_Tomb_Shrine;
-TargetX = -5;
-TargetY = 650;
+TargetRoom = Rm_Teplete;
+TargetX = 32;
+TargetY = 100;

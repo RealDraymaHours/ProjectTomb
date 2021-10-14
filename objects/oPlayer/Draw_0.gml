@@ -20,6 +20,15 @@ switch(global.Armor)
 	sSlide = spr_KnightPlayerSlide;
 	sParry = spr_KnightPlayerParry;
 	
+	case("Mage"):
+	sIdle = spr_MagePlayerIdle;
+	sRun = spr_MagePlayerRun;
+	sJumpD = spr_MagePlayerJumpD;
+	sJumpM = spr_MagePlayerJumpM;
+	sJumpU = spr_MagePlayerJumpU;
+	sSlide = spr_MagePlayerSlide;
+	sParry = spr_MagePlayerParry;
+	
 }
 
 

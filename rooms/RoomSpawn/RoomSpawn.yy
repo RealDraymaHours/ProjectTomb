@@ -60,6 +60,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Sword","path":"objects/obj_Collect_Sword/obj_Collect_Sword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":578.0,"y":328.0,"resourceVersion":"1.0","name":"inst_6B87ED61","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_StarSpell","path":"objects/obj_Collect_StarSpell/obj_Collect_StarSpell.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":530.0,"y":328.0,"resourceVersion":"1.0","name":"inst_28081FC0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Armor","path":"objects/obj_Collect_Armor/obj_Collect_Armor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":610.0,"y":328.0,"resourceVersion":"1.0","name":"inst_38314B81","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Mage","path":"objects/obj_Collect_Mage/obj_Collect_Mage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":352.0,"resourceVersion":"1.0","name":"inst_64A84E62","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":3,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1","tags":[],"resourceType":"GMRInstance",},
@@ -100,6 +101,7 @@
     {"name":"inst_11EA7816","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_4D26BF39","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_16C70143","path":"rooms/RoomSpawn/RoomSpawn.yy",},
+    {"name":"inst_64A84E62","path":"rooms/RoomSpawn/RoomSpawn.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
