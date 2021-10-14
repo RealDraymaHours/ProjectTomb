@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Survivor",
-    "path": "sprites/spr_Survivor/spr_Survivor.yy",
+    "name": "spr_OKA_Satue",
+    "path": "sprites/spr_OKA_Satue/spr_OKA_Satue.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/NPCs/Survivors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Survivor",
+  "name": "obj_OKA_Statue",
   "tags": [],
   "resourceType": "GMObject",
 }
