@@ -10,7 +10,10 @@
     "path": "sprites/sPlayerMask/sPlayerMask.yy",
   },
   "persistent": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_LightParent",
+    "path": "objects/obj_LightParent/obj_LightParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 0,

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if AnimationLock = false
+if (!IsAttacking) && (!Stunned)
 {
 	if x < oPlayer.x
 	{
