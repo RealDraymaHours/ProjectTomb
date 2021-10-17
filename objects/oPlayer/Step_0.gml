@@ -21,10 +21,11 @@ kUp          = keyboard_check(ord("W"));
 kDown        = keyboard_check(ord("S"));
 kJump        = keyboard_check_pressed(vk_space);
 kJumpRelease = keyboard_check_released(vk_space);
-kWarp        = keyboard_check(ord("Q"));
+kWarp        = mouse_check_button_released(mb_right);
+
 
 LeftItem = dmg_Basic_Sword;
-RightItem = obj_bunny_bullet;
+
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -180,6 +181,9 @@ if (kWarp) {
 		alarm[4] = 60;
 }
 
+
+
+
 }
 
 // Swap facing on walls
@@ -200,21 +204,20 @@ yscale = Approach(yscale, 1, 0.05);
 
 if Parry = true
 {
+	MyLight = c_blue;
 	speed = 0;
 	h = 0;
 	v = 0;
 }
 
-
 if global.Health < 1
 {
- 	Load();
-	global.Health = 3;
+	state = DEATH;
 }
 
 if global.Staggered = true && Staggered = false
 {
-
+	MyLight = c_black;
 	Staggered = true;
 	alarm[1] = 120;
 }

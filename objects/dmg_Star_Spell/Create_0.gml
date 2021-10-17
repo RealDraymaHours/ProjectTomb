@@ -1,4 +1,11 @@
 /// @description make smaller
+depth = -98;
+MyLight = c_yellow;
+X = 0.15;
+Y = 0.15;
+Intensity = 0.3;
+
+
 Tip_X_Distance = 1;
 Tip_Y_Distance = 1;
 

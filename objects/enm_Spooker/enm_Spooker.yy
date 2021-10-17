@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Spooks",
-    "path": "sprites/spr_Spooks/spr_Spooks.yy",
+    "name": "spr_Scarab",
+    "path": "sprites/spr_Scarab/spr_Scarab.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,12 +31,13 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":76,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "templete",
-    "path": "folders/Objects/Enemies/templete.yy",
+    "name": "Tomb",
+    "path": "folders/Objects/Enemies/Tomb.yy",
   },
   "resourceVersion": "1.0",
   "name": "enm_Spooker",

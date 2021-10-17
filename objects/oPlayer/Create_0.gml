@@ -3,7 +3,6 @@ h = 0;
 v = 0;
 
 //sprite
-Sprite = "Base";
 sIdle = sPlayerIdle;
 sRun = sPlayerRun;
 sJumpD = sPlayerJumpD;
@@ -12,6 +11,11 @@ sJumpU = sPlayerJumpU;
 sSlide = sPlayerSlide;
 sParry = sPlayerParry;
 
+//Light
+MyLight = c_white;
+Y = 1;
+X = 1;
+Intensity = 0.7;
 
 //Item 
 Parry = false;
@@ -62,6 +66,7 @@ clingTime   = 4.0  * m;
 IDLE     = 10;
 RUN      = 11;
 JUMP     = 12;
+DEATH	 = 13;
 
 // Facings
 RIGHT =  1;

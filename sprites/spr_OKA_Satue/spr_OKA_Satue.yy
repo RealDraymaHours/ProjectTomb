@@ -15,7 +15,7 @@
   "VTile": false,
   "For3D": false,
   "width": 95,
-  "height": 122,
+  "height": 126,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",

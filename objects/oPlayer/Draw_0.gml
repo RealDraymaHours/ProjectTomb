@@ -9,6 +9,7 @@ switch(global.Armor)
 	sJumpU = sPlayerJumpU;
 	sSlide = sPlayerSlide;
 	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
 	break;
 	
 	case("Knight"):
@@ -19,6 +20,8 @@ switch(global.Armor)
 	sJumpU = spr_KnightPlayerJumpU;
 	sSlide = spr_KnightPlayerSlide;
 	sParry = spr_KnightPlayerParry;
+	sDeath = spr_KnightPlayerDeath;
+	break;
 	
 	case("Mage"):
 	sIdle = spr_MagePlayerIdle;
@@ -28,6 +31,8 @@ switch(global.Armor)
 	sJumpU = spr_MagePlayerJumpU;
 	sSlide = spr_MagePlayerSlide;
 	sParry = spr_MagePlayerParry;
+	sDeath = spr_MagePlayerDeath;
+	break;
 	
 }
 
@@ -59,6 +64,9 @@ switch(global.Armor)
         if (cRight || cLeft)
             sprite_index = sSlide;  
     break;
+	case(DEATH):
+		sprite_index = sDeath;
+	break;
 
 	}
 
@@ -95,3 +103,4 @@ else
 	}
 		
 }
+
