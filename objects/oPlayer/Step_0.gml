@@ -21,6 +21,7 @@ kUp          = keyboard_check(ord("W"));
 kDown        = keyboard_check(ord("S"));
 kJump        = keyboard_check_pressed(vk_space);
 kJumpRelease = keyboard_check_released(vk_space);
+kWarp		 = mouse_check_button_released(mb_right);
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -164,9 +165,19 @@ if !(instance_exists(obj_bunny_bullet))
 {	
 	if CanWarp
 	{
-		instance_create(x, y-8, obj_bunny_bullet);	
+		if kWarp
+		{
+			dir = point_direction(oPlayer.x,oPlayer.y,mouse_x,mouse_y);
+			len = point_distance(oPlayer.x,oPlayer.y,mouse_x,mouse_y);
+			maxdist = 16;
+			
+			instance_create(x +lengthdir_x(maxdist,dir), y +lengthdir_y(maxdist,dir)-16, obj_bunny_bullet);	
+		}
 	}
 }
+
+
+
 
 
 

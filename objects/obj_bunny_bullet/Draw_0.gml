@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if Destroyable
-{
-	instance_destroy();
-}
+draw_self();
+
+image_speed = 0.1;

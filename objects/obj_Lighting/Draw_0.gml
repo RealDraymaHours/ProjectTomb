@@ -7,7 +7,6 @@ if (surface_exists(LightSurf))
 	{
 		gpu_set_blendmode(bm_normal);
 		draw_sprite_ext(spr_SmallLight, 0,x,y,X,Y,0, MyLight, Intensity);
-		draw_sprite_ext(spr_SmallLight, 0,mouse_x,mouse_y,0.5,0.5,0, oPlayer.MyLight, oPlayer.Intensity);//.5 is the intensity!!!	
 	}
 	
 	with(obj_LightParent)

@@ -21,6 +21,7 @@ Intensity = 0.7;
 Parry = false;
 CanLeft = true;
 CanWarp = true;
+Warping = false;
 Can1 = true;
 Can2 = true;
 

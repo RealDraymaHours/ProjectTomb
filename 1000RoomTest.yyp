@@ -92,6 +92,7 @@
     {"id":{"name":"obj_BossHand1","path":"objects/obj_BossHand1/obj_BossHand1.yy",},"order":0,},
     {"id":{"name":"spr_GoombaHurt3","path":"sprites/spr_GoombaHurt3/spr_GoombaHurt3.yy",},"order":4,},
     {"id":{"name":"spr_Spooks","path":"sprites/spr_Spooks/spr_Spooks.yy",},"order":10,},
+    {"id":{"name":"spr_Warp_Bullet2","path":"sprites/spr_Warp_Bullet2/spr_Warp_Bullet2.yy",},"order":17,},
     {"id":{"name":"spr_SpooksHurt1","path":"sprites/spr_SpooksHurt1/spr_SpooksHurt1.yy",},"order":11,},
     {"id":{"name":"spr_SpooksHurt2","path":"sprites/spr_SpooksHurt2/spr_SpooksHurt2.yy",},"order":12,},
     {"id":{"name":"spr_Light_Red","path":"sprites/spr_Light_Red/spr_Light_Red.yy",},"order":1,},

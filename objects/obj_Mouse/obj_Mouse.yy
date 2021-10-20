@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Light_Red",
+    "path": "sprites/spr_Light_Red/spr_Light_Red.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
