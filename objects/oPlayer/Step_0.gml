@@ -21,10 +21,6 @@ kUp          = keyboard_check(ord("W"));
 kDown        = keyboard_check(ord("S"));
 kJump        = keyboard_check_pressed(vk_space);
 kJumpRelease = keyboard_check_released(vk_space);
-kWarp        = mouse_check_button_released(mb_right);
-
-
-LeftItem = dmg_Basic_Sword;
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -164,27 +160,16 @@ if (kJump && onGround) {
     }
 }
 
-if (kWarp) {
- if CanWarp == true
+if !(instance_exists(obj_bunny_bullet))
+{	
+	if CanWarp
 	{
-		Extra = 0;
-		if mouse_x > oPlayer.x
-		{
-			Extra = 16;
-		}
-		else
-		{
-			Extra = -16;
-		}
-		instance_create(oPlayer.x + Extra, oPlayer.y -16, obj_bunny_bullet);
-		CanWarp = false;
-		alarm[4] = 60;
+		instance_create(x, y-8, obj_bunny_bullet);	
+	}
 }
 
 
 
-
-}
 
 // Swap facing on walls
 if (!onGround) {
@@ -221,3 +206,7 @@ if global.Staggered = true && Staggered = false
 	Staggered = true;
 	alarm[1] = 120;
 }
+
+
+
+

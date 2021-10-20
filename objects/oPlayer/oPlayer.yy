@@ -11,8 +11,8 @@
   },
   "persistent": true,
   "parentObjectId": {
-    "name": "obj_LightParent",
-    "path": "objects/obj_LightParent/obj_LightParent.yy",
+    "name": "obj_PlayerLight",
+    "path": "objects/obj_PlayerLight/obj_PlayerLight.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

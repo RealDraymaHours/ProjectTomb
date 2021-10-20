@@ -27,7 +27,7 @@ Can2 = true;
 // Collision below
 onGround = false;
 
-// Camera (later versions) ////////////////////////////////////////////////////
+// Camera ////////////////////////////////////////////////////
 if (!instance_exists(oCamera))
     instance_create(x, y, oCamera);
     
@@ -121,5 +121,9 @@ healthbar_x = 32;
 healthbar_y = 20;
 flash = 0;
 
+//Regen and first save
 alarm[6] = 240;
 game_save("TempSave");
+
+
+

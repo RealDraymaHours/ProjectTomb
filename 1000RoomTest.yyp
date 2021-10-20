@@ -107,6 +107,7 @@
     {"id":{"name":"spr_LKA_Stunned","path":"sprites/spr_LKA_Stunned/spr_LKA_Stunned.yy",},"order":10,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":0,},
     {"id":{"name":"spr_tgr1","path":"sprites/spr_tgr1/spr_tgr1.yy",},"order":1,},
+    {"id":{"name":"obj_PlayerLight","path":"objects/obj_PlayerLight/obj_PlayerLight.yy",},"order":2,},
     {"id":{"name":"spr_triggerd1","path":"sprites/spr_triggerd1/spr_triggerd1.yy",},"order":2,},
     {"id":{"name":"obj_DamgeFloor","path":"objects/obj_DamgeFloor/obj_DamgeFloor.yy",},"order":4,},
     {"id":{"name":"Rm_Tutorial00","path":"rooms/Rm_Tutorial00/Rm_Tutorial00.yy",},"order":7,},
