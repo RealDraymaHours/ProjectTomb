@@ -1,1 +1,0 @@
-RoomMessage = "0 - TEMPLETE ROOM";

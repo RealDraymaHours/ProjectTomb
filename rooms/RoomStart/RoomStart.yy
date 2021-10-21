@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_RoomCounter","path":"objects/obj_RoomCounter/obj_RoomCounter.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":368.0,"resourceVersion":"1.0","name":"inst_17410473","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_NFloor","path":"objects/obj_NFloor/obj_NFloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":304.0,"resourceVersion":"1.0","name":"inst_7D11EA9C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_NFloor","path":"objects/obj_NFloor/obj_NFloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":336.0,"y":304.0,"resourceVersion":"1.0","name":"inst_66C6EE91","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_NFloor","path":"objects/obj_NFloor/obj_NFloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":304.0,"resourceVersion":"1.0","name":"inst_128B6A63","tags":[],"resourceType":"GMRInstance",},
@@ -554,7 +553,6 @@
     {"name":"inst_6BF0EF2C","path":"rooms/RoomStart/RoomStart.yy",},
     {"name":"inst_3751CACF","path":"rooms/RoomStart/RoomStart.yy",},
     {"name":"inst_75D869CC","path":"rooms/RoomStart/RoomStart.yy",},
-    {"name":"inst_17410473","path":"rooms/RoomStart/RoomStart.yy",},
     {"name":"inst_55606C50","path":"rooms/RoomStart/RoomStart.yy",},
     {"name":"inst_8DDAA7C","path":"rooms/RoomStart/RoomStart.yy",},
     {"name":"inst_5A750EEC","path":"rooms/RoomStart/RoomStart.yy",},
