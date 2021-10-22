@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Lighting","path":"objects/obj_Lighting/obj_Lighting.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":16.0,"resourceVersion":"1.0","name":"inst_4EDCD5F6_7","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_MusicBox","path":"objects/obj_MusicBox/obj_MusicBox.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":32.0,"resourceVersion":"1.0","name":"inst_1BE61310","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":2,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Important_player_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_InvFloor1","path":"objects/obj_InvFloor1/obj_InvFloor1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":56.0000038,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":384.0,"resourceVersion":"1.0","name":"inst_1035D3B0","tags":[],"resourceType":"GMRInstance",},
@@ -108,7 +107,6 @@
     {"name":"inst_41E82A05","path":"rooms/Rm_Tomb_Before_Shrine/Rm_Tomb_Before_Shrine.yy",},
     {"name":"inst_710B974B","path":"rooms/Rm_Tomb_Before_Shrine/Rm_Tomb_Before_Shrine.yy",},
     {"name":"inst_1F16B26C","path":"rooms/Rm_Tomb_Before_Shrine/Rm_Tomb_Before_Shrine.yy",},
-    {"name":"inst_1BE61310","path":"rooms/Rm_Tomb_Before_Shrine/Rm_Tomb_Before_Shrine.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

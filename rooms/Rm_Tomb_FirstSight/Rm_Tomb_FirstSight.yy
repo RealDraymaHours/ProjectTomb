@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Lighting","path":"objects/obj_Lighting/obj_Lighting.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":16.0,"resourceVersion":"1.0","name":"inst_4EDCD5F6_6","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_MusicBox","path":"objects/obj_MusicBox/obj_MusicBox.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":32.0,"resourceVersion":"1.0","name":"inst_328E1D5","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":2,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Important_player_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_InvFloor1","path":"objects/obj_InvFloor1/obj_InvFloor1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":201.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-80.0,"y":384.0,"resourceVersion":"1.0","name":"inst_77541941","tags":[],"resourceType":"GMRInstance",},
@@ -138,7 +137,6 @@
     {"name":"inst_457AA519","path":"rooms/Rm_Tomb_FirstSight/Rm_Tomb_FirstSight.yy",},
     {"name":"inst_65A7B85","path":"rooms/Rm_Tomb_FirstSight/Rm_Tomb_FirstSight.yy",},
     {"name":"inst_6CD17174","path":"rooms/Rm_Tomb_FirstSight/Rm_Tomb_FirstSight.yy",},
-    {"name":"inst_328E1D5","path":"rooms/Rm_Tomb_FirstSight/Rm_Tomb_FirstSight.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

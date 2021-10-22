@@ -1,2 +1,2 @@
 /// @description Warp cooldown
-CanWarp = true;
+Warping = false;

@@ -162,7 +162,7 @@ if (kJump && onGround) {
 }
 
 if !(instance_exists(obj_bunny_bullet))
-{	
+{		
 	if CanWarp
 	{
 		if kWarp
@@ -174,7 +174,12 @@ if !(instance_exists(obj_bunny_bullet))
 			instance_create(x +lengthdir_x(maxdist,dir), y +lengthdir_y(maxdist,dir)-16, obj_bunny_bullet);	
 		}
 	}
+	else if ((onGround) && (!Warping))
+	{
+		CanWarp = true;
+	}
 }
+
 
 
 
@@ -209,13 +214,16 @@ if Parry = true
 if global.Health < 1
 {
 	state = DEATH;
+	speed = 0;
+	h = 0;
+	v = 0;
 }
 
 if global.Staggered = true && Staggered = false
 {
 	MyLight = c_black;
 	Staggered = true;
-	alarm[1] = 120;
+	alarm[1] = 30;
 }
 
 

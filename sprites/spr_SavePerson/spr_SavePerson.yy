@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 10,
-  "bbox_right": 51,
-  "bbox_top": 3,
+  "bbox_left": 0,
+  "bbox_right": 127,
+  "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
+  "width": 128,
   "height": 64,
   "textureGroupId": {
     "name": "Default",
@@ -104,8 +104,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"63bc6570-8687-4e94-bc14-84bcd95c624e","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"63bc6570-8687-4e94-bc14-84bcd95c624e","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":{"name":"3df19040-59eb-4917-84b1-48c36acf6c83","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"63bc6570-8687-4e94-bc14-84bcd95c624e","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":{"name":"91220757-8560-4e69-a74b-cf7f60440493","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"63bc6570-8687-4e94-bc14-84bcd95c624e","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":{"name":"3df19040-59eb-4917-84b1-48c36acf6c83","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"63bc6570-8687-4e94-bc14-84bcd95c624e","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":{"name":"b4567c50-3b7c-4f32-88b7-1809be490545","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_SavePerson","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"resourceVersion":"1.0","name":"63bc6570-8687-4e94-bc14-84bcd95c624e","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"672f074e-0ff0-4572-992b-f80e4e3c4fe6","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[

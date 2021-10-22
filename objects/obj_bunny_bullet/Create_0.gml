@@ -23,4 +23,5 @@ X = 0.5;
 Y = 0.5;
 Intensity = 0.5;
 
+oPlayer.CanWarp = false;
 global.BunnyBulletActive = true;
