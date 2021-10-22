@@ -1,6 +1,7 @@
 /// @description 
 if Staggered = false
 {
+		audio_play_sound(PlayerHit1,1,false);
 
 		if (timeline_running == false)
 		{

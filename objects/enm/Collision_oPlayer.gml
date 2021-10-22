@@ -17,6 +17,7 @@ if global.Staggered = false
 		
 	}
 	
+
 	
 	global.Staggered = true;
 }

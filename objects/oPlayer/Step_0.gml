@@ -147,7 +147,7 @@ if (kJump && onGround) {
         // Stretch sprite 
         xscale = 0.66;
         yscale = 1.33;
-        
+        audio_play_sound(PlayerJump1, 1, false);
      
         
         v = -jumpHeight;
@@ -227,5 +227,18 @@ if global.Staggered = true && Staggered = false
 }
 
 
+
+//Sound effects
+if state = RUN
+{
+	if !audio_is_playing(PlayerWalking2)
+	{
+		audio_play_sound(PlayerWalking2,1,true)	
+	}
+}
+else
+{
+	audio_stop_sound(PlayerWalking2);	
+}
 
 
