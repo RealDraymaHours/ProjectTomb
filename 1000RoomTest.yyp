@@ -192,7 +192,7 @@
     {"id":{"name":"__view_set","path":"scripts/__view_set/__view_set.yy",},"order":1,},
     {"id":{"name":"__view_set_internal","path":"scripts/__view_set_internal/__view_set_internal.yy",},"order":2,},
     {"id":{"name":"__init_view","path":"scripts/__init_view/__init_view.yy",},"order":3,},
-    {"id":{"name":"Rm_Tomb_TrapTunnel","path":"rooms/Rm_Tomb_TrapTunnel/Rm_Tomb_TrapTunnel.yy",},"order":7,},
+    {"id":{"name":"Rm_Tomb_TrapTunnel","path":"rooms/Rm_Tomb_TrapTunnel/Rm_Tomb_TrapTunnel.yy",},"order":8,},
     {"id":{"name":"__init_global","path":"scripts/__init_global/__init_global.yy",},"order":3,},
     {"id":{"name":"spr_Basic_Sword","path":"sprites/spr_Basic_Sword/spr_Basic_Sword.yy",},"order":0,},
     {"id":{"name":"eff_FireHit1","path":"sprites/eff_FireHit1/eff_FireHit1.yy",},"order":2,},
