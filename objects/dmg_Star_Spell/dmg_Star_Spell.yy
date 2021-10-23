@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Damage",
-    "path": "folders/Objects/Damage.yy",
+    "name": "Spells",
+    "path": "folders/Objects/Damage/Spells.yy",
   },
   "resourceVersion": "1.0",
   "name": "dmg_Star_Spell",

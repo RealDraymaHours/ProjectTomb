@@ -24,10 +24,10 @@ global.SecondSpellIcon = spr_Hitbox;
 global.Inventory = false;
 
 //Equipables
-global.LeftItem = dmg_Basic_Sword;
+global.LeftItem = dmg_Soul_Zweihander;
 global.Armor = "Base";
 global.Spell1 = dmg_Star_Wand;
-global.Spell2 = obj_Gunner;
+global.Spell2 = dmg_Wand_Tornado;
 
 //Collected Weapons
 global.SoulSword = true;

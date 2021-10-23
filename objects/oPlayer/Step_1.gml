@@ -8,7 +8,6 @@ onGround = OnGround();
 // Squash sprite during jump landing
 if (!temp && onGround) {
     if (v >= 0) { 
-		audio_play_sound(PlayerLand1,1,false);
         yscale = 0.66;
         xscale = 1.33;  
     }

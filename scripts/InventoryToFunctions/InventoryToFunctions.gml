@@ -24,6 +24,12 @@ function inventoryToSprite(inventoryIndex)
 		case 6:
 			InvSprite = spr_inv_Mage;
 		break;
+		case 7:
+			InvSprite = spr_inv_Zweihander;
+		break;
+		case 8:
+			InvSprite = spr_inv_tornado;
+		break;
 	}
 		
 	return InvSprite;
@@ -43,6 +49,12 @@ function inventoryToObject(inventoryIndex)
 		break;
 		case 3:
 			InvObj = dmg_Star_Wand;
+		break;
+		case 7:
+			InvObj = dmg_Soul_Zweihander;
+		break;
+		case 8:
+			InvObj = dmg_Wand_Tornado;
 		break;
 	}
 		
@@ -159,7 +171,35 @@ function inventoryToDescription(inventoryIndex)
 					  "People however hailed him as a genius for his breakthroughs.\n" +
 					  "The classic mage hat being an imitation of his muschroom head.\n"+
 					  "Even though the school of Mences abandoned medicine long ago,\n" +
-					  "their hat will forever be a symbol of their roots."
+					  "their hat will forever be a symbol of their roots.";
+			break;
+			case 7:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+				Desc= "Soul Zweihander\n\n" +
+					  "A heavy but devastating soul arm.\n\n"+
+					  "He rejoised as the king annouced the news. Dukedom was\n"+
+					  "awarded to the legendary warrior. His years of campaiging\n"+
+					  "where over. The warrior indulged in the finer things in life.\n"+
+					  "Only nobles could afford so much mage wine as he consumed.\n"+
+					  "His body and mind deteriorated while he all but forgotten about\n"+
+					  "his days as a warrior. Until the day that his own sword flew into\n"+
+					  "the air and cut out his eye. Before being lock behind iron walls.\n\n"+
+					  "The sword could be heard banging in its confinment. Day and night\n"+
+					  "slowly chipping away at the walls. Until one day it stopped.\n"+
+					  "On that day, after the sun set, a letter arrived from the king.\n"+
+					  "'We are going to the Tomb. We need all men who can wield a sword'";
+			case 8:    //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+				Desc= "Noctovics Tempest\n\n"+
+					  "Create a big wind vortex where you stand.\n\n"+
+					  "The sword of the Noctivics family allows one with royal blood\n"+
+					  "to channel powerfull tempests. The sword itself gets passed\n"+
+					  "down to the kings offspring who has the biggest talent in\n"+
+					  "channeling tempest. For the next king should be able to move\n"+
+					  "even the skies if their people need it. So at his 7th birthday\n"+
+					  "Young Alland was gifted the sword.\n\n"+
+					  "A gift in bitter taste.\n"+
+					  "For a king rules until his death."
+					  
+				
 		}
 	return Desc;
 }
