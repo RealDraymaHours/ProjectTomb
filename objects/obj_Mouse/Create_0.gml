@@ -235,6 +235,8 @@ stateFree = function()
 	
 }
 
-state = stateFree;
+stateOff = function(){}
+
+
 
 

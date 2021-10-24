@@ -142,10 +142,10 @@ function inventoryToDescription(inventoryIndex)
 					"if they put too much soul into their spell.\n \n"+
 					"There is however a race of small creatures that mastered these\n"+
 					"arts to a sickening degree. They have been pushed to\n"+
-					"the edge of the world with no strenghts other than their\n"+
-					"above average amount of soul compaired to other races.\n"+
-					"Surrounded by monster that are feared by every kingdom.\n\n" +
-					"Well, you know what they say:\n"+
+					"the edge of the world, surrounded by monster that are feared\n" +
+					"by every kingdom under the sun. With their only strength being\n" +
+					"their above average amount of soul compaired to other races.\n\n"+
+					"And well, you know what they say:\n"+
 					"'Desperation breeds creativity'"
 			break;
 			case 4:
@@ -178,7 +178,7 @@ function inventoryToDescription(inventoryIndex)
 					  "A heavy but devastating soul arm.\n\n"+
 					  "He rejoised as the king annouced the news. Dukedom was\n"+
 					  "awarded to the legendary warrior. His years of campaiging\n"+
-					  "where over. The warrior indulged in the finer things in life.\n"+
+					  "where over. Replaced with indulging in the finer things in life.\n"+
 					  "Only nobles could afford so much mage wine as he consumed.\n"+
 					  "His body and mind deteriorated while he all but forgotten about\n"+
 					  "his days as a warrior. Until the day that his own sword flew into\n"+
@@ -187,6 +187,7 @@ function inventoryToDescription(inventoryIndex)
 					  "slowly chipping away at the walls. Until one day it stopped.\n"+
 					  "On that day, after the sun set, a letter arrived from the king.\n"+
 					  "'We are going to the Tomb. We need all men who can wield a sword'";
+			break;
 			case 8:    //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 				Desc= "Noctovics Tempest\n\n"+
 					  "Create a big wind vortex where you stand.\n\n"+
@@ -194,11 +195,12 @@ function inventoryToDescription(inventoryIndex)
 					  "to channel powerfull tempests. The sword itself gets passed\n"+
 					  "down to the kings offspring who has the biggest talent in\n"+
 					  "channeling tempest. For the next king should be able to move\n"+
-					  "even the skies if their people need it. So at his 7th birthday\n"+
-					  "Young Alland was gifted the sword.\n\n"+
+					  "even the skies if their people need it. Thats also why the\n"+ 
+					  "handing down of the sword is synonymous with a coronation.\n"+
+					  "So at his 7th birthday young Alland was gifted the sword.\n\n"+
 					  "A gift in bitter taste.\n"+
 					  "For a king rules until his death."
-					  
+			break; 
 				
 		}
 	return Desc;
