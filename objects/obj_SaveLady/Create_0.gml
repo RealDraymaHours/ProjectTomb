@@ -7,7 +7,7 @@ LoadBellLady();
 CurrentPage = 0;
 
 
-X = -20;
+X = -100;
 Y = -60;
 
 depth = 9;
