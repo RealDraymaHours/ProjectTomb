@@ -1,3 +1,3 @@
-TargetRoom = Rm_Tomb_LongFall;
+TargetRoom = Rm_Tomb_WatchRocks;
 TargetX = 770;
-TargetY = 230;
+TargetY = 350;

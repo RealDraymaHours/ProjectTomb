@@ -82,6 +82,7 @@
     {"id":{"name":"obj_FLKA","path":"objects/obj_FLKA/obj_FLKA.yy",},"order":6,},
     {"id":{"name":"Rm_Tutorial7","path":"rooms/Rm_Tutorial7/Rm_Tutorial7.yy",},"order":8,},
     {"id":{"name":"Load","path":"scripts/Load/Load.yy",},"order":1,},
+    {"id":{"name":"Rm_Tomb_WatchRocks","path":"rooms/Rm_Tomb_WatchRocks/Rm_Tomb_WatchRocks.yy",},"order":11,},
     {"id":{"name":"RoomStart","path":"rooms/RoomStart/RoomStart.yy",},"order":0,},
     {"id":{"name":"spr_Lost_Mage_Attack_1","path":"sprites/spr_Lost_Mage_Attack_1/spr_Lost_Mage_Attack_1.yy",},"order":7,},
     {"id":{"name":"spr_Watcher_Triggered","path":"sprites/spr_Watcher_Triggered/spr_Watcher_Triggered.yy",},"order":15,},
@@ -423,6 +424,7 @@
     {"roomId":{"name":"Rm_Tomb_TrapTunnel","path":"rooms/Rm_Tomb_TrapTunnel/Rm_Tomb_TrapTunnel.yy",},},
     {"roomId":{"name":"Rm_Tomb_LongRoute","path":"rooms/Rm_Tomb_LongRoute/Rm_Tomb_LongRoute.yy",},},
     {"roomId":{"name":"Rm_Tomb_LongFall","path":"rooms/Rm_Tomb_LongFall/Rm_Tomb_LongFall.yy",},},
+    {"roomId":{"name":"Rm_Tomb_WatchRocks","path":"rooms/Rm_Tomb_WatchRocks/Rm_Tomb_WatchRocks.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

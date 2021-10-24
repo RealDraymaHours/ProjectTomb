@@ -124,7 +124,5 @@ flash = 0;
 
 //Regen and first save
 alarm[6] = 240;
-game_save("TempSave");
-
 
 

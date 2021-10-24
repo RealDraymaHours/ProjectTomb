@@ -6,7 +6,7 @@ ini_open("savedata.ini");
 
 var RGT = ini_read_real("savegame","room", 0);
 
-room_goto(RGT);
+
 
 oPlayer.x = ini_read_real("savegame", "x", 0);
 oPlayer.y = ini_read_real("savegame", "y", 0);
@@ -77,6 +77,7 @@ obj_SummonInventory.inventory[9] = ini_read_real("savegame", "s2inv9", 0);
 obj_SummonInventory.inventory[10] = ini_read_real("savegame", "s2inv10", 0);
 obj_SummonInventory.inventory[11] = ini_read_real("savegame", "s2inv11", 0);
 
+room_goto(RGT);
 ini_close();
 
 }

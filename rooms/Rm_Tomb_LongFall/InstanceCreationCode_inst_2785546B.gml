@@ -1,3 +1,3 @@
-TargetRoom = Rm_Tomb_TrapTunnel;
+TargetRoom = Rm_Tomb_WatchRocks;
 TargetX = -32;
-TargetY = 330;
+TargetY = 350;

@@ -14,9 +14,9 @@ ini_write_real("savegame", "secondspell", global.Spell2);
 ini_write_string("savegame", "armor", global.Armor);
 
 //Visuals
-ini_read_real("savegame", "icon1", global.MainIcon);
-ini_read_real("savegame", "icon2", global.FirstSpellIcon);
-ini_read_real("savegame", "icon3", global.SecondSpellIcon);
+ini_write_real("savegame", "icon1", global.MainIcon);
+ini_write_real("savegame", "icon2", global.FirstSpellIcon);
+ini_write_real("savegame", "icon3", global.SecondSpellIcon);
 
 //Inventory
 //Weapon Inventory
