@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 6,
-  "bbox_right": 29,
+  "bbox_left": 2,
+  "bbox_right": 31,
   "bbox_top": 1,
   "bbox_bottom": 63,
   "HTile": false,
@@ -165,8 +165,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lost",
-    "path": "folders/Sprites/Enemies/Tomb/Lost.yy",
+    "name": "Base",
+    "path": "folders/Sprites/Enemies/Tomb/Lost/Base.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lost_1",

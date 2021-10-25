@@ -160,8 +160,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lost",
-    "path": "folders/Sprites/Enemies/Tomb/Lost.yy",
+    "name": "Mage",
+    "path": "folders/Sprites/Enemies/Tomb/Lost/Mage.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lost_Mage_2",

@@ -169,8 +169,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lost",
-    "path": "folders/Sprites/Enemies/Tomb/Lost.yy",
+    "name": "Slasher",
+    "path": "folders/Sprites/Enemies/Tomb/Lost/Slasher.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lost_Slasher_Stunned",

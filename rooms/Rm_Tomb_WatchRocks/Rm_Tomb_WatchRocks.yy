@@ -151,6 +151,10 @@
     "PhysicsWorldGravityY": 10.0,
     "PhysicsWorldPixToMetres": 0.1,
   },
+  "parent": {
+    "name": "1000RoomTest",
+    "path": "1000RoomTest.yyp",
+  },
   "resourceVersion": "1.0",
   "name": "Rm_Tomb_WatchRocks",
   "tags": [],

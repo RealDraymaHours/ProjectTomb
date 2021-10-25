@@ -244,8 +244,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lost",
-    "path": "folders/Sprites/Enemies/Tomb/Lost.yy",
+    "name": "Base",
+    "path": "folders/Sprites/Enemies/Tomb/Lost/Base.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Lost_3",
