@@ -7,6 +7,7 @@ Slash = true;
 Tip_X_Distance = 93;
 Tip_Y_Distance = 93;
 
+Active = true;
 Damage = 20;
 CoolTime = 90;
 

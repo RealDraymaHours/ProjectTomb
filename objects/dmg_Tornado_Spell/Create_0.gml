@@ -6,7 +6,8 @@ alarm[1] = 30;
 Tip_X_Distance = 1;
 Tip_Y_Distance = 1;
 
-Damage = 80;
+Active = false;
+Damage = 60;
 Cost = 10;
 
 if global.Mana >= Cost

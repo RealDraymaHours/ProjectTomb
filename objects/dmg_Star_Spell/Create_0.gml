@@ -9,6 +9,7 @@ Intensity = 0.3;
 Tip_X_Distance = 1;
 Tip_Y_Distance = 1;
 
+Active = true;
 Damage = 20;
 Cost = 2;
 

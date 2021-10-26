@@ -1,4 +1,12 @@
 /// @description go to player
+alarm[0] = 20;
+
+Active = false;
+Damage = 20;
+CoolTime = 30;
+
+StartX = x;
+StartY = y;
 
 //Light
 depth = -98;
@@ -20,8 +28,6 @@ part_type_color3(part_type, c_white, c_yellow, c_red);
 part_type_life(part_type, 20,20)//game_get_speed(gamespeed_fps), game_get_speed(gamespeed_fps)*0.0001);
 part_type_scale(part_type, 1, 1); 
 part_type_gravity(part_type, 0.05, 90); //0.15 = speed going up
-
-
 
 Tip_X_Distance = 0;
 Tip_Y_Distance = 0;

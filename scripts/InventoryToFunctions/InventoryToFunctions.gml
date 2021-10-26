@@ -197,6 +197,8 @@ function inventoryToDescription(inventoryIndex)
 					  "channeling tempest. For the next king should be able to move\n"+
 					  "even the skies if their people need it. Thats also why the\n"+ 
 					  "handing down of the sword is synonymous with a coronation.\n"+
+					  "Young Alland seem to be destined for the sword. being able to\n"+
+					  "harness its power even when the sword was meters away.\n"+
 					  "So at his 7th birthday young Alland was gifted the sword.\n\n"+
 					  "A gift in bitter taste.\n"+
 					  "For a king rules until his death."

@@ -1,5 +1,5 @@
 /// @description 
-if Staggered = false
+if ((!Staggered) && (other.Active))
 {
 		audio_play_sound(PlayerHit1,1,false);
 

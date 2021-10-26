@@ -37,7 +37,14 @@ global.SoulSpear = false;
 global.Helmet = true;
 
 //Triggers
-global.OKA = false;
+	//Weapons
+	Tornado = false;
+	Spear = false;
+	Zweihander = false;
+
+	//Bosses
+	OKA = false;
+
 ///////////////////////////////////////////////////////////////////////////////
 randomize();
 
