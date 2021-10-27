@@ -152,8 +152,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "1000RoomTest",
-    "path": "1000RoomTest.yyp",
+    "name": "Tomb",
+    "path": "folders/Rooms/Tomb.yy",
   },
   "resourceVersion": "1.0",
   "name": "Rm_Tomb_WatchRocks",

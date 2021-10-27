@@ -4,7 +4,7 @@ draw_self();
 
 image_speed = 0.40;
 
-if hspeed > 0
+if oPlayer.x > self.x
 {
 	image_xscale = -1;
 }

@@ -1,3 +1,3 @@
-TargetRoom = Rm_Tomb_Start;
-TargetX = 480;
-TargetY = -400;
+TargetRoom = Rm_Tomb_Runners;
+TargetX = 300;
+TargetY = 300;
