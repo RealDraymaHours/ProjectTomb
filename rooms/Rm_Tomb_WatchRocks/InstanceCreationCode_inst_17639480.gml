@@ -4,7 +4,7 @@ MyText[2] = "All the roped Lost still attack everything in sight so roping them 
 MyText[3] = "We also make it harder to get lost since we obviously been to places where roped Lost are with our helmets or mage hats.";
 MyText[4] = "At least thats what I thought.";
 MyText[5] = "We proceeded to an area we have never been to only to find Lost, our Lost.";
-MyText[6] = "Clearly our cartographer has become Lost. He even rambled about the rooms moving while being roped. Truly Lost.";
+MyText[6] = "Clearly our cartographer has become Lost. He even rambled about the rooms moving while I roped him.";
 MyText[7] = "I fear that now we can not even trust our maps. We only had one cartographer,";
 MyText[8] = "but he was well protected, fed and comforted. How did he become Lost?";
 

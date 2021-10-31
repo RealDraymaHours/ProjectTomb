@@ -1,0 +1,50 @@
+/// @description Insert description here
+// You can write your code in this editor
+if (!IsAttacking) && (!Stunned)
+{
+	if x < oPlayer.x
+	{
+		image_xscale = -1;
+	}
+	else
+	{
+		image_xscale = 1;
+	}
+}
+
+if Health > 1
+{
+	if !Stunned
+	{
+		if (collision_rectangle(x,y+200,x-175, y-200, oPlayer,false,false) || (collision_rectangle(x,y+200,x + 175, y-200, oPlayer,false,false)))
+		{
+			CloseToPlayer = true;
+		}
+		else
+		{
+			CloseToPlayer = false;
+		}
+
+		if CloseToPlayer && !IsAttacking
+		{
+			IsAttacking = true;
+		}
+	}
+	else if Stunned
+	{
+
+	
+		if !s
+		{
+			alarm[0] = 30;
+		}
+	
+		s = true;
+
+	}
+}
+else
+{
+	Death = true;
+	sprite_index = spr_Lost_Slasher_Death;
+}

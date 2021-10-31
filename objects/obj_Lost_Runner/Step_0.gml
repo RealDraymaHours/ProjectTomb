@@ -1,18 +1,23 @@
-if ((oPlayer.onGround) && (global.InTheOpen))
+if ((collision_rectangle(x,y+32,x-175, y-16, oPlayer,false,false)) || (collision_rectangle(x,y+32,x + 175, y-16, oPlayer,false,false)))
 {
-	Px = oPlayer.x;	
-}
-
-if Health < 1
-{
-	Death = true;
-
+	if global.InTheOpen
+	{
+		CloseToPlayer = true;
+	}
+	else
+	{
+		CloseToPlayer = false;
+	}
 }
 else
 {
-if ((!position_meeting(Px,Py,self)) && (oPlayer.y > self.y) && (oPlayer.y < self.y +31))
+	CloseToPlayer = false;
+}
+
+
+if CloseToPlayer
 {
-	mp_potential_step(Px, Py, 5, false);
+	mp_potential_step(oPlayer.x, Py, 5, false);
 	IsAttacking = true;
 	move_bounce_solid(1);
 }
@@ -28,4 +33,9 @@ if y != Py
 {
 	y = Py;
 }
+
+if Health < 1
+{
+	Death = true;
 }
+

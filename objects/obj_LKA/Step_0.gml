@@ -11,7 +11,7 @@ if AnimationLock = false
 	}
 }
 
-if (collision_rectangle(x,y+200,x-350, y-200, oPlayer,false,false) || (collision_rectangle(x,y+200,x + 350, y-200, oPlayer,false,false)))
+if ((collision_rectangle(x,y+200,x-355, y-200, oPlayer,false,false)) || (collision_rectangle(x,y+200,x + 355, y-200, oPlayer,false,false)))
 {
 	CloseToPlayer = true;
 }

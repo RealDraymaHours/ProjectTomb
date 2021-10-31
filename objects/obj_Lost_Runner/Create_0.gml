@@ -8,7 +8,6 @@ StaggerTime = 20;
 Staggered = false;
 Death = false;
 IsAttacking = false;
-Back = true;
-Px = 0;
-Ox = self.x;
+CloseToPlayer = false;
+
 Py = self.y;

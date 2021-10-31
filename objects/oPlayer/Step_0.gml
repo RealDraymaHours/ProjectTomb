@@ -221,6 +221,6 @@ if global.Staggered = true && Staggered = false
 {
 	MyLight = c_black;
 	Staggered = true;
-	alarm[1] = 30;
+	alarm[1] = 40;
 }
 

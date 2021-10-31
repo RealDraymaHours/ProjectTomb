@@ -29,7 +29,7 @@
       ],"parent":{"name":"spr_inv_spear","path":"sprites/spr_inv_spear/spr_inv_spear.yy",},"resourceVersion":"1.0","name":"d7e8513f-90ba-425f-a080-74678014e9c8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_inv_sword","path":"sprites/spr_inv_sword/spr_inv_sword.yy",},
+    "spriteId": {"name":"spr_inv_spear","path":"sprites/spr_inv_spear/spr_inv_spear.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -58,7 +58,7 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_inv_sword","path":"sprites/spr_inv_sword/spr_inv_sword.yy",},
+    "parent": {"name":"spr_inv_spear","path":"sprites/spr_inv_spear/spr_inv_spear.yy",},
     "resourceVersion": "1.3",
     "name": "spr_inv_spear",
     "tags": [],

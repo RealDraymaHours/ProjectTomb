@@ -1,4 +1,4 @@
-hSpeed = -8;
-vSpeed = 0;
+hSpeed = 0;
+vSpeed = 3;
 
-hspeed = -8;
+vspeed = 3;
