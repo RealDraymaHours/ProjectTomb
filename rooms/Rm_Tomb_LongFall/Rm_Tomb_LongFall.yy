@@ -206,6 +206,7 @@
       ],"visible":true,"depth":-10,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Terrain_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"NEXT","path":"objects/NEXT/NEXT.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.375,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":808.0,"y":208.0,"resourceVersion":"1.0","name":"inst_2785546B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"NEXT","path":"objects/NEXT/NEXT.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":3168.0,"resourceVersion":"1.0","name":"inst_3F713900","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12576.0,"y":5840.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1_1_15","tags":[],"resourceType":"GMRInstance",},
@@ -925,6 +926,7 @@
     {"name":"inst_3B958E22","path":"rooms/Rm_Tomb_LongFall/Rm_Tomb_LongFall.yy",},
     {"name":"inst_9A434BE","path":"rooms/Rm_Tomb_LongFall/Rm_Tomb_LongFall.yy",},
     {"name":"inst_5AE6E470","path":"rooms/Rm_Tomb_LongFall/Rm_Tomb_LongFall.yy",},
+    {"name":"inst_3F713900","path":"rooms/Rm_Tomb_LongFall/Rm_Tomb_LongFall.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
