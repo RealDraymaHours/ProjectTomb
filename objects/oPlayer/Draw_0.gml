@@ -74,7 +74,7 @@ switch(global.Armor)
 TrailDraw(trail,w1,w2,c1,c2,image_alpha, image_alpha);
 
 // Draw player
-if Parry = false
+if ((!Parry) && (CanLeft))
 {
 	if global.Staggered = false
 	{
@@ -104,3 +104,5 @@ else
 		
 }
 
+draw_text(x,y -32, global.LeftCombo);
+draw_text(x-16,y-32, global.RightCombo);

@@ -1,33 +1,59 @@
 /// @description Timers and stats
-Name = "Soul Zweihander";
-Slash = true;
-
-
-
 Tip_X_Distance = 93;
 Tip_Y_Distance = 93;
 
 Active = true;
 Damage = 20;
-CoolTime = 90;
+CoolTime = 30;
+Combo = 0;
 
-if mouse_x < oPlayer.x
+Break = 10;
+
+
+
+if global.LeftItem = dmg_Soul_Zweihander
 {
-	Slash = true
-	image_angle = point_direction(x, y, mouse_x, mouse_y) + 180;
+	Combo = global.LeftCombo;
 }
 else
 {
-	Slash = false;
-	image_angle = point_direction(x, y, mouse_x, mouse_y)  ;
+	Combo = global.RightCombo;
 }
 
 
+if mouse_x < oPlayer.x
+{
+	image_angle = 180;
+	image_yscale = -1;
+}
+else
+{
+	image_angle = 0  ;
+}
 
-
-
-
-
-move_towards_point(mouse_x, mouse_y, 4);
-
+if oPlayer.onGround
+{
+		switch(Combo)
+	{
+		case(0):
+			sprite_index = sSZ_1;
+			KnockbackDirection = 90;
+			KnockbackStrenght = 20;
+			KnockbackTime = 10;
+		break;
+		case(1):
+			sprite_index = sSZ_2;
+			KnockbackDirection = 270;
+			KnockbackStrenght = 20;
+			KnockbackTime = 10;
+		break;	
+	}
+}
+else
+{
+		sprite_index = sSZ_2;
+		KnockbackDirection = 270;
+		KnockbackStrenght = 20;
+		KnockbackTime = 10;
+}
 

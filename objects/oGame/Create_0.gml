@@ -24,26 +24,19 @@ global.SecondSpellIcon = spr_Hitbox;
 global.Inventory = false;
 
 //Equipables
-global.LeftItem = dmg_Soul_Zweihander;
+global.LeftItem = dmg_Basic_Sword;
+global.RightItem = dmg_Soul_Zweihander;
 global.Armor = "Base";
 global.Spell1 = dmg_Star_Wand;
 global.Spell2 = dmg_Wand_Tornado;
 
-//Collected Weapons
-global.SoulSword = true;
-global.SoulSpear = false;
-
-//Collected Armor
-global.Helmet = true;
-
-//Triggers
-	//Weapons
-	Tornado = false;
-	Spear = false;
-	Zweihander = false;
-
-	//Bosses
-	OKA = false;
+//Combo
+global.LeftCombo = 0;
+global.RightCombo = 0;
+global.LeftMaxCombo = 3;
+global.RightMaxCombo = 2;
+global.Rooted = true;
+global.ComboResetTime = 90;
 
 ///////////////////////////////////////////////////////////////////////////////
 randomize();

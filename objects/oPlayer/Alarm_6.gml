@@ -1,7 +1,11 @@
-/// @description Regen
-if !(global.Mana = global.MaxMana)
-{
-	global.Mana += 1;
-}
+/// @desc Right Cooldown
+CanRight = true;
 
-alarm[6] = 240;
+if global.RightCombo > global.RightMaxCombo
+{
+	global.RightCombo = 0;	
+}
+else
+{
+	alarm[1] = global.ComboResetTime;
+}

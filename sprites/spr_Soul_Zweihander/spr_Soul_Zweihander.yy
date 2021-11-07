@@ -105,8 +105,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Damage",
-    "path": "folders/Sprites/Damage.yy",
+    "name": "Zweihander",
+    "path": "folders/Sprites/Damage/Zweihander.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Soul_Zweihander",

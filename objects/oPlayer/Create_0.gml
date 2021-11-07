@@ -13,15 +13,19 @@ sParry = sPlayerParry;
 
 //Light
 MyLight = c_white;
-Y = 1;
-X = 1;
-Intensity = 0.7;
+X = 0.5;
+Y = 0.5;
+Intensity = 0.5;
 
-//Item 
+//Abilities
 Parry = false;
-CanLeft = true;
-CanWarp = true;
+CanWarp = false;
 Warping = false;
+
+
+//Combo Stuff
+CanLeft = true;
+CanRight = true;
 Can1 = true;
 Can2 = true;
 

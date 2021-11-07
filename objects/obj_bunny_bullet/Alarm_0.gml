@@ -10,17 +10,13 @@ if !global.Inventory
 	oPlayer.alarm[4] = 60;
 }
 */
-alarm[0] = 15;
+alarm[0] = 5;
 
 if D
 {
-	part_type_color3(part_type, c_white, c_blue, c_purple);
-
-	part_emitter_region(part_system, part_emitter,x-16, x+16, y -16 ,y + 16, ps_shape_ellipse, ps_distr_linear);
-	part_emitter_burst(part_system, part_emitter, part_type, 200);
+	instance_create(x,y,oPlayer);
 	
 	instance_destroy();
 }
 
-sprite_index = spr_Warp_Bullet2;
 D = true;

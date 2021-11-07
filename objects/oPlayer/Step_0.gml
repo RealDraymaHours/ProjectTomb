@@ -21,13 +21,22 @@ kUp          = keyboard_check(ord("W"));
 kDown        = keyboard_check(ord("S"));
 kJump        = keyboard_check_pressed(vk_space);
 kJumpRelease = keyboard_check_released(vk_space);
-kWarp		 = mouse_check_button_released(mb_right);
+kWarp		 = keyboard_check_pressed(vk_lshift); //mouse_check_button_released(mb_right);
 
 
 ///////////////////////////////////////////////////////////////////////////////
-
 // Which form of accel/fric to apply
 if (onGround) {
+
+	if ((CanLeft) && (global.LeftCombo == global.LeftMaxCombo))
+	{
+		global.LeftCombo = 0;	
+	}
+	if ((CanRight) && (global.RightCombo == global.RightMaxCombo))
+	{
+		global.RightCombo = 0;	
+	}
+	
     tempAccel = groundAccel;
     tempFric  = groundFric;
 } else {
@@ -148,6 +157,8 @@ if (kJump && onGround) {
         xscale = 0.66;
         yscale = 1.33;
         
+		global.LeftCombo = 0;
+		global.RightCombo = 0;
         v = -jumpHeight;
         state = JUMP;
     }
@@ -159,17 +170,15 @@ if (kJump && onGround) {
     }
 }
 
+//Dashing
 if !(instance_exists(obj_bunny_bullet))
 {		
 	if CanWarp
 	{
 		if kWarp
 		{
-			dir = point_direction(oPlayer.x,oPlayer.y,mouse_x,mouse_y);
-			len = point_distance(oPlayer.x,oPlayer.y,mouse_x,mouse_y);
-			maxdist = 16;
-			
-			instance_create(x +lengthdir_x(maxdist,dir), y +lengthdir_y(maxdist,dir)-16, obj_bunny_bullet);	
+			instance_create_depth(x,y,self.depth,obj_bunny_bullet);
+			instance_destroy();
 		}
 	}
 	else if ((onGround) && (!Warping))
@@ -178,15 +187,9 @@ if !(instance_exists(obj_bunny_bullet))
 	}
 }
 
-
-
-
-
-
-
-
 // Swap facing on walls
 if (!onGround) {
+	
     if (cLeft)
         facing = RIGHT;
     if (cRight)
@@ -201,6 +204,7 @@ yscale = Approach(yscale, 1, 0.05);
 /* */
 /*  */
 
+//parry
 if Parry = true
 {
 	MyLight = c_blue;
@@ -209,14 +213,26 @@ if Parry = true
 	v = 0;
 }
 
+//dying
 if global.Health < 1
 {
+	CanLeft = false;
 	state = DEATH;
 	speed = 0;
 	h = 0;
 	v = 0;
 }
 
+//stop while attacking
+if ((!CanLeft) && (global.Rooted))
+{
+	h = 0;
+	v = 0;
+}
+
+
+
+//Tacking damage
 if global.Staggered = true && Staggered = false
 {
 	MyLight = c_black;
