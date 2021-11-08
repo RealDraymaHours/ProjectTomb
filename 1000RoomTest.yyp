@@ -128,6 +128,7 @@
     {"id":{"name":"spr_KnightPlayerJumpU","path":"sprites/spr_KnightPlayerJumpU/spr_KnightPlayerJumpU.yy",},"order":4,},
     {"id":{"name":"spr_Lost_Spear_Run","path":"sprites/spr_Lost_Spear_Run/spr_Lost_Spear_Run.yy",},"order":4,},
     {"id":{"name":"BellLady","path":"scripts/BellLady/BellLady.yy",},"order":2,},
+    {"id":{"name":"oRandomSoul","path":"objects/oRandomSoul/oRandomSoul.yy",},"order":0,},
     {"id":{"name":"spr_ManaBar","path":"sprites/spr_ManaBar/spr_ManaBar.yy",},"order":4,},
     {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},"order":6,},
     {"id":{"name":"spr_inv_Zweihander","path":"sprites/spr_inv_Zweihander/spr_inv_Zweihander.yy",},"order":2,},
@@ -239,6 +240,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":6,},
     {"id":{"name":"sBS_1","path":"sprites/sBS_1/sBS_1.yy",},"order":1,},
     {"id":{"name":"fnt_Text","path":"fonts/fnt_Text/fnt_Text.yy",},"order":0,},
+    {"id":{"name":"sPlayerAttack","path":"sprites/sPlayerAttack/sPlayerAttack.yy",},"order":0,},
     {"id":{"name":"obj_FireHit1","path":"objects/obj_FireHit1/obj_FireHit1.yy",},"order":2,},
     {"id":{"name":"spr_Basic_Sowrd_Pickup","path":"sprites/spr_Basic_Sowrd_Pickup/spr_Basic_Sowrd_Pickup.yy",},"order":0,},
     {"id":{"name":"oParEntity","path":"objects/oParEntity/oParEntity.yy",},"order":1,},
@@ -512,6 +514,7 @@
     {"folderPath":"folders/Sprites/Damage/BasicSword.yy","order":6,"resourceVersion":"1.0","name":"BasicSword","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Damage/Zweihander.yy","order":7,"resourceVersion":"1.0","name":"Zweihander","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Enemies/Tutorial.yy","order":19,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemies/Tutorial.yy","order":21,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
