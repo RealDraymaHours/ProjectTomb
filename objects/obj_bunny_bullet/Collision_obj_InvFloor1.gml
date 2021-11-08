@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this edit
-instance_create(x,y,oPlayer);
+
+instance_create_depth(x,y,-1,oPlayer);
 	
 
 instance_destroy();	

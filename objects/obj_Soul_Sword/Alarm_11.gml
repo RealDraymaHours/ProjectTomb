@@ -1,2 +1,0 @@
-Staggered = false;
-state = "IDLE";

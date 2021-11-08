@@ -35,8 +35,6 @@ switch(global.Armor)
 	break;
 	
 }
-
-
 	switch (state) {
     case IDLE: 
         image_speed = 0.1;
@@ -58,13 +56,17 @@ switch(global.Armor)
                 sprite_index = sJumpU;  
             else
                 sprite_index = sJumpD;
-        }
-         
+        }   
         // When against a wall   
         if (cRight || cLeft)
             sprite_index = sSlide;  
     break;
+	case(ACTIVE):
+		image_speed = 0.1;
+		sprite_index = sParry;
+	break;
 	case(DEATH):
+		image_speed = 0.1;
 		sprite_index = sDeath;
 	break;
 
@@ -74,34 +76,20 @@ switch(global.Armor)
 TrailDraw(trail,w1,w2,c1,c2,image_alpha, image_alpha);
 
 // Draw player
-if ((!Parry) && (CanLeft))
+
+if global.Staggered = false
 {
-	if global.Staggered = false
-	{
-		if (onGround)
-		draw_sprite_ext(sprite_index, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_white, image_alpha);    
-		else
-		  draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_white, image_alpha);
-	}
+	if (onGround)
+	draw_sprite_ext(sprite_index, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_white, image_alpha);    
 	else
-	{
-		if (onGround)
-		draw_sprite_ext(sprite_index, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_purple, image_alpha);    
-		else
-		draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_purple, image_alpha);
-	}
+	draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_white, image_alpha);
 }
 else
 {
-	if global.Staggered = false
-	{
-		draw_sprite_ext(sParry, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_white, image_alpha);
-	}
+	if (onGround)
+	draw_sprite_ext(sprite_index, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_purple, image_alpha);    
 	else
-	{
-		draw_sprite_ext(sParry, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_purple, image_alpha);
-	}
-		
+	draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_purple, image_alpha);
 }
 
 draw_text(x,y -32, global.LeftCombo);

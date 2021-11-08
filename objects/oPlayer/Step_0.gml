@@ -207,10 +207,35 @@ yscale = Approach(yscale, 1, 0.05);
 //parry
 if Parry = true
 {
+	state = ACTIVE;
 	MyLight = c_blue;
 	speed = 0;
 	h = 0;
 	v = 0;
+}
+
+
+//stop while attacking
+if ((!CanLeft) && (global.Rooted))
+{
+	state = ACTIVE;
+	h = 0;
+	v = 0;
+}
+else if((!CanRight) && (global.Rooted))
+{
+	state = ACTIVE;
+	h = 0;
+	v = 0;
+}
+
+
+//Tacking damage
+if global.Staggered = true && Staggered = false
+{
+	MyLight = c_black;
+	Staggered = true;
+	alarm[1] = 40;
 }
 
 //dying
@@ -222,21 +247,3 @@ if global.Health < 1
 	h = 0;
 	v = 0;
 }
-
-//stop while attacking
-if ((!CanLeft) && (global.Rooted))
-{
-	h = 0;
-	v = 0;
-}
-
-
-
-//Tacking damage
-if global.Staggered = true && Staggered = false
-{
-	MyLight = c_black;
-	Staggered = true;
-	alarm[1] = 40;
-}
-

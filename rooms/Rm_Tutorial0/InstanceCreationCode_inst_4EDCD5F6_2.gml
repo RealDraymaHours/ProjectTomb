@@ -1,1 +1,0 @@
-darkness = 0;

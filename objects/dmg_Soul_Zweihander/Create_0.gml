@@ -9,7 +9,7 @@ Combo = 0;
 
 Break = 10;
 
-
+depth = -20;
 
 if global.LeftItem = dmg_Soul_Zweihander
 {
@@ -55,5 +55,13 @@ else
 		KnockbackDirection = 270;
 		KnockbackStrenght = 20;
 		KnockbackTime = 10;
+	if global.LeftItem = dmg_Soul_Zweihander
+	{
+		global.LeftCombo = 2;
+	}
+	else
+	{
+		global.RightCombo = 2;
+	}
 }
 

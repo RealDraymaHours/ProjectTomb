@@ -16,6 +16,7 @@ MyLight = c_white;
 X = 0.5;
 Y = 0.5;
 Intensity = 0.5;
+depth = -20;
 
 //Abilities
 Parry = false;
@@ -60,7 +61,7 @@ gravRise    = 0.5  * m;
 gravFall    = 0.5  * m;
 gravSlide   = 0.0 * m;
 
-camDist     = 24.0; // (later versions)
+//camDist     = 24.0; // (later versions)
 
 // Frames prior to being able to push off of wall slide with arrow keys (doesn't affect wall jump)
 clingTime   = 4.0  * m;
@@ -72,6 +73,7 @@ IDLE     = 10;
 RUN      = 11;
 JUMP     = 12;
 DEATH	 = 13;
+ACTIVE	 = 14;
 
 // Facings
 RIGHT =  1;
