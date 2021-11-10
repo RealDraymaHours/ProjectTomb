@@ -1,7 +1,7 @@
 /// @description all events
-if AnimationLock = false
+if !AnimationLock
 {
-	if x < oPlayer.x
+	if x < oFolCam.x
 	{
 		image_xscale = -1;
 	}
@@ -11,7 +11,7 @@ if AnimationLock = false
 	}
 }
 
-if ((collision_rectangle(x,y+200,x-355, y-200, oPlayer,false,false)) || (collision_rectangle(x,y+200,x + 355, y-200, oPlayer,false,false)))
+if (distance_to_object(oFolCam) < 200)
 {
 	CloseToPlayer = true;
 }
@@ -20,149 +20,115 @@ else
 	CloseToPlayer = false;
 }
 
-if Stunned = true
+if (Stunned)
 {
-	StaggerTime = 20;
-	Staggered = false;
+	state = "STUNNED";
 	Stunned = false;
-
-	CloseToPlayer = false;
-
-	Idle = false;
-
-	SlashCount = 7;
-	Slash = false;
-	StartSlashing = false;
-	SlashCooldown = false;
-
-	SpinStart = false;
-	Spinning = false;
-	Spin = false;
-	CurrentPlayerX = 0;
-	CurrentPlayerY = 0;
-
-
-	ScreamStart = false;
-	Scream = false;
-	sprite_index = spr_LKA_Stunned;
-	
-	vspeed = 0;
-	hspeed = 0;
-	
-	
-	alarm[3] = 90;
-	
-	Stunned = false;
-	
 }
 
-
-if Tantrum = true
+switch(state)
 {
-	sprite_index = spr_LKA_TantrumStart
-	
-	if image_index > image_number - 1
-	{
-		sprite_index = spr_LKA_Tantrum;
-		alarm[3] = 120;
-		Tantrum = false;
-	}
-	
-}
-
-if Scream = true
-{
-	AnimationLock = true;
-	if ScreamStart = false
-	{
-		sprite_index = spr_LKA_Scream_Start;
-		alarm[1] = 20;
-		ScreamStart = true;
-	}
-}
-
-
-if Spin = true
-{
-	AnimationLock = true;
-	if SpinStart = false
-	{
-		CurrentPlayerX = oPlayer.x;
-		CurrentPlayerY = oPlayer.y;
-		sprite_index = spr_LKA_Spin_Start;
-		alarm[4] = 20;
-		SpinStart = true;
-	}
-	else if Spinning = true
-	{
-		
-		if image_xscale = 1
+	case("IDLE"):
+	if alarm[6] == -1{alarm[6] = 30;}
+	break;
+	case("TANTRUM"):
+		if !(Tantrum)
 		{
-			image_angle += 20	
-			if (!position_meeting(CurrentPlayerX - 100, CurrentPlayerY - 100, obj_LKA) && (obj_LKA.x > 150))
+			sprite_index = spr_LKA_TantrumStart;
+			if (image_index > image_number - 1)
 			{
-				move_towards_point(CurrentPlayerX - 100, CurrentPlayerY - 100, 8);
-			}
-			else
-			{
-				Spin = false;
-				vspeed = 6;
-				alarm[3] = 10;
+				Tantrum = true;
 			}
 		}
 		else
 		{
-			image_angle -= 20	
-			if (!position_meeting(CurrentPlayerX + 100, CurrentPlayerY - 100, obj_LKA) && (obj_LKA.x <  620 ))
+			image_speed = 1;
+			image_xscale = 1;
+			sprite_index = spr_LKA_Tantrum;
+			if alarm[3] == -1{alarm[3] = 120;}
+		}
+	break;
+	case("SCREAM"):
+		if ((alarm[1] == -1) && (!Scream)){
+			sprite_index = spr_LKA_Scream_Start;
+			alarm[1] = 20;
+		}
+	break;
+	case("SPIN"):
+		Active = true;
+		switch(SpinState)
+		{		
+			case("START"):
+				sprite_index = spr_LKA_Spin_Start;
+				if alarm[4] == -1{alarm[4] = 20;}
+			break;
+			case("GO"):
+			AnimationLock = true;
+				if image_xscale = 1
+				{
+					image_angle += 20	
+					if (!position_meeting(CurrentPlayerX - 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x <= 150))
+					{
+						move_towards_point(CurrentPlayerX - 200, CurrentPlayerY - 100, 8);
+					}
+					else
+					{
+						Spin = false;
+						vspeed = 6;
+						if alarm[3] == -1 {alarm[3] = 10;}
+					}
+				}
+				else
+				{
+					image_angle -= 20	
+					if (!position_meeting(CurrentPlayerX + 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x >=  620 ))
+					{
+						move_towards_point(CurrentPlayerX + 200, CurrentPlayerY - 100, 8);
+					}
+					else
+					{
+						Spin = false;
+						vspeed = 6;
+						if alarm[3] == -1 {alarm[3] = 10;}
+					}	
+				}
+			break;
+		}
+	break;
+	case("SLASH"):
+		if alarm[3] == -1
+		{
+			image_index = 0;
+			sprite_index = spr_LKA_Slashing;
+			if x < oFolCam.x
 			{
-				move_towards_point(CurrentPlayerX + 100, CurrentPlayerY - 100, 8);
+				hspeed = 6;
 			}
 			else
 			{
-				Spin = false;
-				vspeed = 6;
-				alarm[3] = 10;
+				hspeed = -6;
 			}
+		alarm[3] = 258;
 		}
-	}
-}
-
-if Slash = true
-{
-	IsAttacking = true;
-	if StartSlashing = false
-	{
-		image_index = 0;
-		sprite_index = spr_LKA_Slashing;
-		if x < oPlayer.x
-		{
-			hspeed = 6;
-		}
-		else
+		AnimationLock = true;
+		if place_meeting(x + 120,y,obj_InvFloor1) && self.hspeed = 6
 		{
 			hspeed = -6;
+			image_xscale = 1;
 		}
-		StartSlashing= true;
-		alarm[3] = 258;
-	}
-	AnimationLock = true;
-
-	
-
-	if place_meeting(x + 120,y,obj_InvFloor1) && self.hspeed = 6
-	{
-
-		hspeed = -6;
-		image_xscale = 1;
-
-	}
-	else if place_meeting(x - 120,y,obj_InvFloor1) && self.hspeed = -6
-	{			
-		hspeed = 6;
-		image_xscale = -1;
-	}
-	
-	
+		else if place_meeting(x - 120,y,obj_InvFloor1) && self.hspeed = -6
+		{			
+			hspeed = 6;
+			image_xscale = -1;
+		}
+	break;
+	case("STUNNED"):
+		hspeed = 0;
+		vspeed = 0;
+		sprite_index = spr_LKA_Stunned;
+		AnimationLock = true;
+		if alarm[3]  == -1{alarm[3] = 90;}
+	break;
 }
 
 

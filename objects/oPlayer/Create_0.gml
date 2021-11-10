@@ -29,6 +29,7 @@ CanLeft = true;
 CanRight = true;
 Can1 = true;
 Can2 = true;
+IsAttacking = false;
 
 // Collision below
 onGround = false;
@@ -122,10 +123,6 @@ Staggered = false;
 
 
 //UI
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = 32;
-healthbar_y = 20;
 flash = 0;
 
 //Regen and first save

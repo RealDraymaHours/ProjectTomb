@@ -16,7 +16,7 @@ Staggered = true;
 
 if (other.Break > Poise)
 {
-		Moving = false;
+	Moving = false;
 	alarm[0] = 20;
 	Knockback = true;
 	KnockbackDirection = other.KnockbackDirection;
@@ -37,5 +37,10 @@ if (other.Break > Poise)
 		instance_create(xp, yp, obj_SoulHit);
 		
 	}
+	
+	
+	if global.Mana != global.MaxMana
+	{
+		global.Mana += 1;
+	}
 }
-

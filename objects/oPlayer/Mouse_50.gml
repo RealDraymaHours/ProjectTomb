@@ -1,6 +1,6 @@
 /// @description Left weapon
 
-if (!global.Staggered)
+if ((!global.Staggered) && (CanRight))
 {
 	if ((CanLeft == true) && (global.LeftCombo != global.LeftMaxCombo))
 	{

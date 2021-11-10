@@ -1,0 +1,2 @@
+Stunned = false;
+AlarmSet = false;

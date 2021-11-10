@@ -1,13 +1,12 @@
 /// @description get back to idle
 sprite_index = spr_OKA_Idle;
 
-Idle = true;
-Walk = false;
-WalkAlarm = false;
-Jump = false;
+state = "IDLE";
+JumpState = "JUMP"
+Active = false;
+
+Stunned = false;
 Downwards = false;
-GroundHit = false;
-ForwardAttack = false;
 Rampage = false;
 RampageCount = 10;
 IsAttacking = false;

@@ -17,7 +17,7 @@ if GetBack = false
 	
 		if Repeat = true
 		{
-			alarm [0] = 45;
+			alarm [0] = 20;
 			Repeat = false;
 		}
 	

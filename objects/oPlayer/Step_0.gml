@@ -171,9 +171,9 @@ if (kJump && onGround) {
 }
 
 //Dashing
-if !(instance_exists(obj_bunny_bullet))
+if ((!instance_exists(obj_bunny_bullet)) && (state != DEATH)) 
 {		
-	if CanWarp
+	if CanWarp 
 	{
 		if kWarp
 		{
@@ -214,21 +214,22 @@ if Parry = true
 	v = 0;
 }
 
+if ((!CanRight) || (!CanLeft))
+{
+	IsAttacking = true;
+}
+else
+{
+	IsAttacking = false;
+}
 
 //stop while attacking
-if ((!CanLeft) && (global.Rooted))
+if ((IsAttacking) && (global.Rooted))
 {
 	state = ACTIVE;
 	h = 0;
 	v = 0;
 }
-else if((!CanRight) && (global.Rooted))
-{
-	state = ACTIVE;
-	h = 0;
-	v = 0;
-}
-
 
 //Tacking damage
 if global.Staggered = true && Staggered = false

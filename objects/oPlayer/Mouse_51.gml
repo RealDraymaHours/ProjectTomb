@@ -1,8 +1,8 @@
 ///@desc Right Weapon
 
-if (!global.Staggered)
+if ((!global.Staggered) && (CanLeft))
 {
-	if ((CanRight == true) && (global.RightCombo != global.RightMaxCombo))
+	if ((CanRight == true) && (global.RightCombo < global.RightMaxCombo))
 	{
 		audio_play_sound(PlayerSoulWeapon1,1,false);
 		

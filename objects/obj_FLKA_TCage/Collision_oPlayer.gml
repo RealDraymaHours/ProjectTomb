@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if Active = true
-{
-if global.Staggered = false
+if ((Active) && (!global.Staggered))
 {
 	global.Health -= 1;
 	    with (oCamera) {
@@ -19,5 +17,4 @@ if global.Staggered = false
 	
 	
 	global.Staggered = true;
-}
 }

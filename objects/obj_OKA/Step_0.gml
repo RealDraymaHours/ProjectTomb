@@ -2,7 +2,7 @@
 //faze player
 if AnimationLock = false
 {
-	if x < oPlayer.x
+	if x < oFolCam.x
 	{
 		image_xscale = -1;
 	}
@@ -12,7 +12,7 @@ if AnimationLock = false
 	}
 }
 
-if ((collision_rectangle(x,y+200,x-175, y-200, oPlayer,false,false)) || (collision_rectangle(x,y+200,x + 175, y-200, oPlayer,false,false)))
+if (distance_to_object(oFolCam) < 120)
 {
 	CloseToPlayer = true;
 }
@@ -23,136 +23,78 @@ else
 
 if Stunned = true
 {
-	Idle = false;
-
-	Walk = false;
-	WalkAlarm = false;
-	Jump = false;
-	Downwards = false;
-	GroundHit = false;
-	ForwardAttack = false;
-
-	RampageCount = 10;
-	RampageTop = false;
-	Rampage = false;
-
-	AnimationLock = false;
-	CloseToPlayer = false;
-	
-	sprite_index = spr_OKA_Staggered;
-	
-	alarm[2] = 120;
-	
-
+	state = "STUNNED";
+	alarm[2] = 180;
 	Stunned = false;
 }
 
-if Idle = true
-{
-	alarm[0] = 30;
-	Idle = false;
-}
-
-
-if Rampage = true
-{
-	alarm[3] = 30;
-	Rampage = false;
-}
-else if ForwardAttack = true
-{
-	IsAttacking = true;
-	if AnimationLock == false
-	{
-		image_index = 0;
-	}
-	
-	AnimationLock = true;
-	sprite_index = spr_OKA_ForwardSlash;
-	
-	alarm[2] = 60; 
-	
-	ForwardAttack = false;
-}
-else if Walk = true
-{
-	sprite_index = spr_OKA_Walk;
-	move_towards_point(oPlayer.x, y, 2);
-	if WalkAlarm = false
-	{
-		alarm[2] = 240;
-	}
-	WalkAlarm = true;
-}
-else if Jump = true
-{
-	if vspeed = 9
-	{
-		if place_meeting(obj_OKA.x,obj_OKA.y + 1, obj_InvFloor1)
-		{
-			if (vspeed != 0)
-			{
-				alarm[2] = 10;
-			}
-			
-			vspeed = 0;
-			sprite_index = spr_OKA_Stomp;
-			Staggered = false;
-
-		}
-	}
-	
-
-	if Downwards = false
-	{
-		Staggered = true;
-		sprite_index = spr_OKA_Jump
-		move_towards_point(oPlayer.x, oPlayer.y - 200, 10);		
-	}
-	
-	if position_meeting(oPlayer.x, oPlayer.y - 200, obj_OKA)
-	{
-			
-		if Downwards = false
-		{		
-			sprite_index = spr_OKA_Falling;
-			alarm[1] = 12;
-			Downwards = true;
-			hspeed = 0;
-			vspeed = 0;
-		}		
-	}
-}
-
-
 if Health < 1
 {
-
-if Death = false
-{
-vspeed = 0;
-hspeed = 0;
-Idle = false;
-
-Walk = false;
-WalkAlarm = false;
-Jump = false;
-Downwards = false;
-GroundHit = false;
-ForwardAttack = false;
-
-RampageCount = 10;
-RampageTop = true;
-Rampage = false;
-
-AnimationLock = false;
-CloseToPlayer = false;
-
-	alarm[7] = 60;
-	Death = true;
-	sprite_index = spr_OKA_Trigger;
+	state = "DEATH"
 }
+
+
+
+
+switch(state)
+{
+	case("IDLE"):
+		image_speed = 1;
+		if alarm[0] == -1{alarm[0] = 30;}
+	break;
+	case("RAMPAGE"):
+		image_speed = 1;
+		if alarm[3] == -1{alarm[3] = 60;}
+	break;
+	case("FORWARD"):
+		if alarm[2] == -1{ alarm[2] = 60; image_index = 0;}
+		hspeed = 0;
+		sprite_index = spr_OKA_ForwardSlash;
+		image_speed = 0.5;
+
+	break;
+	case("JUMP"):
+		switch(JumpState)
+		{
+			case("JUMP"):
+				sprite_index = spr_OKA_Jump;
+				move_towards_point(oFolCam.x, oFolCam.y -200,8);
+				if(position_meeting(oFolCam.x, oFolCam.y - 200, self)){JumpState = "STOMP";}
+			break;
+			case("STOMP"):
+				sprite_index =  spr_OKA_Falling;
+				hspeed = 0;
+				vspeed = 0;
+				if alarm[1] == -1{alarm[1] = 10;}
+			break;
+			case("DOWNWARDS"):
+				Active = true;;
+				sprite_index = spr_OKA_Helmbreaker;
+				if place_meeting(x,y,obj_InvFloor1){ 
+					vspeed = 0;
+					JumpState = "GETUP";
+				}
+			break;
+			case("GETUP"):
+			if alarm[2] == -1{alarm[2] = 20; sprite_index = spr_OKA_Stomp; Active = false;};
+			break;
+		}
+			
+	break;
+	case("WALK"):
+		if distance_to_object(oFolCam) < 64{state = "FORWARD";};
+		sprite_index = spr_OKA_Walk;
+		move_towards_point(oFolCam.x,y,4);
+	break;
+	case("STUNNED"):
+		AnimationLock = true;
+		CloseToPlayer = false;
+		sprite_index = spr_OKA_Staggered;
+	break;
+	case("DEATH"):
+		sprite_index = spr_OKA_Trigger;
+		if alarm[7] == -1{alarm[7] = 20;}
+	break;
 	
 }
-
 

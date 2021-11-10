@@ -7,10 +7,9 @@ ini_open("savedata.ini");
 var RGT = ini_read_real("savegame","room", 0);
 
 
-
 oPlayer.x = ini_read_real("savegame", "x", 0);
 oPlayer.y = ini_read_real("savegame", "y", 0);
-
+oPlayer.state = IDLE;
 
 //Equiped
 global.LeftItem = ini_read_real("savegame", "weapon", 0);
@@ -19,9 +18,10 @@ global.Spell2 = ini_read_real("savegame", "secondspell", 0);
 global.Armor = ini_read_string("savegame", "armor", "base");
 
 //Visuals
-global.MainIcon = ini_read_real("savegame", "icon1", 0);
+global.LeftIcon = ini_read_real("savegame", "icon1", 0);
 global.FirstSpellIcon = ini_read_real("savegame", "icon2", 0);
 global.SecondSpellIcon = ini_read_real("savegame", "icon3", 0);
+global.RightIcon = ini_read_real("savegame", "icon4", 0);
 
 //Inventory
 //Weapon Inventory

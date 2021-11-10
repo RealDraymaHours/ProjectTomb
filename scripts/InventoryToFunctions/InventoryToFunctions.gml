@@ -84,9 +84,16 @@ function inventoryToString(inventoryIndex)
 
 function inventoryToStats(inventoryIndex)
 {
-	Stats = [1,2];	///[Health, Mana]
+	Stats = [1,2];	///[Health, Mana] ARMOR
+					//[MaxCombo,Rooted]
 		switch(inventoryIndex)
 		{
+			case 1:
+				Stats = [3,true];
+			break;
+			case 2:
+				Stats = [5, true];
+			break;
 			case 4:
 				Stats = [0,0];
 			break;
@@ -95,6 +102,9 @@ function inventoryToStats(inventoryIndex)
 			break;
 			case 6:
 				Stats = [0,10];
+			break;
+			case 7:
+				Stats = [2,true];
 			break;
 		}
 	return Stats;

@@ -178,10 +178,22 @@ stateFree = function()
 	if (mouse_check_button(mb_left)) && (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
 	{
 		global.LeftItem = inventoryToObject(inventoryHover.inventory[slotHover]);
-		global.MainIcon = inventoryToSprite(inventoryHover.inventory[slotHover]);
+		global.LeftIcon = inventoryToSprite(inventoryHover.inventory[slotHover]);
+		Stats = inventoryToStats(inventoryHover.inventory[slotHover]);
+		global.LeftMaxCombo = Stats[0];
+		global.Rooted = Stats[1];
 		
 	}
 	
+	if (mouse_check_button(mb_right)) && (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
+	{
+		global.RightItem = inventoryToObject(inventoryHover.inventory[slotHover]);
+		global.RightIcon = inventoryToSprite(inventoryHover.inventory[slotHover]);
+		Stats = inventoryToStats(inventoryHover.inventory[slotHover]);
+		global.RightMaxCombo = Stats[0];
+		global.Rooted = Stats[1];
+		
+	}
 		//spells
 	if (mouse_check_button(mb_left)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
 	{

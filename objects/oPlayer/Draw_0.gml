@@ -91,6 +91,3 @@ else
 	else
 	draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_purple, image_alpha);
 }
-
-draw_text(x,y -32, global.LeftCombo);
-draw_text(x-16,y-32, global.RightCombo);

@@ -8,19 +8,19 @@ move = irandom(2);
 	switch (move)
 	{
 		case 0:
-		Slash = true;
+		state = "SLASH";
 		break;
 	
 		case 1:
-		Scream = true;
+		state = "SCREAM";
 		break;
 		
 		case 2:
-		Tantrum = true;
+		state = "TANTRUM";
 		break;
 	}
 }
 else
 {
-	Spin = true;
+	state = "SPIN";
 }

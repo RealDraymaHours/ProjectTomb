@@ -37,23 +37,55 @@ else
 	v = 0;
 }
 ///////////////////////////////////////////////////////////////////////////////
-
-switch (state)
+if !Stunned
 {
-	case("STAGGERED"):
-		sprite_index = spr_GoombaHurt3;
-	break;
-	case("IDLE"):
-		sprite_index = sPlayerIdle;
-	break;
-	case("AIRBORNE"):
-		sprite_index = spr_GoombaHurt3;
-		if onGround
-		{
-			state = "IDLE";
-		}
-	break;
-		
+	switch (state)
+	{
+		case("STAGGERED"):
+			image_speed = 0.1;
+			sprite_index = sRandomSoulParry;
+		break;
+		case("IDLE"):
+			IsAttacking = false;
+			image_speed = 0.1;
+			sprite_index = sRandomSoulIdle;
+			if distance_to_object(oFolCam) < 200{state = "RUNNING";}
+		break;
+		case("AIRBORNE"):
+			image_speed = 0.1;
+			sprite_index = sRandomSoulParry;
+			if onGround{state = "IDLE";}
+		break;
+		case("RUNNING"):
+			image_speed = 0.5;
+			sprite_index = sRandomSoulRun;
+			dir = sign(oFolCam.x - x);
+			h = dir * 2;
+			v = (min(7,v+0.05));
+			if distance_to_object(oFolCam) < 20{state = "ATTACKING";}
+		break;
+		case("ATTACKING"):
+			if !IsAttacking{image_index = 0;}
+			IsAttacking = true;
+			image_speed = 0.4;
+			h = 0;
+			v = 0;
+			if Staggered{state = "STAGGERED";}
+			sprite_index = sRandomSoulAttack;
+		break;
+	}
+}
+else
+{
+	if !AlarmSet
+	{
+		alarm[2] = 120;	
+		AlarmSet = true;
+	}
+	h = 0;
+	v = 0;
+	image_speed = 0.5;
+	sprite_index = sRandomSoulParry;
 }
 if Knockback
 {

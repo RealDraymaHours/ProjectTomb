@@ -57,11 +57,11 @@ else
 		KnockbackTime = 10;
 	if global.LeftItem = dmg_Soul_Zweihander
 	{
-		global.LeftCombo = 2;
+		global.LeftCombo = 1;
 	}
 	else
 	{
-		global.RightCombo = 2;
+		global.RightCombo = 1;
 	}
 }
 

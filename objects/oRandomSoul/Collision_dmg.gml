@@ -37,5 +37,10 @@ if (other.Break > Poise)
 		instance_create(xp, yp, obj_SoulHit);
 		
 	}
+	
+	
+	if global.Mana != global.MaxMana
+	{
+		global.Mana += 1;
+	}
 }
-

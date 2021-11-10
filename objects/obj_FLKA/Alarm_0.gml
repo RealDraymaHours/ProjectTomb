@@ -6,6 +6,9 @@ y = 294;
 CurrentPlayerX = 0;
 CurrentPlayerY = 0;
 
+state = "IDLE";
+JumpState = "JUMP";
+
 Stunned = false;
 IsAttacking = false;
 
@@ -13,7 +16,7 @@ IsAttacking = false;
 SuperJump = false;
 Downwards = false;
 
-TornadoChase = false;
+TornadoChase = true;
 Tx1 = -32;
 Tx2 = 784;
 CurrentChase = 0;
@@ -22,6 +25,4 @@ ChaseActive = false;
 
 AnimationLock = false;
 TornadoCage = false;
-
-alarm[3] = 20;
 

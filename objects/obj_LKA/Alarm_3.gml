@@ -1,6 +1,8 @@
 /// @description Back to idle
 
 sprite_index = spr_LKA_Idle;
+state = "IDLE";
+SpinState = "START";
 
 AnimationLock = false;
 
@@ -22,6 +24,7 @@ ScreamStart = false;
 Scream = false;
 
 Tantrum = false;
+Active = false;
 
 
 vspeed = 0;

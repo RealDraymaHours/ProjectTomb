@@ -1,20 +1,16 @@
 /// @description random move
 
-switch irandom(3)
+switch irandom(2)
 {
 	case 0:
-	SuperJump = true;
+	state = "JUMP";
 	break;
 	
 	case 1:
-	TornadoChase = true;
+	state = "CHASE";
 	break;
 		
 	case 2:
-	TornadoCage = true;
-	break;
-	
-	case 3:
-	HeadSlam = true;
+	state = "CAGE";
 	break;
 }

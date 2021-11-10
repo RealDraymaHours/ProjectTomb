@@ -2,6 +2,7 @@ Health = 100;
 IsAttacking = false;
 Staggered = false;
 StaggerTime = 10;
+Stunned = false;
 
 Knockback = false;
 KnockbackDirection = 0;
@@ -9,6 +10,7 @@ KnockbackStrenght = 0;
 KnockbackTime = 0;
 Poise = 0;
 state = "IDLE"
+AlarmSet = false;
 
 //physics
 // Movement speed

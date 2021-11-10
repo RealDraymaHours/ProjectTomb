@@ -8,8 +8,12 @@ Health = 200;
 StaggerTime = 20;
 Staggered = false;
 Stunned = false;
+Poise = 100;
 
 CloseToPlayer = false;
+Active = false;
+state = "";
+SpinState = "START";
 
 Idle = false;
 
@@ -31,3 +35,10 @@ ScreamStart = false;
 Scream = false;
 
 Tantrum = false;
+
+
+
+Knockback = false;
+KnockbackDirection = 0;
+KnockbackStrenght = 0;
+KnockbackTime = 0;

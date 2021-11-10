@@ -4,33 +4,39 @@ if (y != 293)
 {
 	y = 293;
 }
-move = irandom(1);
+move = irandom(2);
 
 
 if CloseToPlayer = true
 {
-	
+	/*
 	switch (move)
 	{
 		case 0:
-		Walk = true;
+		state = "WALK"
 		break;
 	
 		case 1:
-		ForwardAttack = true;
+		state = "FORWARD"
 		break;
 	}
+	*/
+	state = "FORWARD"
 }
 else
 {
 	switch (move)
 	{	
 		case 0:
-		Jump = true;
+		state = "JUMP"
 		break;
 	
 		case 1:
-		Rampage = true;
+		state = "RAMPAGE"
 		break;	
+		
+		case 2:
+		state = "WALK"
+		break;
 	}
 }
