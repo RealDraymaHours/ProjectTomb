@@ -1,3 +1,3 @@
 TargetRoom = Rm_Tutorial_Begin;
-TargetX = 80;
-TargetY = 0;
+TargetX = 2960;
+TargetY = 304;

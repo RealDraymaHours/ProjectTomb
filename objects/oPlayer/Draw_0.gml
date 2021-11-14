@@ -42,7 +42,7 @@ switch(global.Armor)
     break;
     
     case RUN: 
-        image_speed = 0.5; 
+        image_speed = 0.3; 
         sprite_index = sRun;
     break;
     

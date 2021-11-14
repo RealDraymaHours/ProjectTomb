@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Template",
-    "path": "folders/Objects/Template.yy",
+    "name": "Terrain",
+    "path": "folders/Objects/Terrain.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSlopeR",

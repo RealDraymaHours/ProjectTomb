@@ -45,7 +45,7 @@ __view_set( e__VW.YView, 0, max(0, min(y - __view_get( e__VW.HPort, 0 ) * 0.5 - 
 // Movement Vars //////////////////////////////////////////////////////////////
 
 // Adjust THIS to adjust overall player speed
-m = 1;
+m = 0.6;
 
 // Acceleration + friction
 groundAccel = 1.0  * m;
