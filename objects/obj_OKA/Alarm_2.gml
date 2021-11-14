@@ -8,7 +8,7 @@ Active = false;
 Stunned = false;
 Downwards = false;
 Rampage = false;
-RampageCount = 10;
+RampageCount = 0;
 IsAttacking = false;
 
 AnimationLock = false;

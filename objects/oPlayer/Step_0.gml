@@ -177,7 +177,7 @@ if ((!instance_exists(obj_bunny_bullet)) && (state != DEATH))
 	{
 		if kWarp
 		{
-			instance_create_depth(x,y,self.depth,obj_bunny_bullet);
+			instance_create_depth(x,y-2,self.depth,obj_bunny_bullet);
 			instance_destroy();
 		}
 	}

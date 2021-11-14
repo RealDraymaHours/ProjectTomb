@@ -10,7 +10,7 @@ Idle = true;
 state = "IDLE";
 JumpState = "JUMP";
 
-RampageCount = 10;
+RampageCount = 0;
 RampageTop = true;
 Rampage = false;
 

@@ -1,3 +1,3 @@
-TargetRoom = RoomSpawn6;
+TargetRoom = Rm_Tutorial_Begin;
 TargetX = 80;
-TargetY = 144;
+TargetY = 0;

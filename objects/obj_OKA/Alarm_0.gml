@@ -4,27 +4,26 @@ if (y != 293)
 {
 	y = 293;
 }
-move = irandom(2);
 
 
 if CloseToPlayer = true
 {
-	/*
+	move = irandom(1);
 	switch (move)
 	{
 		case 0:
-		state = "WALK"
+		state = "AWAY"
 		break;
 	
 		case 1:
 		state = "FORWARD"
 		break;
 	}
-	*/
-	state = "FORWARD"
+
 }
 else
 {
+	move = irandom(2);
 	switch (move)
 	{	
 		case 0:

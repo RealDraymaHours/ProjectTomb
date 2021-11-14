@@ -112,8 +112,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Tiles",
+    "path": "folders/Tile Sets/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "TombTileSet",

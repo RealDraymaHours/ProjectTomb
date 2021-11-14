@@ -3,7 +3,7 @@ if (surface_exists(LightSurf))
 	surface_set_target(LightSurf);
 	draw_clear(c_black);
 	
-	with (obj_PlayerLight)
+	with (oFolCam)
 	{
 		gpu_set_blendmode(bm_normal);
 		draw_sprite_ext(spr_SmallLight, 0,x,y,X,Y,0, MyLight, Intensity);

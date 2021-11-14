@@ -11,6 +11,7 @@ KnockbackTime = 0;
 Poise = 0;
 state = "IDLE"
 AlarmSet = false;
+Active = false;
 
 //physics
 // Movement speed

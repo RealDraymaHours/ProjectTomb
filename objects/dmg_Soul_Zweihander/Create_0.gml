@@ -4,7 +4,7 @@ Tip_Y_Distance = 93;
 
 Active = true;
 Damage = 20;
-CoolTime = 30;
+CoolTime = 45;
 Combo = 0;
 
 Break = 10;
@@ -51,17 +51,20 @@ if oPlayer.onGround
 }
 else
 {
+		CoolTime = 30;
+	
 		sprite_index = sSZ_2;
 		KnockbackDirection = 270;
 		KnockbackStrenght = 20;
 		KnockbackTime = 10;
-	if global.LeftItem = dmg_Soul_Zweihander
-	{
-		global.LeftCombo = 1;
-	}
-	else
-	{
-		global.RightCombo = 1;
-	}
+		
+		if global.LeftItem = dmg_Soul_Zweihander
+		{
+			global.LeftCombo = 1;
+		}
+		else
+		{
+			global.RightCombo = 1;
+		}
 }
 

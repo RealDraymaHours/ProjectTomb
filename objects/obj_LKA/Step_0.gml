@@ -129,6 +129,37 @@ switch(state)
 		AnimationLock = true;
 		if alarm[3]  == -1{alarm[3] = 90;}
 	break;
+	case("AIRSTUNNED"):
+		AnimationLock = true;
+		image_angle = 0;
+		sprite_index = spr_LKA_AirStagger;
+		if image_xscale = 1
+				{
+					if (!position_meeting(CurrentPlayerX + 200, 386, obj_LKA) && !(obj_LKA.x <= 150))
+					{
+						move_towards_point(CurrentPlayerX + 200, 386, 12);
+					}
+					else
+					{
+						hspeed = 0;
+						vspeed = 0;
+						if alarm[3] == -1 {alarm[3] = 1;}
+					}
+				}
+				else
+				{
+					if (!position_meeting(CurrentPlayerX - 200, 386, obj_LKA) && !(obj_LKA.x >=  620 ))
+					{
+						move_towards_point(CurrentPlayerX - 200, 386, 12);
+					}
+					else
+					{
+						hspeed = 0;
+						vspeed = 0;
+						if alarm[3] == -1 {alarm[3] = 1;}
+					}	
+				}
+	break;
 }
 
 

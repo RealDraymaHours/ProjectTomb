@@ -9,7 +9,20 @@ var RGT = ini_read_real("savegame","room", 0);
 
 oPlayer.x = ini_read_real("savegame", "x", 0);
 oPlayer.y = ini_read_real("savegame", "y", 0);
-oPlayer.state = IDLE;
+
+//Abilities
+Parry = false;
+CanWarp = false;
+Warping = false;
+
+
+//Combo Stuff
+CanLeft = true;
+CanRight = true;
+Can1 = true;
+Can2 = true;
+IsAttacking = false;
+
 
 //Equiped
 global.LeftItem = ini_read_real("savegame", "weapon", 0);

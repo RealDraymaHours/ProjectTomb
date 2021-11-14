@@ -5,7 +5,7 @@ if ChaseSwitch = 0
 
 	instance_create(Tx1, -16, obj_FLKA_Tornado);
 	Tx1 += 48;
-	alarm[1] = 8;
+	alarm[1] = 6;
 	CurrentChase += 1;
 	
 	if CurrentChase = 18
@@ -25,7 +25,7 @@ else if ChaseSwitch = 1
 		instance_create(Tx2, -16, obj_FLKA_Tornado);
 		Tx2 -= 48;
 
-		alarm[1] = 8;
+		alarm[1] = 6;
 
 		CurrentChase += 1;
 		

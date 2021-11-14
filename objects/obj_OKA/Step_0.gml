@@ -39,14 +39,17 @@ if Health < 1
 switch(state)
 {
 	case("IDLE"):
+		AnimationLock = false;
 		image_speed = 1;
 		if alarm[0] == -1{alarm[0] = 30;}
 	break;
 	case("RAMPAGE"):
 		image_speed = 1;
-		if alarm[3] == -1{alarm[3] = 60;}
+		if alarm[3] == -1{alarm[3] = 60; RampageCount = 10;}
+		if CloseToPlayer{instance_destroy(obj_OKA_Wind);if alarm[2] == -1{alarm[2] = 1;}}
 	break;
 	case("FORWARD"):
+		AnimationLock = true;
 		if alarm[2] == -1{ alarm[2] = 60; image_index = 0;}
 		hspeed = 0;
 		sprite_index = spr_OKA_ForwardSlash;
@@ -85,6 +88,11 @@ switch(state)
 		if distance_to_object(oFolCam) < 64{state = "FORWARD";};
 		sprite_index = spr_OKA_Walk;
 		move_towards_point(oFolCam.x,y,4);
+	break;
+	case("AWAY"):
+		image_speed = 0.2;
+		sprite_index = spr_OKA_Awayer;
+		if !instance_exists(obj_FLKA_Tornado){if alarm[8] == -1{alarm[8] = 40;}}
 	break;
 	case("STUNNED"):
 		AnimationLock = true;

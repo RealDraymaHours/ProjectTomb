@@ -4,7 +4,7 @@
 if RampageTop = true
 {
 
-		if x < oPlayer.x
+		if x < oFolCam.x
 	{
 		instance_create(x + 114, y + 12, obj_OKA_Wind);
 	}
@@ -18,7 +18,7 @@ if RampageTop = true
 }
 else
 {
-	if x < oPlayer.x
+	if x < oFolCam.x
 	{
 		instance_create(x + 114, y + 60, obj_OKA_Wind);
 	}
