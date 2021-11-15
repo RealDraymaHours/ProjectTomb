@@ -38,13 +38,13 @@ if oPlayer.onGround
 		case(0):
 			sprite_index = sSZ_1;
 			KnockbackDirection = 90;
-			KnockbackStrenght = 20;
+			KnockbackStrenght = 15;
 			KnockbackTime = 10;
 		break;
 		case(1):
 			sprite_index = sSZ_2;
 			KnockbackDirection = 270;
-			KnockbackStrenght = 20;
+			KnockbackStrenght = 15;
 			KnockbackTime = 10;
 		break;	
 	}
@@ -55,7 +55,7 @@ else
 	
 		sprite_index = sSZ_2;
 		KnockbackDirection = 270;
-		KnockbackStrenght = 20;
+		KnockbackStrenght = 15;
 		KnockbackTime = 10;
 		
 		if global.LeftItem = dmg_Soul_Zweihander
