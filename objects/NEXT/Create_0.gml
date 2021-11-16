@@ -1,4 +1,4 @@
 /// @description Where to go
-var TargetRoom;
-var TargetX;
-var TargetY;
+TargetRoom = 0;
+TargetX = 0;
+TargetY = 0;

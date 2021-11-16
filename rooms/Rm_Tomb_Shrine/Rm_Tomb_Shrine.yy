@@ -293,8 +293,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Tutorial",
-    "path": "folders/Rooms/Tutorial.yy",
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "Rm_Tomb_Shrine",

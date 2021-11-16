@@ -154,8 +154,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Tutorial",
+    "path": "folders/Rooms/Tutorial.yy",
   },
   "resourceVersion": "1.0",
   "name": "Rm_Tutorial_Begin",

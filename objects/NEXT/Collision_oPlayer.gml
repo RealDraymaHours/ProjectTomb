@@ -2,4 +2,4 @@
 
 room_goto(TargetRoom);
 oPlayer.x = TargetX;
-oPlayer.y = TargetY - (TargetY - oPlayer.y);
+oPlayer.y = TargetY - (oPlayer.y - self.y + 16);
