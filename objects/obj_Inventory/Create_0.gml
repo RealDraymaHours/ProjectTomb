@@ -1,6 +1,6 @@
 /// @description inv
-#macro INVENTORY_SLOTS 12
-rowLength = 6;
+#macro INVENTORY_SLOTS 10
+rowLength = 5;
 inventory = array_create(INVENTORY_SLOTS, -1);
 
 xDifference = x - camera_get_view_x(view_camera[0]);

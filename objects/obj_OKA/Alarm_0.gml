@@ -8,7 +8,7 @@ if (y != 293)
 
 if CloseToPlayer = true
 {
-	move = irandom(1);
+	move = irandom(3);
 	switch (move)
 	{
 		case 0:
@@ -16,6 +16,14 @@ if CloseToPlayer = true
 		break;
 	
 		case 1:
+		state = "FORWARD"
+		break;
+		
+		case 2:
+		state = "FORWARD"
+		break;
+		
+		case 3:
 		state = "FORWARD"
 		break;
 	}

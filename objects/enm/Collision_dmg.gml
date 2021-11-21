@@ -43,4 +43,19 @@ if (other.Break > Poise)
 	{
 		global.Mana += 1;
 	}
+	
+	sound = irandom(2);
+	
+	switch(sound)
+	{
+		case(0):
+			audio_play_sound(PlayerWeaponHit1,1,false);
+		break;
+		case(1):
+			audio_play_sound(PlayerWeaponHit2,1,false);
+		break;
+		case(2):
+			audio_play_sound(PlayerWeaponHit3,1,false);
+		break;
+	}
 }

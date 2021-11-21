@@ -1,1 +1,4 @@
-DrawUI();
+if !global.Inventory
+{
+	DrawUI();
+}

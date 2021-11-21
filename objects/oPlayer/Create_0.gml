@@ -125,7 +125,5 @@ Staggered = false;
 //UI
 flash = 0;
 
-//Regen and first save
-alarm[6] = 240;
 
 

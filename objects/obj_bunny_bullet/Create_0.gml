@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth = 2;
-
+audio_play_sound(PlayerDash1,1,false);
 D = false;
 alarm[0] = 10;
 

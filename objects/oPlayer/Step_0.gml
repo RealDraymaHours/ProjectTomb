@@ -181,9 +181,9 @@ if ((!instance_exists(obj_bunny_bullet)) && (state != DEATH))
 			instance_destroy();
 		}
 	}
-	else if ((onGround) && (!Warping))
+	else if (onGround)
 	{
-		CanWarp = true;
+			if alarm[4] == -1{alarm[4] = 20;}
 	}
 }
 
