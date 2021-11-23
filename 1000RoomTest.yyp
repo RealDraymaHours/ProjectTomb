@@ -338,6 +338,7 @@
     {"id":{"name":"spr_OKA_Flash","path":"sprites/spr_OKA_Flash/spr_OKA_Flash.yy",},"order":2,},
     {"id":{"name":"TutorialMountainBack","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"order":2,},
     {"id":{"name":"obj_portal11","path":"objects/obj_portal11/obj_portal11.yy",},"order":8,},
+    {"id":{"name":"oMageSoul","path":"objects/oMageSoul/oMageSoul.yy",},"order":1,},
     {"id":{"name":"sPlayerDeath","path":"sprites/sPlayerDeath/sPlayerDeath.yy",},"order":8,},
     {"id":{"name":"obj_Lighting","path":"objects/obj_Lighting/obj_Lighting.yy",},"order":1,},
     {"id":{"name":"tml_damage_effect","path":"timelines/tml_damage_effect/tml_damage_effect.yy",},"order":0,},
