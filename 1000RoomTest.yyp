@@ -413,7 +413,7 @@
     {"id":{"name":"spr_Description","path":"sprites/spr_Description/spr_Description.yy",},"order":10,},
     {"id":{"name":"eff_SoulHit","path":"sprites/eff_SoulHit/eff_SoulHit.yy",},"order":0,},
     {"id":{"name":"RoomSpawn","path":"rooms/RoomSpawn/RoomSpawn.yy",},"order":2,},
-    {"id":{"name":"obj_OKA_Statue","path":"objects/obj_OKA_Statue/obj_OKA_Statue.yy",},"order":0,},
+    {"id":{"name":"oOKA_NPC","path":"objects/oOKA_NPC/oOKA_NPC.yy",},"order":5,},
     {"id":{"name":"PlayerLand1","path":"sounds/PlayerLand1/PlayerLand1.yy",},"order":3,},
     {"id":{"name":"obj_FLKA_Rock","path":"objects/obj_FLKA_Rock/obj_FLKA_Rock.yy",},"order":10,},
     {"id":{"name":"spr_MagePlayerJumpU","path":"sprites/spr_MagePlayerJumpU/spr_MagePlayerJumpU.yy",},"order":3,},

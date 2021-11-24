@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_OKA_Satue",
-    "path": "sprites/spr_OKA_Satue/spr_OKA_Satue.yy",
+    "name": "spr_OKA_Idle",
+    "path": "sprites/spr_OKA_Idle/spr_OKA_Idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Survivors",
-    "path": "folders/Objects/NPCs/Survivors.yy",
+    "name": "Tutorial",
+    "path": "folders/Objects/NPCs/Tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_OKA_Statue",
+  "name": "oOKA_NPC",
   "tags": [],
   "resourceType": "GMObject",
 }
