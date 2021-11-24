@@ -28,8 +28,8 @@ if (other.Break > Poise)
         screenShake = true;
     }
 			var xp, yp;
-		xp = other.x + other.Tip_X_Distance*cos(degtorad(other.image_angle+90));
-		yp = other.y - other.Tip_Y_Distance*sin(degtorad(other.image_angle+90));	
+		xp = x; //+ other.Tip_X_Distance*cos(degtorad(other.image_angle+90));
+		yp = y; //- other.Tip_Y_Distance*sin(degtorad(other.image_angle+90));	
 	
 	repeat(10)
 	{

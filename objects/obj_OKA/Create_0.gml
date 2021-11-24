@@ -1,4 +1,6 @@
 /// @description triggers
+StartY = y;
+
 Health = 200;
 Staggered = false;
 StaggerTime = 20;

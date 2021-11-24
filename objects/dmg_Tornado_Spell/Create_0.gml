@@ -10,6 +10,10 @@ Active = false;
 Damage = 60;
 Cost = 10;
 
+KnockbackTime = 2;
+KnockbackStrenght = 5;
+Break = 1;
+
 if global.Mana >= Cost
 {
 	image_xscale = 4;

@@ -13,7 +13,7 @@ draw_sprite_stretched(spr_HealthBar,0,healthbar_x,healthbar_y,(global.Health/glo
 draw_sprite(spr_HealthBar_Border,0, healthbar_x, healthbar_y);
 
 //mana
-draw_sprite(spr_HealthBar_Background,0, healthbar_x + 2, healthbar_y + 30);
+draw_sprite(spr_HealthBar_Background,0, healthbar_x + 2, healthbar_y + 18);
 draw_sprite_stretched(spr_ManaBar,0,healthbar_x ,healthbar_y + 18,(global.Mana/global.MaxMana) * healthbar_width, healthbar_height);
 draw_sprite(spr_ManaBar_Border,0, healthbar_x + 2, healthbar_y +35);
 

@@ -169,8 +169,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tutorial",
-    "path": "folders/Sprites/Enemies/Tutorial.yy",
+    "name": "RandomSoul",
+    "path": "folders/Sprites/Enemies/Tutorial/RandomSoul.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRandomSoulIdle",

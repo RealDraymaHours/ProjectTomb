@@ -12,7 +12,7 @@ if AnimationLock = false
 	}
 }
 
-if (distance_to_object(oFolCam) < 120)
+if (distance_to_object(oFolCam) < 100)
 {
 	CloseToPlayer = true;
 }
@@ -100,6 +100,7 @@ switch(state)
 		sprite_index = spr_OKA_Staggered;
 	break;
 	case("DEATH"):
+		y = StartY;
 		sprite_index = spr_OKA_Trigger;
 		if alarm[7] == -1{alarm[7] = 20;}
 	break;

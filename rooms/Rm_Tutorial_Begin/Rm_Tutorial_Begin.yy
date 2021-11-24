@@ -33,6 +33,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"NEXT","path":"objects/NEXT/NEXT.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2976.0,"y":304.0,"resourceVersion":"1.0","name":"inst_4299CA68","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_TouchSave","path":"objects/obj_TouchSave/obj_TouchSave.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":256.0,"resourceVersion":"1.0","name":"inst_2F1A4B07","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_OKA","path":"objects/obj_OKA/obj_OKA.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":481.0,"y":229.0,"resourceVersion":"1.0","name":"inst_2F4DBBA3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1_1","tags":[],"resourceType":"GMRInstance",},
@@ -131,6 +132,7 @@
     {"name":"inst_2ADB9032","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
     {"name":"inst_21CAA8A3","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
     {"name":"inst_2F1A4B07","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
+    {"name":"inst_2F4DBBA3","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

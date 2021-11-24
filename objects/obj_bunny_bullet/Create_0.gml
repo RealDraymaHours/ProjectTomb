@@ -1,5 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
+switch(global.Armor)
+{
+	case("Base"):
+	sprite_index = sPlayerDash;
+	break;
+	
+	case("Knight"):
+	sprite_index = sKnightPlayerDash
+	break;
+	
+	case("Mage"):
+	sprite_index = sPlayerDash
+	break;
+}
+
 depth = 2;
 audio_play_sound(PlayerDash1,1,false);
 D = false;

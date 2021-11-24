@@ -29,6 +29,7 @@ if (Stunned)
 switch(state)
 {
 	case("IDLE"):
+	StartY = y;
 	if alarm[6] == -1{alarm[6] = 30;}
 	break;
 	case("TANTRUM"):

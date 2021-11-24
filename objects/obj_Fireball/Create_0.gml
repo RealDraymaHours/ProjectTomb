@@ -14,6 +14,7 @@ MyLight = c_red;
 X = 0.5;
 Y = 0.5;
 Intensity = 0.3;
+Break = 0;
 
 //partile
 part_system = part_system_create();
@@ -32,5 +33,5 @@ part_type_gravity(part_type, 0.05, 90); //0.15 = speed going up
 Tip_X_Distance = 0;
 Tip_Y_Distance = 0;
 
-image_angle = point_direction(x, y, oPlayer.x, oPlayer.y) -90;
-move_towards_point(oPlayer.x, oPlayer.y, 8);
+image_angle = point_direction(x, y, oFolCam.x, oFolCam.y) -90;
+move_towards_point(oFolCam.x, oFolCam.y, 8);

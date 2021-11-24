@@ -1,4 +1,4 @@
-	if (!global.Staggered)
+if (!global.Staggered)
 	{
 		if (CanLeft == true) && (Parry == false)
 		{

@@ -35,7 +35,7 @@ ScreamStart = false;
 Scream = false;
 
 Tantrum = false;
-
+StartY = y;
 
 
 Knockback = false;

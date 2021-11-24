@@ -31,10 +31,8 @@ vspeed = 0;
 hspeed = 0;
 
 image_angle = 0;
-if (y != 293)
-{
-	y = 293;
-}
+
+StartY = y;
 
 image_index = 0;
 
