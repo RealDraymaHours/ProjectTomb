@@ -166,7 +166,7 @@ switch(state)
 
 if Health < 1
 {
-	instance_create(x,y,obj_FLKA);
+	instance_create_depth(x,y,self.depth,obj_FLKA);
 	instance_destroy(obj_LKA_Sword);
 	instance_destroy();
 }

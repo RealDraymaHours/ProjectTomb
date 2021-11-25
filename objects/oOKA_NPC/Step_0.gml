@@ -72,6 +72,6 @@ else
 
 if CurrentText > 2
 {
-	instance_create(x,y,obj_OKA);
+	instance_create_depth(x,y,self.depth,obj_OKA);
 	instance_destroy();
 }

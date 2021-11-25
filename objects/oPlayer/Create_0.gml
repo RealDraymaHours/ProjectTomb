@@ -15,7 +15,7 @@ sParry = sPlayerParry;
 MyLight = c_white;
 X = 0.5;
 Y = 0.5;
-Intensity = 0.5;
+Intensity = 0;
 depth = 2;
 
 //Abilities

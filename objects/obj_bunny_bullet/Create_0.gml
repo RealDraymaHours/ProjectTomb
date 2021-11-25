@@ -34,7 +34,7 @@ move_towards_point(mouse_x,mouse_y,12);
 MyLight = c_white;
 X = 0.5;
 Y = 0.5;
-Intensity = 0.5;
+Intensity = 0;
 
 oPlayer.CanWarp = false;
 global.BunnyBulletActive = true;
