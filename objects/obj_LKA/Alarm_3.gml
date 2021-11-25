@@ -32,7 +32,7 @@ hspeed = 0;
 
 image_angle = 0;
 
-StartY = y;
+y = StartY;
 
 image_index = 0;
 

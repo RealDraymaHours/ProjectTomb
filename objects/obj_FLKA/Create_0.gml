@@ -2,6 +2,12 @@
 AnimationLock = false;
 move = 0;
 
+StartX = 2775;
+StartY = y;
+
+ArenaStart = StartX - 384;
+ArenaEnd =  StartX + 384;
+
 CurrentPlayerX = 0;
 CurrentPlayerY = 0;
 
@@ -20,8 +26,8 @@ SuperJump = false;
 Downwards = false;
 
 TornadoChase = false;
-Tx1 = -32;
-Tx2 = 784;
+Tx1 = ArenaStart - 32;
+Tx2 = ArenaStart + 784;
 CurrentChase = 0;
 ChaseSwitch = 0;
 ChaseActive = false;

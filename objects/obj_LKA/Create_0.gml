@@ -35,7 +35,11 @@ ScreamStart = false;
 Scream = false;
 
 Tantrum = false;
+
 StartY = y;
+StartX = 0;
+ArenaStart = StartX - 384;
+ArenaEnd =  StartX + 384;
 
 
 Knockback = false;

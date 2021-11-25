@@ -1,5 +1,9 @@
 /// @description triggers
 StartY = y;
+StartX = x;
+
+ArenaStart = StartX - 384;
+ArenaEnd =  StartX + 384;
 
 Health = 200;
 Staggered = false;
@@ -26,3 +30,7 @@ KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
 Poise = 100;
+
+instance_create(ArenaStart , 350, oOKABarrier);
+instance_create(ArenaEnd , 350, oOKABarrier);
+oOKABarrier.image_yscale = 20;

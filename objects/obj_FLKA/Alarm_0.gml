@@ -1,7 +1,7 @@
 /// @description Back to idle
 sprite_index = spr_FLKA_Idle;
 image_yscale = 1;
-y = 294;
+y = StartY;
 
 CurrentPlayerX = 0;
 CurrentPlayerY = 0;

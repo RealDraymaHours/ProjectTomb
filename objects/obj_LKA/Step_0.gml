@@ -68,7 +68,7 @@ switch(state)
 				if image_xscale = 1
 				{
 					image_angle += 20	
-					if (!position_meeting(CurrentPlayerX - 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x <= 150))
+					if (!position_meeting(CurrentPlayerX - 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x <= (ArenaStart + 140)))
 					{
 						move_towards_point(CurrentPlayerX - 200, CurrentPlayerY - 100, 8);
 					}
@@ -82,7 +82,7 @@ switch(state)
 				else
 				{
 					image_angle -= 20	
-					if (!position_meeting(CurrentPlayerX + 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x >=  620 ))
+					if (!position_meeting(CurrentPlayerX + 200, CurrentPlayerY - 100, obj_LKA) && !(obj_LKA.x >=  (ArenaEnd - 140) ))
 					{
 						move_towards_point(CurrentPlayerX + 200, CurrentPlayerY - 100, 8);
 					}
@@ -112,12 +112,12 @@ switch(state)
 		alarm[3] = 258;
 		}
 		AnimationLock = true;
-		if place_meeting(x + 120,y,obj_InvFloor1) && self.hspeed = 6
+		if (place_meeting(x + 120,y,oOKABarrier) && (self.hspeed = 6))
 		{
 			hspeed = -6;
 			image_xscale = 1;
 		}
-		else if place_meeting(x - 120,y,obj_InvFloor1) && self.hspeed = -6
+		else if ((place_meeting(x - 120,y,oOKABarrier)) && (self.hspeed = -6))
 		{			
 			hspeed = 6;
 			image_xscale = -1;
@@ -136,9 +136,9 @@ switch(state)
 		sprite_index = spr_LKA_AirStagger;
 		if image_xscale = 1
 				{
-					if (!position_meeting(CurrentPlayerX + 200, 386, obj_LKA) && !(obj_LKA.x <= 150))
+					if (!position_meeting(CurrentPlayerX + 200, 540, obj_LKA) && !(obj_LKA.x <= 150))
 					{
-						move_towards_point(CurrentPlayerX + 200, 386, 12);
+						move_towards_point(CurrentPlayerX + 200, 540, 12);
 					}
 					else
 					{
@@ -149,9 +149,9 @@ switch(state)
 				}
 				else
 				{
-					if (!position_meeting(CurrentPlayerX - 200, 386, obj_LKA) && !(obj_LKA.x >=  620 ))
+					if (!position_meeting(CurrentPlayerX - 200, 540, obj_LKA) && !(obj_LKA.x >=  620 ))
 					{
-						move_towards_point(CurrentPlayerX - 200, 386, 12);
+						move_towards_point(CurrentPlayerX - 200, 540, 12);
 					}
 					else
 					{
@@ -167,6 +167,7 @@ switch(state)
 if Health < 1
 {
 	instance_create_depth(x,y,self.depth,obj_FLKA);
+	obj_FLKA.StartX = StartX;
 	instance_destroy(obj_LKA_Sword);
 	instance_destroy();
 }
