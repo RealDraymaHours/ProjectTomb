@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Scripts/Inventory.yy",
+    "name": "Camera",
+    "path": "folders/Scripts/Camera.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DrawUI",
+  "name": "CameraFunction",
   "tags": [],
   "resourceType": "GMScript",
 }

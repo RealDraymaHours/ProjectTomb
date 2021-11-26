@@ -57,6 +57,7 @@ switch(state)
 
 	break;
 	case("JUMP"):
+		AnimationLock = true;
 		switch(JumpState)
 		{
 			case("JUMP"):
@@ -90,6 +91,7 @@ switch(state)
 		move_towards_point(oFolCam.x,y,4);
 	break;
 	case("AWAY"):
+		AnimationLock = true;
 		image_speed = 0.2;
 		sprite_index = spr_OKA_Awayer;
 		if !instance_exists(obj_FLKA_Tornado){if alarm[8] == -1{alarm[8] = 40;}}

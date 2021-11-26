@@ -1,5 +1,5 @@
 /// @description Start animation and triggers
-AnimationLock = false;
+AnimationLock = true;
 move = 0;
 
 StartX = 2775;

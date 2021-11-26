@@ -1,3 +1,8 @@
+if global.Health < 0
+{
+	instance_create_depth(x,y,-1,oPlayer);
+	instance_destroy();
+}
 /*
 dir = point_direction(oPlayer.x,oPlayer.y,mouse_x,mouse_y);
 len = point_distance(oPlayer.x,oPlayer.y,mouse_x,mouse_y);

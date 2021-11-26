@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":576,"hview":300,"xport":0,"yport":0,"wport":768,"hport":400,"hborder":768,"vborder":400,"hspeed":-1,"vspeed":-1,"objectId":{"name":"oFolCam","path":"objects/oFolCam/oFolCam.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":576,"hview":300,"xport":0,"yport":0,"wport":768,"hport":400,"hborder":768,"vborder":400,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -47,6 +47,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Lighting","path":"objects/obj_Lighting/obj_Lighting.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":32.0,"resourceVersion":"1.0","name":"inst_10439138","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Light_Red","path":"objects/obj_Light_Red/obj_Light_Red.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":343.0,"y":370.0,"resourceVersion":"1.0","name":"inst_370E1D74","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Light_Red","path":"objects/obj_Light_Red/obj_Light_Red.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":155.0,"y":372.0,"resourceVersion":"1.0","name":"inst_4A2F79DA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":720.0,"y":48.0,"resourceVersion":"1.0","name":"inst_32205A64","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Important_player_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_InvFloor1","path":"objects/obj_InvFloor1/obj_InvFloor1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":48.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":384.0,"resourceVersion":"1.0","name":"inst_710CBB3B","tags":[],"resourceType":"GMRInstance",},
@@ -92,6 +93,7 @@
     {"name":"inst_370E1D74","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_4A2F79DA","path":"rooms/RoomSpawn/RoomSpawn.yy",},
     {"name":"inst_BADCD3F","path":"rooms/RoomSpawn/RoomSpawn.yy",},
+    {"name":"inst_32205A64","path":"rooms/RoomSpawn/RoomSpawn.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

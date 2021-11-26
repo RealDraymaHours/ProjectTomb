@@ -38,3 +38,8 @@ if (event_data[? "message"] == "Create_Hitbox_Right")
 		obj_Hitbox.Time = 5;
 		obj_Hitbox.StatsSet = true;
 }
+
+if (event_data[? "message"] == "Scream")
+{
+	ShakeCamera(20,2);
+}

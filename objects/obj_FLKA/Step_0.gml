@@ -69,8 +69,8 @@ switch(state)
 			case("JUMP"):
 				Staggered = true;
 				sprite_index = spr_FLKA_Jump
-				move_towards_point(oFolCam.x, StartY, 10);	
-				if position_meeting(oFolCam.x, StartY, obj_FLKA)
+				move_towards_point(oFolCam.x, StartY - 100, 10);	
+				if position_meeting(oFolCam.x, StartY - 100, obj_FLKA)
 				{	
 					sprite_index = spr_FLKA_Fall;
 					hspeed = 0;
@@ -107,7 +107,7 @@ switch(state)
 			CurrentPlayerX = oPlayer.x;
 			sprite_index = spr_FLKA_Rage;
 
-			if CurrentPlayerX > 400
+			if CurrentPlayerX > ArenaStart + 400
 			{
 				ChaseSwitch = 0;
 			}

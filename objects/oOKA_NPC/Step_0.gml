@@ -73,5 +73,6 @@ else
 if CurrentText > 2
 {
 	instance_create_depth(x,y,self.depth,obj_OKA);
+	ChangeViewPoint("BOSS");
 	instance_destroy();
 }

@@ -21,4 +21,7 @@ else
 	obj_Hitbox.Caster = self;
 	obj_Hitbox.StatsSet = true;
 }
+
+ShakeCamera(8,2);
 }
+

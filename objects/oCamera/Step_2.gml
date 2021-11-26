@@ -1,22 +1,41 @@
-if (instance_exists(oFolCam)) {
-        // Make sure player is inside box
-        x = max(oFolCam.x - sprite_width  * 0.5 + 8, min(x, oFolCam.x + (sprite_width  * 0.5 - 8)));
-        y = max(oFolCam.y - sprite_height * 0.5 + 8, min(y, oFolCam.y + (sprite_height * 0.5 - 8)));
+#macro view view_camera[0]
 
-        // Approach      
-        __view_set( e__VW.XView, 0, Approach(__view_get( e__VW.XView, 0 ), x - __view_get( e__VW.WPort, 0 ) * 0.5, 10) );
-        __view_set( e__VW.YView, 0, Approach(__view_get( e__VW.YView, 0 ), y - __view_get( e__VW.HPort, 0 ) * 0.5 - 16, 10) );
-                
-        // Make sure camera is inside room
-        __view_set( e__VW.XView, 0, max(0, min(__view_get( e__VW.XView, 0 ), room_width  - __view_get( e__VW.WPort, 0 ))) );
-        __view_set( e__VW.YView, 0, max(0, min(__view_get( e__VW.YView, 0 ), room_height - __view_get( e__VW.HPort, 0 ))) );      
-		
+if instance_exists(obj_OKA)
+{
+	state = "BOSS";
 }
 
+camera_set_view_size(view, view_width, view_height);
+
+if(instance_exists(oFolCam))
+{
+	switch(state)
+	{
+		case("BASE"):
+
+		break;
+		case("BOSS"):
+		break;
+	}
+	
+			var _x = clamp(oFolCam.x-view_width/2,0,room_width-view_width);
+			var _y = clamp(oFolCam.y-view_height/Multiplier,0,room_height-view_height);
+			camera_set_view_pos(view,_x,_y);
+	
+			var _cur_x = camera_get_view_x(view);
+			var _cur_y = camera_get_view_x(view);
+			var _spd = 1;
+	
+	
+			camera_set_view_pos(view,
+						lerp(_cur_x,_x,_spd),
+						lerp(_cur_y,_y,_spd)
+						)
+}
 
 // Screenshake
 if (screenShake) {
-    __view_set( e__VW.Angle, 0, random_range(-1, 1) );
+    __view_set( e__VW.Angle, 0, random_range(-Intensity, Intensity) );
 } else {
     // Reset
     __view_set( e__VW.Angle, 0, 0 );

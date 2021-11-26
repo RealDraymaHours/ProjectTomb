@@ -23,10 +23,7 @@ if (other.Break > Poise)
 	KnockbackStrenght = other.KnockbackStrenght;
 	alarm[1] = other.KnockbackTime;
 }
-    with (oCamera) {
-        alarm[0] = 8;
-        screenShake = true;
-    }
+    ShakeCamera(8,2);
 			var xp, yp;
 		xp = x; //+ other.Tip_X_Distance*cos(degtorad(other.image_angle+90));
 		yp = y; //- other.Tip_Y_Distance*sin(degtorad(other.image_angle+90));	

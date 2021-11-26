@@ -38,3 +38,9 @@ Intensity = 0;
 
 oPlayer.CanWarp = false;
 global.BunnyBulletActive = true;
+
+
+if global.Staggered
+{
+	image_blend = c_purple;
+}
