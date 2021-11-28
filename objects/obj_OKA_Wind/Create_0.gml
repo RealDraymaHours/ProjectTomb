@@ -2,7 +2,7 @@
 image_yscale = 0.25;
 move_towards_point(oFolCam.x, y, 8);
 Staggered = true;
-
+audio_play_sound(WindBlast1,10,false);
 
 Knockback = false;
 KnockbackDirection = 0;

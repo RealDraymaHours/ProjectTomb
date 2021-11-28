@@ -13,6 +13,7 @@ Poise = 100;
 CloseToPlayer = false;
 Active = false;
 state = "";
+prevState = "";
 SpinState = "START";
 
 Idle = false;
@@ -46,3 +47,6 @@ Knockback = false;
 KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
+
+audio_stop_all();
+audio_play_sound(OKA2,10,true);

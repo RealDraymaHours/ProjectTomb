@@ -10,6 +10,7 @@ if (event_data[? "message"] == "Create_Hitbox")
 		obj_Hitbox.ySize = 104;
 		obj_Hitbox.Time = 5;
 		obj_Hitbox.StatsSet = true;
+		ShakeCamera(8,2);
 	}
 	else
 	{
@@ -18,6 +19,7 @@ if (event_data[? "message"] == "Create_Hitbox")
 		obj_Hitbox.ySize = 104;
 		obj_Hitbox.Time = 5;
 		obj_Hitbox.StatsSet = true;
+		ShakeCamera(8,2);
 	}
 }
 
@@ -28,6 +30,7 @@ if (event_data[? "message"] == "Create_Hitbox_Left")
 		obj_Hitbox.ySize = 104;
 		obj_Hitbox.Time = 5;
 		obj_Hitbox.StatsSet = true;
+		ShakeCamera(8,2);
 }
 
 if (event_data[? "message"] == "Create_Hitbox_Right")
@@ -37,9 +40,11 @@ if (event_data[? "message"] == "Create_Hitbox_Right")
 		obj_Hitbox.ySize = 104;
 		obj_Hitbox.Time = 5;
 		obj_Hitbox.StatsSet = true;
+		ShakeCamera(8,2);
 }
 
 if (event_data[? "message"] == "Scream")
 {
+	audio_play_sound(Scream2,10,false);
 	ShakeCamera(20,2);
 }

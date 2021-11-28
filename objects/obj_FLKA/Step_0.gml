@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if AnimationLock = false
+if !AnimationLock
 {
 	if x < oFolCam.x
 	{
@@ -12,14 +12,23 @@ if AnimationLock = false
 	}
 }
 
+if Health < 1
+{
+	y = StartY;
+	state = "DEATH";
+}
+
 switch(state)
 {
 	case("IDLE"):
+	y = StartY;
 	if alarm[3] == -1{alarm[3] = 20;}
 	break;
 	case("CAGE"):
+	y = StartY;
 	if alarm[0] == -1{
-		if irandom(1) = 0
+		audio_play_sound(Scream3,10,false);
+		if prevCage = 0
 		{
 			instance_create(ArenaStart + 32, 144, obj_FLKA_TCage);
 			instance_create(ArenaStart + 112, 144, obj_FLKA_TCage);		
@@ -32,6 +41,7 @@ switch(state)
 			TornadoCage = false;
 			sprite_index = spr_FLKA_Rage;
 			alarm[0] = 120;
+			prevCage = 1;
 		}
 		else
 		{
@@ -45,6 +55,7 @@ switch(state)
 			TornadoCage = false;
 			sprite_index = spr_FLKA_Rage;
 			alarm[0] = 120;
+			prevCage = 0;
 	}}
 	break;
 	case("SLAM"):
@@ -64,6 +75,7 @@ switch(state)
 		}
 	break;
 	case("JUMP"):
+		
 		switch(JumpState)
 		{
 			case("JUMP"):
@@ -79,7 +91,7 @@ switch(state)
 				}
 			break;
 			case("DOWNWARDS"):
-				if place_meeting(obj_FLKA.x,obj_FLKA.y + 1, obj_InvFloor1)
+				if ((place_meeting(obj_FLKA.x,obj_FLKA.y + 1, obj_InvFloor1)) || (place_meeting(obj_FLKA.x,obj_FLKA.y, obj_InvFloor1)))
 				{
 					vspeed = 0;
 					sprite_index = spr_FLKA_Stomp;
@@ -98,33 +110,27 @@ switch(state)
 		}
 	break;
 	case("CHASE"):
+		y = StartY;
+		
 		if TornadoChase
 		{
+			audio_play_sound(Scream2,10,false);
 			Tx1 = ArenaStart - 32;
 			Tx2 = ArenaStart + 784;
 			
 			AnimationLock = true;
-			CurrentPlayerX = oPlayer.x;
 			sprite_index = spr_FLKA_Rage;
-
-			if CurrentPlayerX > ArenaStart + 400
-			{
-				ChaseSwitch = 0;
-			}
-			else
-			{
-				ChaseSwitch = 1;
-			}
 	
 			alarm[1] = 20;
 			TornadoChase = false;
 		}
 	break;
-	case("STUNNED"):
+	case("DEATH"):
+		y = StartY;
+		AnimationLock = true
+		image_xscale = 1;
+		image_speed = 0.2;
+		sprite_index = spr_FLKA_EndIt;
 	break;
 }
 
-if Health < 1
-{
-	instance_destroy();
-}

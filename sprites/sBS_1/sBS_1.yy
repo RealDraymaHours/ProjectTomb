@@ -105,7 +105,7 @@
   "nineSlice": null,
   "parent": {
     "name": "BasicSword",
-    "path": "folders/Sprites/Damage/BasicSword.yy",
+    "path": "folders/Sprites/Weapons/BasicSword.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBS_1",

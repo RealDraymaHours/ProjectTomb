@@ -136,7 +136,7 @@ switch(state)
 		sprite_index = spr_LKA_AirStagger;
 		if image_xscale = 1
 				{
-					if (!position_meeting(CurrentPlayerX + 200, 540, obj_LKA) && !(obj_LKA.x <= 150))
+					if (!position_meeting(CurrentPlayerX + 200, 540, obj_LKA) && !(obj_LKA.x <= ArenaStart + 150))
 					{
 						move_towards_point(CurrentPlayerX + 200, 540, 12);
 					}
@@ -149,7 +149,7 @@ switch(state)
 				}
 				else
 				{
-					if (!position_meeting(CurrentPlayerX - 200, 540, obj_LKA) && !(obj_LKA.x >=  620 ))
+					if (!position_meeting(CurrentPlayerX - 200, 540, obj_LKA) && !(obj_LKA.x >=  ArenaStart + 620 ))
 					{
 						move_towards_point(CurrentPlayerX - 200, 540, 12);
 					}
@@ -168,6 +168,7 @@ if Health < 1
 {
 	instance_create_depth(x,y,self.depth,obj_FLKA);
 	obj_FLKA.StartX = StartX;
+	obj_FLKA.StartY = StartY;
 	instance_destroy(obj_LKA_Sword);
 	instance_destroy();
 }

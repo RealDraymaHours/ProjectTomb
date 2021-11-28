@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Load(){
 
+audio_stop_all();
 ini_open("savedata.ini");
 
 var RGT = ini_read_real("savegame","room", 0);

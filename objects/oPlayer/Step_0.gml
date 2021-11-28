@@ -229,6 +229,13 @@ if ((IsAttacking) && (global.Rooted))
 	v = 0;
 }
 
+if instance_exists(oPlayerFinish)
+{
+	state = ACTIVE;
+	h = 0;
+	v = 0;
+}
+
 //Tacking damage
 if global.Staggered = true && Staggered = false
 {
@@ -246,3 +253,6 @@ if global.Health < 1
 	h = 0;
 	v = 0;
 }
+
+//Audio
+audio_listener_position(x,y,0);

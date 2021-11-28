@@ -11,7 +11,10 @@ ArenaEnd =  StartX + 384;
 CurrentPlayerX = 0;
 CurrentPlayerY = 0;
 
+prevCage = 0;
 state = "";
+sameState = 0;
+prevState = "";
 JumpState = "JUMP";
 
 Health = 200;
@@ -38,3 +41,6 @@ Knockback = false;
 KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
+
+audio_stop_all();
+audio_play_sound(OKA3,10,true);

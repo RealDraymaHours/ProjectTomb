@@ -5,18 +5,17 @@ if ChaseSwitch = 0
 
 	instance_create(Tx1, 144, obj_FLKA_Tornado);
 	Tx1 += 48;
-	alarm[1] = 6;
+
 	CurrentChase += 1;
 	
 	if CurrentChase = 18
 	{
-		ChaseSwitch = 1;
+		ChaseSwitch = 69;
+		alarm[0] = 1;
 	}
-	else if CurrentChase = 36
+	else
 	{	
-		Tx1 = ArenaStart - 32;
-		Tx2 = ArenaStart + 784;
-		ChaseSwitch = 2;
+		alarm[1] = 6;
 	}
 }
 else if ChaseSwitch = 1
@@ -25,19 +24,16 @@ else if ChaseSwitch = 1
 		instance_create(Tx2, 144, obj_FLKA_Tornado);
 		Tx2 -= 48;
 
-		alarm[1] = 6;
-
 		CurrentChase += 1;
 		
 	if CurrentChase = 18
 	{
-		ChaseSwitch = 0;
+		ChaseSwitch = 69;
+		alarm[0] = 1;
 	}
-	else if CurrentChase = 36
+	else
 	{	
-		Tx1 = ArenaStart - 32;
-		Tx2 = ArenaStart + 784;
-		ChaseSwitch = 2;
+		alarm[1] = 6;
 	}
 }
 else if ChaseSwitch = 2
@@ -49,11 +45,16 @@ else if ChaseSwitch = 2
 		
 		CurrentChase += 1;
 
-		alarm[1] = 8;
+
 		
-		if CurrentChase > 62
+		if CurrentChase = 62
 		{
-			ChaseSwitch = 3;
+			ChaseSwitch = 69;
+			alarm[0] = 1;
+		}
+		else
+		{
+			alarm[1] = 8;
 		}
 }
 else

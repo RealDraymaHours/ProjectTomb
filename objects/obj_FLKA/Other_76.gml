@@ -14,16 +14,38 @@ if (event_data[? "message"] == "Falling")
 
 if (event_data[? "message"] == "Screen_Shake")
 {
-    with (oCamera) {
-        alarm[0] = 8;
-        screenShake = true;
-    }
-	
-	repeat(4)
-	{
-		RX = irandom_range(16, 735);
-		RY = irandom_range(-128, -16);
-		
-		instance_create(RX, RY, obj_FLKA_Rock);
-	}
+    ShakeCamera(8,2);
 }
+
+if (event_data[? "message"] == "Break")
+{
+
+    ShakeCamera(8,4);
+	//80
+	//90
+	if image_xscale = 1
+	{
+		repeat(30)
+		{
+			instance_create(x-80, y+90, obj_SoulHit);	
+		}
+	}
+	else
+	{
+		repeat(30)
+		{
+			instance_create(x+80, y+90, obj_SoulHit);	
+		}
+	}
+
+}
+
+if (event_data[? "message"] == "Scream")
+{
+
+	audio_play_sound(Scream3,10,false);
+	ShakeCamera(10,2);
+}
+
+
+	

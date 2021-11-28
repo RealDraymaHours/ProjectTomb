@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1605,
-  "bbox_top": 130,
-  "bbox_bottom": 620,
+  "bbox_right": 319,
+  "bbox_top": 0,
+  "bbox_bottom": 319,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1606,
-  "height": 621,
+  "width": 320,
+  "height": 320,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":{"name":"c09809a1-95bf-4d92-9229-252a025ae43a","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":{"name":"3b28cd05-00df-414f-8e82-b738c7876e33","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"TutorialMountainBack","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":40.0,"displayName":"RepeatRemind","resourceVersion":"1.0","name":"3b28cd05-00df-414f-8e82-b738c7876e33","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c09809a1-95bf-4d92-9229-252a025ae43a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,

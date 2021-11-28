@@ -62,8 +62,8 @@ switch(state)
 		{
 			case("JUMP"):
 				sprite_index = spr_OKA_Jump;
-				move_towards_point(oFolCam.x, oFolCam.y -200,8);
-				if(position_meeting(oFolCam.x, oFolCam.y - 200, self)){JumpState = "STOMP";}
+				move_towards_point(oFolCam.x, StartY -150,8);
+				if(position_meeting(oFolCam.x, StartY - 150, self)){JumpState = "STOMP";}
 			break;
 			case("STOMP"):
 				sprite_index =  spr_OKA_Falling;

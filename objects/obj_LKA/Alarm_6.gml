@@ -19,8 +19,35 @@ move = irandom(2);
 		state = "TANTRUM";
 		break;
 	}
+	
+	
+	if state = prevState
+	{
+		switch(prevState)
+		{
+			case("SLASH"):
+				state = "TANTRUM";
+			break;
+			case("SCREAM"):
+				state = "SLASH";
+			break;
+			case("TANTRUM"):
+				state = "SLASH";
+			break;
+		}
+	}
 }
 else
 {
-	state = "SPIN";
+	if prevState = "SPIN"
+	{
+		state = "SCREAM";
+	}
+	else
+	{
+		state = "SPIN";
+	}
 }
+
+
+prevState = state;

@@ -1,3 +1,5 @@
+instance_destroy(oPlayerFinish);
+
 // Movement speed
 h = 0;
 v = 0;
@@ -124,6 +126,9 @@ Staggered = false;
 
 //UI
 flash = 0;
+
+//Sound
+audio_listener_orientation(0,1,0,0,0,1);
 
 
 

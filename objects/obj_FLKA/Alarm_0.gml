@@ -17,8 +17,8 @@ SuperJump = false;
 Downwards = false;
 
 TornadoChase = true;
-Tx1 = -32;
-Tx2 = 784;
+Tx1 = ArenaStart - 32;
+Tx2 = ArenaStart + 784;
 CurrentChase = 0;
 ChaseSwitch = 0;
 ChaseActive = false;

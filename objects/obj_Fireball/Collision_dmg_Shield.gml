@@ -1,3 +1,1 @@
-ParryProjectile(x,y,StartX,StartY);
-
-
+ParryProjectileReverse(other.x,other.y,StartX,StartY);

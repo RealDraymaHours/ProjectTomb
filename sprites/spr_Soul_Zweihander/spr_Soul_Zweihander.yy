@@ -106,7 +106,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Zweihander",
-    "path": "folders/Sprites/Damage/Zweihander.yy",
+    "path": "folders/Sprites/Weapons/Zweihander.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Soul_Zweihander",
