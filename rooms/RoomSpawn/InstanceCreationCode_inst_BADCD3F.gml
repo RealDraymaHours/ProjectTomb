@@ -1,3 +1,3 @@
-TargetRoom = Rm_Tutorial_OKA;
-TargetX = 2800;
-TargetY = 504;
+TargetRoom = Rm_Tutorial_Begin;
+TargetX = 200;
+TargetY = 104;

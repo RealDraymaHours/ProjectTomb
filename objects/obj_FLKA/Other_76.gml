@@ -14,12 +14,36 @@ if (event_data[? "message"] == "Falling")
 
 if (event_data[? "message"] == "Screen_Shake")
 {
+		switch(irandom(2))
+	{
+		case(0):
+			audio_play_sound(OKA_Slash1,10,false);
+		break;
+			audio_play_sound(OKA_Slash2,10,false);
+		case(1):
+		break;
+			audio_play_sound(OKA_Slash3,10,false);
+		case(2):
+		break;
+	}
+	
     ShakeCamera(8,2);
 }
 
 if (event_data[? "message"] == "Break")
 {
-
+	switch(irandom(2))
+	{
+		case(0):
+			audio_play_sound(OKA_Slash1,10,false);
+		break;
+			audio_play_sound(OKA_Slash2,10,false);
+		case(1):
+		break;
+			audio_play_sound(OKA_Slash3,10,false);
+		case(2):
+		break;
+	}
     ShakeCamera(8,4);
 	//80
 	//90

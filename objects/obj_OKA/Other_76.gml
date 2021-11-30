@@ -2,7 +2,18 @@
 
 if (event_data[? "message"] == "Create_Hitbox")
 {
-	/// @description Slash hitbox
+	switch(irandom(2))
+	{
+		case(0):
+			audio_play_sound(OKA_Slash1,10,false);
+		break;
+		case(1):
+			audio_play_sound(OKA_Slash2,10,false);
+		break;
+		case(2):
+			audio_play_sound(OKA_Slash3,10,false);
+		break;
+	}
 if image_xscale = -1
 {
 	instance_create(x + 30, y, obj_Hitbox);
