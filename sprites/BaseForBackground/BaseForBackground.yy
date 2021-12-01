@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 479,
   "bbox_top": 0,
   "bbox_bottom": 639,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 640,
+  "width": 480,
   "height": 640,
   "textureGroupId": {
     "name": "Default",
@@ -24,13 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":{"name":"3b28cd05-00df-414f-8e82-b738c7876e33","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"LayerId":{"name":"c09809a1-95bf-4d92-9229-252a025ae43a","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"TutorialMountainBack","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/BaseForBackground/BaseForBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/BaseForBackground/BaseForBackground.yy",},"LayerId":{"name":"3b28cd05-00df-414f-8e82-b738c7876e33","path":"sprites/BaseForBackground/BaseForBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"BaseForBackground","path":"sprites/BaseForBackground/BaseForBackground.yy",},"resourceVersion":"1.0","name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"TutorialMountainBack","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},
+    "spriteId": {"name":"BaseForBackground","path":"sprites/BaseForBackground/BaseForBackground.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"738baa12-5884-4867-b793-bb5b1544310d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"10521322-fd82-4116-9d5e-02f1c43da519","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/BaseForBackground/BaseForBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,15 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"TutorialMountainBack","path":"sprites/TutorialMountainBack/TutorialMountainBack.yy",},
+    "parent": {"name":"BaseForBackground","path":"sprites/BaseForBackground/BaseForBackground.yy",},
     "resourceVersion": "1.3",
-    "name": "TutorialMountainBack",
+    "name": "BaseForBackground",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":40.0,"displayName":"RepeatRemind","resourceVersion":"1.0","name":"3b28cd05-00df-414f-8e82-b738c7876e33","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c09809a1-95bf-4d92-9229-252a025ae43a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -75,7 +73,7 @@
     "path": "folders/Sprites/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TutorialMountainBack",
+  "name": "BaseForBackground",
   "tags": [],
   "resourceType": "GMSprite",
 }
