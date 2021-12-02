@@ -19,23 +19,23 @@ global.MaxMana = 10;
 
 //UI
 global.LeftIcon = spr_inv_sword;
-global.RightIcon = spr_inv_Zweihander
-global.FirstSpellIcon = spr_inv_star;
-global.SecondSpellIcon = spr_inv_tornado;
+global.RightIcon = spr_inv_empty;
+global.FirstSpellIcon = spr_inv_empty;
+global.SecondSpellIcon = spr_inv_empty;
 global.Inventory = false;
 
 //Equipables
 global.LeftItem = dmg_Basic_Sword;
-global.RightItem = dmg_Soul_Zweihander;
+global.RightItem = dmg;
 global.Armor = "Base";
-global.Spell1 = dmg_Star_Wand;
-global.Spell2 = dmg_Wand_Tornado;
+global.Spell1 = dmg;
+global.Spell2 = dmg;
 
 //Combo
 global.LeftCombo = 0;
 global.RightCombo = 0;
 global.LeftMaxCombo = 3;
-global.RightMaxCombo = 2;
+global.RightMaxCombo = 0;
 global.Rooted = true;
 global.ComboResetTime = 90;
 

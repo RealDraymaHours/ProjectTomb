@@ -1,8 +1,16 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (!IsAttacking) && (!Stunned)
+if Stunned
 {
-	if x < oPlayer.x
+	state = "STUNNED";
+}
+
+if ((state != "STUNNED") && (state != "DEATH") && (state != "ATTACK"))
+{
+	if (collision_rectangle(x,y+200,x-175, y-200, oFolCam,false,false) || (collision_rectangle(x,y+200,x + 175, y-200, oFolCam,false,false)))
+	{
+		state = "ATTACK"
+	}
+	
+	if x < oFolCam.x
 	{
 		image_xscale = -1;
 	}
@@ -12,39 +20,31 @@ if (!IsAttacking) && (!Stunned)
 	}
 }
 
-if Health > 1
+if Health < 1
 {
-	if !Stunned
-	{
-		if (collision_rectangle(x,y+200,x-175, y-200, oPlayer,false,false) || (collision_rectangle(x,y+200,x + 175, y-200, oPlayer,false,false)))
-		{
-			CloseToPlayer = true;
-		}
-		else
-		{
-			CloseToPlayer = false;
-		}
-
-		if CloseToPlayer && !IsAttacking
-		{
-			IsAttacking = true;
-		}
-	}
-	else if Stunned
-	{
-
-	
-		if !s
-		{
-			alarm[0] = 30;
-		}
-	
-		s = true;
-
-	}
+	state = "DEATH";
 }
-else
+
+switch(state)
 {
-	Death = true;
-	sprite_index = spr_Lost_Slasher_Death;
+	case("IDLE"):
+		image_speed = 0.40;
+		image_index = 0;
+		sprite_index = spr_Lost_Zwei_Idle;
+	break;
+	case("ATTACK"):
+		image_speed = 0.55;
+		sprite_index = spr_Lost_Zwei;
+	break;
+	case("STUNNED"):
+		image_speed = 1;
+		sprite_index = spr_Lost_Zwei_Idle;
+		if alarm[0] == -1{alarm[0] = 120;}
+	break;
+	case("DEATH"):
+		image_speed = 0.40;
+		sprite_index = spr_Lost_Zwei_Death;
+	break;
+	
 }
+

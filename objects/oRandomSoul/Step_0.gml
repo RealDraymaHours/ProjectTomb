@@ -73,6 +73,13 @@ if !Stunned
 			if Staggered{state = "STAGGERED";}
 			sprite_index = sRandomSoulAttack;
 		break;
+		case("COOLDOWN"):
+			if alarm[11] == -1{alarm[11] = 60;}
+			h = 0;
+			v = 0;
+			image_speed = 0.1;
+			sprite_index = sRandomSoulParry;
+		break;
 	}
 }
 else

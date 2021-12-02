@@ -1,4 +1,4 @@
 if state = "ATTACKING"
 {
-	state = "IDLE";
+	state = "COOLDOWN";
 }

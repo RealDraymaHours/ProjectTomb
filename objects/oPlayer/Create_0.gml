@@ -110,22 +110,11 @@ w1 = 3;
 w2 = 5; //0;
 c1 = c_white
 c2 = c_white
-a1 = 1;
-a2 = 1;
-xscatter = 0//6;
-yscatter = 1;
-xdrift = 0;
-ydrift = 5;
 trail = TrailCreate(length, x, y);
 
 
 
 Staggered = false;
-
-
-
-//UI
-flash = 0;
 
 //Sound
 audio_listener_orientation(0,1,0,0,0,1);

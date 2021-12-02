@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Light_Red",
-    "path": "sprites/spr_Light_Red/spr_Light_Red.yy",
+    "name": "spr_Mouse_Free",
+    "path": "sprites/spr_Mouse_Free/spr_Mouse_Free.yy",
   },
   "solid": false,
   "visible": true,

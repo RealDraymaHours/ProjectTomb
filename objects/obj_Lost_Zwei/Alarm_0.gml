@@ -1,4 +1,4 @@
 /// @description Insert description here
-s = false;
+state = "IDLE";
 Stunned = false;
 image_index = 0;

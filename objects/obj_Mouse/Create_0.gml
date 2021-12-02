@@ -183,6 +183,13 @@ stateFree = function()
 		global.LeftMaxCombo = Stats[0];
 		global.Rooted = Stats[1];
 		
+		if (global.LeftItem = global.RightItem)
+		{
+			global.RightItem = dmg;
+			global.RightIcon = spr_inv_empty;
+			global.RightMaxCombo = 0;
+		}
+		
 	}
 	
 	if (mouse_check_button(mb_right)) && (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
@@ -193,18 +200,36 @@ stateFree = function()
 		global.RightMaxCombo = Stats[0];
 		global.Rooted = Stats[1];
 		
+		if (global.LeftItem = global.RightItem)
+		{
+			global.LeftItem = dmg;
+			global.LeftIcon = spr_inv_empty;
+			global.LeftMaxCombo = 0;
+		}
 	}
 		//spells
 	if (mouse_check_button(mb_left)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
 	{
 		global.Spell1 = inventoryToObject(inventoryHoverSpell.inventory[slotHoverSpell]);
 		global.FirstSpellIcon = inventoryToSprite(inventoryHoverSpell.inventory[slotHoverSpell]);
+		
+		if(global.Spell1 == global.Spell2)
+		{
+			global.Spell2 = dmg;
+			global.SecondSpellIcon = spr_inv_empty;
+		}
 	}
 	
 	if (mouse_check_button(mb_right)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
 	{
 		global.Spell2 = inventoryToObject(inventoryHoverSpell.inventory[slotHoverSpell]);
 		global.SecondSpellIcon = inventoryToSprite(inventoryHoverSpell.inventory[slotHoverSpell]);
+		
+		if(global.Spell1 == global.Spell2)
+		{
+			global.Spell1 = dmg;
+			global.FirstSpellIcon = spr_inv_empty;
+		}
 	}
 	
 	 //summons
@@ -243,6 +268,10 @@ stateFree = function()
 	else if (slotHoverSummon != -1) && (inventoryHoverSummon.inventory[slotHoverSummon] != -1)
 	{
 		obj_Description.Description = inventoryToDescription((inventoryHoverSummon.inventory[slotHoverSummon]))
+	}
+	else
+	{
+		obj_Description.Description = "[ LEFT MOUSE ] to equip left mouse weapon\n[ RIGHT MOUSE ] To equip right mouse weapon \n[ LEFT MOUSE ] to equip spell 1 \n[ RIGHT MOUSE ] to equip spell 2";
 	}
 	
 }

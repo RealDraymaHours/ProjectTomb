@@ -4,7 +4,6 @@ Tip_Y_Distance = 59;
 Combo = 0;
 Active = false;
 Damage = 10;
-depth = -20;
 
 if global.LeftItem = dmg_Basic_Sword
 {

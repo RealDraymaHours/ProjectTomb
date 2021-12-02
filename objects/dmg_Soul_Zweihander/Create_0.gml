@@ -3,13 +3,12 @@ Tip_X_Distance = 93;
 Tip_Y_Distance = 93;
 
 Active = true;
-Damage = 200;
+Damage = 20;
 CoolTime = 45;
 Combo = 0;
 
 Break = 10;
 
-depth = -20;
 
 if global.LeftItem = dmg_Soul_Zweihander
 {

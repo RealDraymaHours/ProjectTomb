@@ -8,6 +8,6 @@ yDifference = y - camera_get_view_y(view_camera[0]);
 
 inventory[0] = 4;
 //inventory[1] = 5;
-inventory[2] = 6;
+//inventory[2] = 6;
 
 		

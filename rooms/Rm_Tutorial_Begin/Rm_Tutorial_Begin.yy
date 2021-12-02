@@ -15,6 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Lighting","path":"objects/obj_Lighting/obj_Lighting.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":16.0,"resourceVersion":"1.0","name":"inst_4EDCD5F6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Tutorial","path":"objects/obj_Tutorial/obj_Tutorial.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":39.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":272.0,"resourceVersion":"1.0","name":"inst_1DC391DE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Tutorial","path":"objects/obj_Tutorial/obj_Tutorial.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":9.000002,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":256.0,"resourceVersion":"1.0","name":"inst_18416D64","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":2,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Important_player_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_InvFloor1","path":"objects/obj_InvFloor1/obj_InvFloor1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":168.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":320.0,"resourceVersion":"1.0","name":"inst_7FF1086D","tags":[],"resourceType":"GMRInstance",},
@@ -164,6 +166,8 @@
     {"name":"inst_21CAA8A3","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
     {"name":"inst_2F1A4B07","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
     {"name":"inst_78A3C3B2","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
+    {"name":"inst_1DC391DE","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
+    {"name":"inst_18416D64","path":"rooms/Rm_Tutorial_Begin/Rm_Tutorial_Begin.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

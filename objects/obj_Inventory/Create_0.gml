@@ -7,5 +7,5 @@ xDifference = x - camera_get_view_x(view_camera[0]);
 yDifference = y - camera_get_view_y(view_camera[0]);
 
 inventory[0] = 1;
-inventory[1] = 7;
-inventory[2] = 2;
+//inventory[1] = 7;
+//inventory[2] = 2;

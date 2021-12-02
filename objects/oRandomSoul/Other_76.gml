@@ -1,6 +1,7 @@
 if (event_data[? "message"] == "RandomSoulAttack")
 {
 	/// @description Slash hitbox
+	audio_play_sound(PlayerSoulWeapon1,1,false);
 if image_xscale = 1
 {
 	instance_create(x + 10, y -32, obj_Hitbox);
