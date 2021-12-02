@@ -1,3 +1,3 @@
 TargetRoom = Rm_Tutorial_Crossroad;
-TargetX = 384;
+TargetX = 2736;
 TargetY = 304;

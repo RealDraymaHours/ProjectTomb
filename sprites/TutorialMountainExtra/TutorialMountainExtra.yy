@@ -25,9 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"LayerId":{"name":"3b28cd05-00df-414f-8e82-b738c7876e33","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"LayerId":{"name":"515dee7d-d16d-4f3d-9aee-20bf01287dcd","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"LayerId":{"name":"2d683a5c-cef5-4716-9616-3c1902cf89f9","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"LayerId":{"name":"515dee7d-d16d-4f3d-9aee-20bf01287dcd","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"TutorialMountainExtra","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},"resourceVersion":"1.0","name":"f260e88f-d93a-4034-8904-6e6d9325a3cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -67,7 +66,6 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":40.0,"displayName":"RepeatRemind","resourceVersion":"1.0","name":"3b28cd05-00df-414f-8e82-b738c7876e33","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"2d683a5c-cef5-4716-9616-3c1902cf89f9","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"515dee7d-d16d-4f3d-9aee-20bf01287dcd","tags":[],"resourceType":"GMImageLayer",},
   ],

@@ -1,3 +1,3 @@
 TargetRoom = Rm_Tutorial_BeforeOKA;
-TargetX = 298;
+TargetX = 320;
 TargetY = 304;
