@@ -42,10 +42,18 @@ switch(CurrentText)
 
 
 
-if(place_meeting(x, y, oPlayer))
+if (place_meeting(x, y, oPlayer))
 {
-			if keyboard_check_released(ord("W"))
+	if keyboard_check_released(ord("W"))
+	{
+		if x < oFolCam.x
 		{
+			image_xscale = 1;
+		}
+	else
+	{
+		image_xscale = -1;
+	}
 	if(CurrentPage > LastPage)
 	{
 			instance_destroy(obj_TextBox);

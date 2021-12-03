@@ -60,7 +60,8 @@
       ],"visible":false,"depth":-10,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Terrain_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"NEXTRight","path":"objects/NEXTRight/NEXTRight.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1728.0,"y":288.0,"resourceVersion":"1.0","name":"inst_399D6A37","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Spear","path":"objects/obj_Collect_Spear/obj_Collect_Spear.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":288.0,"resourceVersion":"1.0","name":"inst_2B0A7AE6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Spear","path":"objects/obj_Collect_Spear/obj_Collect_Spear.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":256.0,"resourceVersion":"1.0","name":"inst_2B0A7AE6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oBrother_NPC","path":"objects/oBrother_NPC/oBrother_NPC.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":756.0,"y":311.0,"resourceVersion":"1.0","name":"inst_51CBA0EC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1_1_2_2","tags":[],"resourceType":"GMRInstance",},
@@ -214,6 +215,7 @@
     {"name":"inst_2B0A7AE6","path":"rooms/Rm_Tutorial_ZweiHander/Rm_Tutorial_ZweiHander.yy",},
     {"name":"inst_2E368592","path":"rooms/Rm_Tutorial_ZweiHander/Rm_Tutorial_ZweiHander.yy",},
     {"name":"inst_38BBA21D","path":"rooms/Rm_Tutorial_ZweiHander/Rm_Tutorial_ZweiHander.yy",},
+    {"name":"inst_51CBA0EC","path":"rooms/Rm_Tutorial_ZweiHander/Rm_Tutorial_ZweiHander.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -26,6 +26,11 @@ function ParryProjectileDestroy(OtherX,OtherY,selfID)
 	audio_play_sound(PlayerParryWIP,1,false);
 	oPlayer.Parry = false;
 	instance_destroy(selfID);
+	
+	if global.Mana != global.MaxMana
+	{
+		global.Mana += 1;	
+	}
 }
 
 function ParryMelee(otherX,otherY,Caster,selfID)

@@ -30,6 +30,9 @@ function inventoryToSprite(inventoryIndex)
 		case 8:
 			InvSprite = spr_inv_tornado;
 		break;
+		case 9:
+			InvSprite = spr_inv_fireball;
+		break;
 	}
 		
 	return InvSprite;
@@ -55,6 +58,9 @@ function inventoryToObject(inventoryIndex)
 		break;
 		case 8:
 			InvObj = dmg_Wand_Tornado;
+		break;
+		case 9:
+			InvObj = dmg_Wand_Fireball;
 		break;
 	}
 		
@@ -213,6 +219,20 @@ function inventoryToDescription(inventoryIndex)
 					  "A gift in bitter taste.\n"+
 					  "For a king rules until his death."
 			break; 
+			case 9:
+				Desc = "Fireball\n\n" +
+					"Focus your soul into a fireball that fly where you point. COST: 5 MP\n\n" +
+					"Most mages that bother with attack spells don't use soul.\n" +
+					"One can easily cast a spell that takes ones life \n"+
+					"if they put too much soul into their spell.\n \n"+
+					"There is however a race of small creatures that mastered these\n"+
+					"arts to a sickening degree. They have been pushed to\n"+
+					"the edge of the world, surrounded by monster that are feared\n" +
+					"by every kingdom under the sun. With their only strength being\n" +
+					"their above average amount of soul compaired to other races.\n\n"+
+					"And well, you know what they say:\n"+
+					"'Desperation breeds creativity'"
+			break;
 				
 		}
 	return Desc;

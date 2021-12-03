@@ -4,6 +4,8 @@ Staggered = false;
 StaggerTime = 10;
 Stunned = false;
 
+
+
 Knockback = false;
 KnockbackDirection = 0;
 KnockbackStrenght = 0;

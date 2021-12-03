@@ -7,11 +7,11 @@ switch(global.Armor)
 	break;
 	
 	case("Knight"):
-	sprite_index = sKnightPlayerDash
+	sprite_index = sKnightPlayerDash;
 	break;
 	
 	case("Mage"):
-	sprite_index = sPlayerDash
+	sprite_index = sMagePlayerDash;
 	break;
 }
 

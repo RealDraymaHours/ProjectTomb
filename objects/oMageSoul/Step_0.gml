@@ -4,6 +4,14 @@ if Staggered
 	state = "STAGGERED";
 }
 
+if x < oFolCam.x
+{
+	image_xscale = -1;
+}
+else
+{
+	image_xscale = 1;
+}
 
 switch(state)
 {
@@ -12,14 +20,13 @@ switch(state)
 		sprite_index = sMageSoulIdle;
 		if distance_to_object(oFolCam) < 250
 		{
-			if alarm[2] == -1{alarm[2] = 60;}
+			if alarm[2] == -1{alarm[2] = 90;}
 		}
 	break;
 	case("CAST"):
 		image_speed = 0.1;
 		sprite_index = sMageSoulParry;
-		instance_create(x,y,obj_Fireball);
-		state = "IDLE";
+		if alarm[2] == -1{instance_create(x,y,obj_Fireball); alarm[2] = 30;}
 	break;
 	case("STAGGERED"):
 		image_speed = 0.1;
@@ -40,6 +47,7 @@ if Knockback
 
 if Health < 1
 {
+	instance_create(x - 16, y - 48,obj_Collect_Fireball);
 	instance_destroy();
 }
 
