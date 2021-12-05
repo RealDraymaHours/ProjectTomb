@@ -19,7 +19,11 @@ ini_close();
 }
 
 function TutorialBrotherNPCSave(){
+	ini_open("savedata.ini");
+
 	ini_write_real("savegame","TutorialBrotherNPC", oBrother_NPC.CurrentText);
+	
+	ini_close();
 }
 
 function TutorialBrotherNPCLoad(){
@@ -30,3 +34,21 @@ oBrother_NPC.CurrentText = ini_read_real("savegame", "TutorialBrotherNPC", 0);
 ini_close();
 
 }
+
+function OKASave(newState){
+	ini_open("savedata.ini");
+
+	ini_write_real("savegame","OKA", newState);
+	
+	ini_close();
+}
+
+function OKALoad(){
+ini_open("savedata.ini");
+
+oOKA_NPC.CurrentState = ini_read_real("savegame", "OKA", 0);
+
+ini_close();
+
+}
+

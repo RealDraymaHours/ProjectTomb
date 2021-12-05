@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_DamageFloor",
-    "path": "sprites/spr_DamageFloor/spr_DamageFloor.yy",
+    "name": "spr_Survivor",
+    "path": "sprites/spr_Survivor/spr_Survivor.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_possibleAction",
+    "path": "objects/obj_possibleAction/obj_possibleAction.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +34,7 @@
     "path": "folders/Objects/NPCs/Tutorial.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Tutorial3",
+  "name": "oSlaveKnight_NPC",
   "tags": [],
   "resourceType": "GMObject",
 }

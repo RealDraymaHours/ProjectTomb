@@ -1,4 +1,4 @@
 MyText[0] = "[ i ] to open inventory";
 
-X = 207;
-Y = 180;
+X = 187;
+Y = 200;

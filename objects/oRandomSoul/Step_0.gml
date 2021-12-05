@@ -60,11 +60,20 @@ if !Stunned
 			image_speed = 0.5;
 			sprite_index = sRandomSoulRun;
 			dir = sign(oFolCam.x - x);
-			h = dir * 2;
+			h = (dir * 2) * mm;
 			v = (min(7,v+0.05));
 			if distance_to_object(oFolCam) < 20{state = "ATTACKING";}
 		break;
 		case("ATTACKING"):
+			if !IsAttacking{image_index = 0;}
+			IsAttacking = true;
+			image_speed = 0.4;
+			h = 0;
+			v = 0;
+			if Staggered{state = "STAGGERED";}
+			sprite_index = sRandomSoulAttacking;
+		break;
+		case("ATTACK"):
 			if !IsAttacking{image_index = 0;}
 			IsAttacking = true;
 			image_speed = 0.4;

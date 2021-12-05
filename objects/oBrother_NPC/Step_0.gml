@@ -5,17 +5,18 @@ switch(CurrentText)
 	case(0):
 		
 		MyText[0] = "...";
-		MyText[1] = "Hey, you seem to stay un-Lost";
+		MyText[1] = "Hey, you seem to have stayed un-Lost";
 		MyText[2] = "Well no matter how uncomfortable this place looks its taken!";
-		MyText[3] = "My place was down there but the Lost have migrated here.";
+		MyText[3] = "My place was down there but the Lost have migrated there.";
 		MyText[4] = "The managers have 'disgared' some old guard...";
-		MyText[5] = "and by that I mean they broke his legs and dumped him where their place.";
-		MyText[6] = "...\nHAHAHAHAHAHA!!!";
-		MyText[7] = "Well if you want to help me than you can get rid of that old guard for me.";
-		MyText[8] = "Afterwards: This place is yours. I also throw a little something extra for you.";				
+		MyText[5] = "and by that I mean they broke his legs and dumped him where their place was.";
+		MyText[6] = "...\n";
+		MyText[7] = "HAHAHAHAHAHA!!!"
+		MyText[8] = "Well if you want to help me than you can get rid of that old guard for me.";
+		MyText[9] = "Afterwards: This place is yours. I also throw a little something extra for you.";				
 
-		LastPage = 8;
-		ResetPage = 8;
+		LastPage = 9;
+		ResetPage = 9;
 	break;
 	case(1):
 		
@@ -28,11 +29,11 @@ switch(CurrentText)
 	case(2):
 	
 		MyText[0] = "...";
-		MyText[1] = "Hey, you seem to stay un-Lost";
-		MyText[2] = "Well no matter how uncomfortable this place looks its taken!";
-		MyText[3] = "My place was down there but the Lost have migrated here.";
+		MyText[1] = "Hey, you seem to have stayed un-Lost";
+		MyText[2] = "Well no matter how uncomfortable this place looks its, taken!";
+		MyText[3] = "My place was down there but the Lost have migrated there.";
 		MyText[4] = "The managers have 'disgared' some old guard...";
-		MyText[5] = "and by that I mean they broke his legs and dumped him where their place.";
+		MyText[5] = "and by that I mean they broke his legs and dumped him where their place was.";
 		MyText[6] = "WAIT YOU ALREADY DEALT WITH THAT???";
 		MyText[7] = "You are not even a slave knight, just an soul arm and yet...";
 		MyText[8] = "Well i'll be damned...\n";
@@ -93,31 +94,31 @@ if keyboard_check_released(ord("W"))
 			{
 				case(0):
 				 CurrentText = 1;
-				 TutorialStartNPCSave();
+				 TutorialBrotherNPCSave();
 				break;
 				case(1):
 				 CurrentText = 1;
-				 TutorialStartNPCSave();
+				 TutorialBrotherNPCSave();
 				break;
 				case(2):
 					CurrentText = 3;
-					TutorialStartNPCSave();
+					TutorialBrotherNPCSave();
 					//
 					InventoryAdd(obj_ArmorInventory, 5);
 					sprite_index = sStartIdle;
 				break;
 				case(3):
+					CurrentText = 4;
+					TutorialBrotherNPCSave();
 					CurrentText = 3;
-					TutorialStartNPCSave();
 				break;
 				case(4):
 					CurrentText = 4;
-					TutorialStartNPCSave();
-					CurrentText = 3;
+					TutorialBrotherNPCSave();
 				break;
 				case(5):
 					CurrentText = 4;
-					TutorialStartNPCSave();
+					TutorialBrotherNPCSave();
 					CurrentText = 3;
 					//
 					sprite_index = sStartIdle;
@@ -129,7 +130,7 @@ if keyboard_check_released(ord("W"))
 	{
 
 			instance_destroy(oNPCTextBox);
-			Textbox = instance_create_depth(npcX, npcY,-200, oNPCTextBox);
+			Textbox = instance_create_depth(npcX, npcY,-100, oNPCTextBox);
 			Textbox.Text = MyText[CurrentPage];
 			CurrentPage += 1;
 	}

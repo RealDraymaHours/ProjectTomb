@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Spells",
-    "path": "folders/Objects/Damage/Spells.yy",
+    "path": "folders/Objects/Weapons/Spells.yy",
   },
   "resourceVersion": "1.0",
   "name": "dmg_Star_Spell",

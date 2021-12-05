@@ -4,7 +4,7 @@ if ((!global.Staggered) && (Active))
 }
 
 
-if((state = "DEATH")&&(mouse_check_button_released(mb_left)))
+if((state = "DEATH")&&(mouse_check_button_released(mb_left)) && (Execute))
 {
 	y = StartY;
 	instance_destroy(dmg);

@@ -1,6 +1,6 @@
 draw_self();
 
-if state != "ATTACKING"
+if ((state != "ATTACKING") && (state != "ATTACK"))
 {
 	if oFolCam.x > x
 	{

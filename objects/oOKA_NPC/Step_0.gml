@@ -6,8 +6,8 @@ switch(CurrentText)
 		
 		MyText[0] = "Oh, hello there.";
 		MyText[1] = "Its been quite some time since someone new and not Lost has appeared.";
-		MyText[2] = "Hahaha do not worry little one. I will not just attack you as long as you play nice.";
-		MyText[3] = "That barrier in front of us keeps prefents anybody from leaving.";
+		MyText[2] = "Hahaha do not worry little one. I will not just attack. \nWell, as long as you play nice that is.";
+		MyText[3] = "That barrier in front of us keeps anybody from leaving.";
 		MyText[4] = "Its connected to my life so the only way of breaking it is if you break me.";
 		MyText[5] = "So no point in hurting you right, hahaha!";
 
@@ -40,6 +40,19 @@ switch(CurrentText)
 	break;
 }
 
+if((CurrentState = 1) && (distance_to_object(oFolCam) < 200))
+{
+	CurrentText = 69;	
+}
+
+
+if CurrentText > 2
+{
+	OKASave(1);	
+	instance_create_depth(x,y,self.depth,obj_OKA);
+	ChangeViewPoint("BOSS");
+	instance_destroy();
+}
 
 
 if (place_meeting(x, y, oPlayer))
@@ -48,11 +61,11 @@ if (place_meeting(x, y, oPlayer))
 	{
 		if x < oFolCam.x
 		{
-			image_xscale = 1;
+			image_xscale = -1;
 		}
 	else
 	{
-		image_xscale = -1;
+		image_xscale = 1;
 	}
 	if(CurrentPage > LastPage)
 	{
@@ -64,9 +77,11 @@ if (place_meeting(x, y, oPlayer))
 	{
 
 			instance_destroy(obj_TextBox);
-			Textbox = instance_create(x + X, y + Y, obj_TextBox);
+			Textbox = instance_create_depth(x + X, y + Y,-100, obj_TextBox);
 			Textbox.Text = MyText[CurrentPage];
 			CurrentPage += 1;
+			
+			
 	}
 	}
 }
@@ -78,9 +93,3 @@ else
 }
 
 
-if CurrentText > 2
-{
-	instance_create_depth(x,y,self.depth,obj_OKA);
-	ChangeViewPoint("BOSS");
-	instance_destroy();
-}

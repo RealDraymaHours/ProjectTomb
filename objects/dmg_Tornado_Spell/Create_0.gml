@@ -12,7 +12,7 @@ Cost = 10;
 
 KnockbackTime = 2;
 KnockbackStrenght = 5;
-Break = 1;
+Break = 0;
 
 if global.Mana >= Cost
 {

@@ -3,7 +3,7 @@ Tip_X_Distance = 93;
 Tip_Y_Distance = 93;
 
 Active = true;
-Damage = 20;
+Damage = 15;
 CoolTime = 45;
 Combo = 0;
 

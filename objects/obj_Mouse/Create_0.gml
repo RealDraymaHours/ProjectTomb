@@ -271,7 +271,7 @@ stateFree = function()
 	}
 	else
 	{
-		obj_Description.Description = "[ LEFT MOUSE ] to equip left mouse weapon\n[ RIGHT MOUSE ] To equip right mouse weapon \n[ LEFT MOUSE ] to equip spell 1 \n[ RIGHT MOUSE ] to equip spell 2";
+		obj_Description.Description = "Weapons\n[ LEFT MOUSE ] to equip left mouse weapon\n[ RIGHT MOUSE ] To equip right mouse weapon \n\nSpells\n[ LEFT MOUSE ] to equip spell 1 \n[ RIGHT MOUSE ] to equip spell 2\n\nGear\n[ LEFT MOUSE ] to equip gear.\n\n[ i ] to close the inventory.";
 	}
 	
 }

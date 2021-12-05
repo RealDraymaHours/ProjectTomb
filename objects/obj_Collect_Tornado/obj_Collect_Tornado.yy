@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_DamageFloor",
-    "path": "sprites/spr_DamageFloor/spr_DamageFloor.yy",
+    "name": "spr_inv_tornado",
+    "path": "sprites/spr_inv_tornado/spr_inv_tornado.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,17 +21,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oFolCam","path":"objects/oFolCam/oFolCam.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tutorial",
-    "path": "folders/Objects/NPCs/Tutorial.yy",
+    "name": "Collectables",
+    "path": "folders/Objects/Inventory/Collectables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Tutorial1",
+  "name": "obj_Collect_Tornado",
   "tags": [],
   "resourceType": "GMObject",
 }

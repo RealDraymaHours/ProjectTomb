@@ -6,11 +6,11 @@ if Staggered
 
 if x < oFolCam.x
 {
-	image_xscale = -1;
+	image_xscale = 1;
 }
 else
 {
-	image_xscale = 1;
+	image_xscale = -1;
 }
 
 switch(state)

@@ -51,7 +51,7 @@ if keyboard_check_released(ord("W"))
 	{
 
 			instance_destroy(oNPCTextBox);
-			Textbox = instance_create_depth(npcX, npcY,-200, oNPCTextBox);
+			Textbox = instance_create_depth(npcX, npcY,-100, oNPCTextBox);
 			Textbox.Text = MyText[CurrentPage];
 			CurrentPage += 1;
 	}

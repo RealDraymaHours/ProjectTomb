@@ -128,6 +128,7 @@ switch(state)
 	case("DEATH"):
 		y = StartY;
 		AnimationLock = true
+		if alarm[4] == -1{alarm[4] = 40;}
 		image_xscale = 1;
 		image_speed = 0.2;
 		sprite_index = spr_FLKA_EndIt;

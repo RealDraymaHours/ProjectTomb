@@ -42,5 +42,6 @@ KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
 
+Execute = false;
 audio_stop_all();
 audio_play_sound(OKA3,10,true);

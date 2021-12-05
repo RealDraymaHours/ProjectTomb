@@ -24,6 +24,7 @@ Moving = true;
 
 // Adjust THIS to adjust overall player speed
 m = 0.2;
+mm = 1;
 
 // Acceleration + friction
 groundAccel = 1.0  * m;

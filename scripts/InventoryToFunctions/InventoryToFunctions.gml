@@ -122,33 +122,26 @@ function inventoryToDescription(inventoryIndex)
 		
 		switch(inventoryIndex)
 		{
-			case 1: //||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+			case 1: //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 			Desc = "Soul Sword\n \n" +
-					"A sword forged out of a brave yet \n" +
-					"weak warrior.\n \n" +
-					"There are many factors that determin how a \n" +
-					"Soul-arm ends op looking:\n" +
-					"Health determines size,\n" +
-					"Spirit determines strenght\n" +
-					"And Ego determines the form and \n" +
-					"attribute of the weapon\n \n" +
-					"In that sense, Soul-arms are much\n" +
-					"like normal people.";
+					"A balanced soul arm\n\n" +
+					"There is no way to prevent something from reanimating within \n" +
+					"the Cage. thats why soul arms became so popular.\n" +
+					"One can simply turn their enemies into powerfull weapons.\n" +
+					"However not everyone can use soul arms, nor can anybody become.\n" +
+					"one. If one wants to use a soul arm they first need to be able to\n" +
+					"use their own soul as a soul arm, the next stage is turning oneself\n" +
+					"into a soul arm although only temporarly for its really taxing.\n" +
+					"Who can become one is a bit more ambiguous but one thing is\n" +
+					"Known for sure:\n\n"+
+					"If ones will is strong, they cannot be turned into a soul arm\n"+
+					"that someone other than themselves can use.";
 			break;
 			case 2: //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 			Desc = "Soul Spear \n\n"+
-				    "A spear forged out of a cowardly yet healthy soul.\n\n" +
-					"He knew of the horrors that awaited him.\n" +
-					"He decided that a spear would be better to keep the\n" +
-					"monsters at bay, even though all of his brothers took\n" +
-					"swords with them. This caused resentment amongst the\n" +
-					"brothers in arms.\n\n" +
-					"This resentment poisened their minds making their souls \n" +
-					"rotten to the core once they died or became Lost. \n" +
-					"One soul however, managed to stave away the rot. \n"+
-					"Even though his mind was poisened the most he at least \n" +
-					"managed to avoid taking much damage. \n" +
-					"However, not thanks to his spear.";
+				    "A soul arm with a lot of reach, but lacking in speed.\n\n" +
+					"[INSERT FLAVOR TEXT]\n";
+
 			break;
 			case 3:  //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 			Desc =  "Star dust\n\n" +
@@ -164,19 +157,34 @@ function inventoryToDescription(inventoryIndex)
 					"And well, you know what they say:\n"+
 					"'Desperation breeds creativity'"
 			break;
-			case 4:
-			Desc = "Skin\n you where born with it";
+			case 4: //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+			Desc = "Skin\n\n There are three fates the likes of us\n" +
+					"1: If you can wield a weapon you'll become a slave knight.\n"+
+					"Being thrown into the worst battles as fodder to die with the\n" +
+					"sole purpouse of exhausting your masters enemies,\n"+
+					"2: If you can't use a weapon then that means you can use-\n"+
+					"and become a soul arm. Any semblance of a will shall be\n"+
+					"beaten out of you until you are nothing but a 'living' husk\n"+
+					"The perfect state for a weapon.\n"+
+					"3: if you can't do either then you will be thrown into one of\n"+
+					"many prisons to rot away forever.\n\n"+
+					"Even if you did get out of the prison, you are harmless enough\n"+
+					"that nobody would care.";
 			break;
-			case 5: //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
+			case 5: //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 			Desc = "Bunny eared helmet\n\n" +
 				   "A sturdy helmet with room to put your ears into.\n\n"+
-				   "'I thought it was cute' the soldier cried while being\n" +
-				   "mocked by his brothers in arms. The ears didn't give him\n"+
-				   "any advantages or disadvantages to him. It was just cute.\n\n" +
-				   "One could say it was fate that you found this helmet."
+				   "Slave knights rarely get armor, but that wasn't always the case.\n" +
+				   "Back in the days of the slave war, slaves where fully equiped.\n"+
+				   "The choice to stop giving slaves gear was one of the reasons the\n" +
+				   "Eight Lords where able to concer all of the Cage.\n\n"+
+				   "Slaves where about as usefull with or without armor however,"+
+				   "real fully armored soldiers made a difference. So much so that\n" +
+				   "the slave war stalemate had been broken after 3000 years.\n" +
+				   "The war itself ended only 2 weeks later."
 			break;
 			case 6:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
-				Desc= "Mences mage hat\n\n" +
+				Desc= "Oka mage hat\n\n" +
 					  "A big hat that increases your mana pool.\n\n" +
 					  "There was once a mage who specialized in fungal magic.\n" +
 					  "He believed that it was the key to solve many illnesses.\n" +
@@ -186,7 +194,7 @@ function inventoryToDescription(inventoryIndex)
 					  "giant muschroom hat on top of his head.\n\n" +
 					  "People however hailed him as a genius for his breakthroughs.\n" +
 					  "The classic mage hat being an imitation of his muschroom head.\n"+
-					  "Even though the school of Mences abandoned medicine long ago,\n" +
+					  "Even though the school of Oka abandoned medicine long ago,\n" +
 					  "their hat will forever be a symbol of their roots.";
 			break;
 			case 7:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
@@ -206,18 +214,17 @@ function inventoryToDescription(inventoryIndex)
 			break;
 			case 8:    //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 				Desc= "Noctovics Tempest\n\n"+
-					  "Create a big wind vortex where you stand.\n\n"+
-					  "The sword of the Noctivics family allows one with royal blood\n"+
+					  "Create a big wind vortex where you stand. COST 10MP\n\n"+
+					  "The sword of the Noctivics family allows one with Noctovics blood\n"+
 					  "to channel powerfull tempests. The sword itself gets passed\n"+
-					  "down to the kings offspring who has the biggest talent in\n"+
-					  "channeling tempest. For the next king should be able to move\n"+
-					  "even the skies if their people need it. Thats also why the\n"+ 
-					  "handing down of the sword is synonymous with a coronation.\n"+
-					  "Young Alland seem to be destined for the sword. being able to\n"+
-					  "harness its power even when the sword was meters away.\n"+
-					  "So at his 7th birthday young Alland was gifted the sword.\n\n"+
+					  "down to the heads offspring who has the biggest talent in\n"+
+					  "channeling tempest. For the next head should be able to move\n"+
+					  "even the skies if their family need it. Thats also why the\n"+ 
+					  "handing down of the sword is synonymous with becoming.\n"+
+					  "the new head of the family.\n\n"+
+					  "At his 7th birthday young Alland was gifted the sword.\n\n"+
 					  "A gift in bitter taste.\n"+
-					  "For a king rules until his death."
+					  "For a head rules until his death.";
 			break; 
 			case 9:
 				Desc = "Fireball\n\n" +
@@ -231,7 +238,7 @@ function inventoryToDescription(inventoryIndex)
 					"by every kingdom under the sun. With their only strength being\n" +
 					"their above average amount of soul compaired to other races.\n\n"+
 					"And well, you know what they say:\n"+
-					"'Desperation breeds creativity'"
+					"'Desperation breeds creativity'";
 			break;
 				
 		}

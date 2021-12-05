@@ -26,6 +26,7 @@ function InventoryAdd(rootObject, itemType) {
 	var _slot = InventorySearch(rootObject, -1);
 	if (_slot != -1)
 	{
+		audio_play_sound(mGetItem,10,false);
 		with (rootObject) inventory[_slot] = itemType;
 		return true;
 	}
