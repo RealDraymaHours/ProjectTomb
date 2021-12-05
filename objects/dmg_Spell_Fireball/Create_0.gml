@@ -5,6 +5,9 @@ X = 0.15;
 Y = 0.15;
 Intensity = 0.3;
 
+StartX = x;
+StartY = y;
+
 
 Tip_X_Distance = 1;
 Tip_Y_Distance = 1;
