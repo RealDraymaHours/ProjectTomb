@@ -26,6 +26,15 @@ for (var i = 0; i < INVENTORY_SLOTS; i += 1)
 		if (obj_Mouse.inventoryDrag == id) && (obj_Mouse.slotDrag == i) alpha = 0.5;
 		draw_set_alpha(alpha);
 		draw_sprite(InvSprite,0,xx,yy);
+		if global.RightIcon == InvSprite
+		{
+			draw_sprite(spr_RightMouse_Icon,0,xx,yy);	
+		}
+		else if global.LeftIcon == InvSprite
+		{
+			draw_sprite(spr_LeftMouse_Icon,0,xx,yy);		
+		}
+		
 		draw_set_alpha(1.0);
 	}
 }

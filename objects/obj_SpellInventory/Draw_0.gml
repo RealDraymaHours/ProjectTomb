@@ -19,12 +19,21 @@ for (var i = 0; i < INVENTORY_SLOTS_SPELL; i += 1)
 	var hover = (obj_Mouse.inventoryHoverSpell == id) && (obj_Mouse.slotHoverSpell == i)
 	draw_sprite(spr_slot,hover,xx,yy)
 	if (inventory[i] != -1)
-	{
+	{	
 		inventoryToSprite(inventory[i]);
 		var alpha = 1.0;
 		if (obj_Mouse.inventoryDragSpell == id) && (obj_Mouse.slotDragSpell == i) alpha = 0.5;
 		draw_set_alpha(alpha);
 		draw_sprite(InvSprite,0,xx,yy);
+		
+		if global.FirstSpellIcon == InvSprite
+		{
+			draw_sprite(spr_1_Icon,0,xx,yy);
+		}
+		else if global.SecondSpellIcon == InvSprite
+		{
+			draw_sprite(spr_2_Icon,0,xx,yy);				
+		}
 		draw_set_alpha(1.0);
 	}
 }

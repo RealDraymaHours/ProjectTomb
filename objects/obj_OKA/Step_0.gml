@@ -15,6 +15,7 @@ if AnimationLock = false
 if (distance_to_object(oFolCam) < 100)
 {
 	CloseToPlayer = true;
+	instance_destroy(obj_OKA_Wind);
 }
 else
 {
@@ -32,7 +33,6 @@ if Health < 1
 {
 	state = "DEATH"
 }
-
 
 
 

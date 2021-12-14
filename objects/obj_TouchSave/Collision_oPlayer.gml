@@ -3,7 +3,7 @@
 if !Saved
 {
 	Save();
-
+	alarm[1] = 120;
 	global.Health = global.MaxHealth;
 	global.Mana = global.MaxMana;
 	

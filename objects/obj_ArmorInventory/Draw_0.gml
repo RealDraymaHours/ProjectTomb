@@ -26,6 +26,12 @@ for (var i = 0; i < INVENTORY_SLOTS_ARMOR; i += 1)
 		if (obj_Mouse.inventoryDragArmor == id) && (obj_Mouse.slotDragArmor == i) alpha = 0.5;
 		draw_set_alpha(alpha);
 		draw_sprite(InvSprite,0,xx,yy);
+		
+		if global.Armor == inventoryToString(inventory[i])
+		{
+			draw_sprite(spr_Armor_Icon,0,xx,yy);	
+		}
+		
 		draw_set_alpha(1.0);
 	}
 }

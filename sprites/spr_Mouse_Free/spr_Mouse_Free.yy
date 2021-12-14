@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Mouse",
+    "path": "folders/Sprites/Player/Mouse.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Mouse_Free",

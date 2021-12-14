@@ -37,8 +37,7 @@ IsAttacking = false;
 onGround = false;
 
 // Camera ////////////////////////////////////////////////////
-if (!instance_exists(oCamera))
-    instance_create(x, y, oCamera);
+
     
 // Initial camera position  
 __view_set( e__VW.XView, 0, max(0, min(x - __view_get( e__VW.WPort, 0 ) * 0.5, room_width  - __view_get( e__VW.WPort, 0 ))) );

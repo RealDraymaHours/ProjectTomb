@@ -3,7 +3,7 @@
     "name": "spr_possibleAction",
     "path": "sprites/spr_possibleAction/spr_possibleAction.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

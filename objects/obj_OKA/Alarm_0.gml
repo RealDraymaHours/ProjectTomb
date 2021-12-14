@@ -9,6 +9,10 @@ if distance_to_object(oFolCam) < 2
 {
 	state = "AWAY";	
 }
+else if distance_to_object(oFolCam) > 400
+{
+	state = "RAMPAGE";
+}
 else 
 {
 	if CloseToPlayer
@@ -43,7 +47,7 @@ else
 			break;
 		
 			case 1:
-			state = "RAMPAGE"
+			state = "JUMP"
 			break;	
 			
 			case 2:

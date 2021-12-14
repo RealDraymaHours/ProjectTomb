@@ -62,7 +62,7 @@ if !Stunned
 			dir = sign(oFolCam.x - x);
 			h = (dir * 2) * mm;
 			v = (min(7,v+0.05));
-			if distance_to_object(oFolCam) < 20{state = "ATTACKING";}
+			if distance_to_object(oFolCam) < 20{image_index = 1; state = "ATTACKING";}
 		break;
 		case("ATTACKING"):
 			if !IsAttacking{image_index = 0;}

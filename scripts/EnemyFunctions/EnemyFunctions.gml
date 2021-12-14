@@ -8,7 +8,7 @@ function DamagePlayer(otherX, otherY)
 	{
 		global.Health -= 1;
 		with (oCamera) {
-			ShakeCamera(8,2);
+			ShakeCamera(8,8);
 		}
 	
 		repeat(10)
