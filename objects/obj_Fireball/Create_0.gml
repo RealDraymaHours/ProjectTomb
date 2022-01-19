@@ -4,6 +4,7 @@ alarm[0] = 20;
 Active = false;
 Damage = 20;
 CoolTime = 30;
+Points = 15;
 
 StartX = x;
 StartY = y;

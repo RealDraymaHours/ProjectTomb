@@ -5,10 +5,12 @@ var xp, yp;
 xp = mx + Tip_X_Distance*cos(degtorad(other.image_angle+90));
 yp = my - Tip_Y_Distance*sin(degtorad(other.image_angle+90));	
 
-repeat(20)
+repeat(10)
 {
 	instance_create(xp, yp, obj_ParryHit);
 }
+
+
 
 audio_play_sound(PlayerParryWIP,1,false);
 
@@ -21,29 +23,41 @@ function ParryProjectileDestroy(OtherX,OtherY,selfID)
 {
 	repeat(10)
 	{
-		instance_create(OtherX, OtherY, obj_ParryHit);	
+		instance_create(OtherX,OtherY, obj_ParryHit);	
+		instance_create(OtherX, OtherY, obj_ParryManaHit);	
 	}
 	audio_play_sound(PlayerParryWIP,1,false);
 	oPlayer.Parry = false;
 	instance_destroy(selfID);
 	
-	if global.Mana != global.MaxMana
-	{
-		global.Mana += 1;	
-	}
+
 }
 
 function ParryMelee(otherX,otherY,Caster,selfID)
 {
 	repeat(10)
 	{
-		instance_create(other.x, other.y, obj_ParryHit);	
+		instance_create(otherX,otherY, obj_ParryHit);	
+		instance_create(otherX, otherY, obj_ParryHealthHit);	
 	}
 
 	audio_play_sound(PlayerParryWIP,1,false);
-	global.Health += 1;
 	Caster.Stunned = true;
 	oPlayer.Parry = false;
 	//oPlayer.alarm[3] = 1;
 	instance_destroy(selfID);
+}
+
+function ParryMeleeActive(otherX,otherY,Caster)
+{
+	repeat(10)
+	{
+		instance_create(otherX,otherY, obj_ParryHit);	
+		instance_create(otherX, otherY, obj_ParryHealthHit);	
+	}
+
+	audio_play_sound(PlayerParryWIP,1,false);
+	Caster.Stunned = true;
+	oPlayer.Parry = false;
+	//oPlayer.alarm[3] = 1;
 }

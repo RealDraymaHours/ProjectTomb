@@ -1,4 +1,4 @@
-if !global.Staggered
+if !global.Staggered 
 {
 	DamagePlayer(other.x,other.y);
 }

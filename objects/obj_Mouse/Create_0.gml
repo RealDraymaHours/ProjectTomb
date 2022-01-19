@@ -190,6 +190,8 @@ stateFree = function()
 			global.RightMaxCombo = 0;
 		}
 		
+		audio_play_sound(EquipSomething,1,false);
+		
 	}
 	
 	if (mouse_check_button(mb_right)) && (slotHover != -1) && (inventoryHover.inventory[slotHover] != -1)
@@ -206,6 +208,8 @@ stateFree = function()
 			global.LeftIcon = spr_inv_empty;
 			global.LeftMaxCombo = 0;
 		}
+		
+		audio_play_sound(EquipSomething,1,false);
 	}
 		//spells
 	if (mouse_check_button(mb_left)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
@@ -218,6 +222,8 @@ stateFree = function()
 			global.Spell2 = dmg;
 			global.SecondSpellIcon = spr_inv_empty;
 		}
+		
+		audio_play_sound(EquipSomething,1,false);
 	}
 	
 	if (mouse_check_button(mb_right)) && (slotHoverSpell != -1) && (inventoryHoverSpell.inventory[slotHoverSpell] != -1)
@@ -230,6 +236,8 @@ stateFree = function()
 			global.Spell1 = dmg;
 			global.FirstSpellIcon = spr_inv_empty;
 		}
+		
+		audio_play_sound(EquipSomething,1,false);
 	}
 	
 	 //summons
@@ -250,6 +258,8 @@ stateFree = function()
 		Stats = inventoryToStats(inventoryHoverArmor.inventory[slotHoverArmor]);
 		global.MaxHealth = 5 + Stats[0];
 		global.MaxMana = 10 + Stats[1];
+		
+		audio_play_sound(EquipSomething,1,false);
 	}
 	
 		//description

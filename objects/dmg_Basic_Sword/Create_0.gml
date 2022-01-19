@@ -4,6 +4,7 @@ Tip_Y_Distance = 59;
 Combo = 0;
 Active = false;
 Damage = 10;
+Points = 5;
 
 if global.LeftItem = dmg_Basic_Sword
 {
@@ -44,16 +45,10 @@ else
 
 
 Break = 1;
-if mouse_x > oPlayer.x
-{
-	KnockbackDirection = 0;
-}
-else
-{
-	KnockbackDirection = 180;
-}
 
 image_angle = point_direction(x, y, mouse_x, mouse_y) -90;
+
+KnockbackDirection = direction;
 //move_towards_point(mouse_x, mouse_y, 4);
 
 

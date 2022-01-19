@@ -4,6 +4,7 @@ Tip_Y_Distance = 93;
 
 Active = true;
 Damage = 15;
+Points = 10;
 CoolTime = 45;
 Combo = 0;
 
