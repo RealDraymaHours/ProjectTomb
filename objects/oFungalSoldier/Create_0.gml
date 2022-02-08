@@ -1,4 +1,4 @@
-Health = 120;
+Health = 60;
 IsAttacking = false;
 Staggered = false;
 StaggerTime = 10;

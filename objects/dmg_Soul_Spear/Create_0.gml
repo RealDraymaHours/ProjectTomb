@@ -6,8 +6,7 @@ Tip_Y_Distance = 89;
 
 Combo = 0;
 Active = true;
-Damage = 5;
-Points = 3;
+Damage = 3;
 CoolTime = 30;
 Break = 1;
 
@@ -32,6 +31,7 @@ if oPlayer.onGround
 }
 else
 {
+	Damage = 12;
 	offshoot = random_range(-40,40);
 	KnockbackTime = 2;
 	KnockbackStrenght = 1;

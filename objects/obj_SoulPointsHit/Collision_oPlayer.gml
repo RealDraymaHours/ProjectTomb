@@ -36,5 +36,7 @@ if MoveToPlayer
 		break;
 	}
 	
+	global.Points += 1;
+	
 	instance_destroy();
 }

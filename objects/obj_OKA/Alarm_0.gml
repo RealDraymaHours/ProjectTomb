@@ -79,5 +79,15 @@ else
 	}
 }
 
+switch(state)
+{
+	case("JUMP"):
+		SekiroWarning();
+	break;
+	case("AWAY"):
+		SekiroWarning();
+	break;
+}
+
 
 prevState = state;

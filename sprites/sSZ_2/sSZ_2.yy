@@ -105,7 +105,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Zweihander",
-    "path": "folders/Sprites/Weapons/Zweihander.yy",
+    "path": "folders/Sprites/Player/Weapons/Zweihander.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSZ_2",

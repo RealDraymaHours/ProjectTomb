@@ -58,6 +58,32 @@ function ParryMeleeActive(otherX,otherY,Caster)
 
 	audio_play_sound(PlayerParryWIP,1,false);
 	Caster.Stunned = true;
+	Caster.Active = false;
 	oPlayer.Parry = false;
 	//oPlayer.alarm[3] = 1;
+}
+
+
+function ParryShieldMeleeActive(X,Y,Caster)
+{
+	repeat(10)
+	{
+		instance_create(X,Y, obj_SoulHit);	
+	}
+
+	audio_play_sound(PlayerParryWIP,1,false);
+	Caster.Stunned = true;
+	Caster.Active = false;
+}
+
+function ParryShieldMelee(X,Y,Caster,selfID)
+{
+	repeat(10)
+	{
+		instance_create(X,Y, obj_SoulHit);	
+	}
+
+	audio_play_sound(PlayerParryWIP,1,false);
+	Caster.Stunned = true;
+	instance_destroy(selfID);
 }

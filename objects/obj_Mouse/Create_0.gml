@@ -181,7 +181,7 @@ stateFree = function()
 		global.LeftIcon = inventoryToSprite(inventoryHover.inventory[slotHover]);
 		Stats = inventoryToStats(inventoryHover.inventory[slotHover]);
 		global.LeftMaxCombo = Stats[0];
-		global.Rooted = Stats[1];
+		global.RootedLeft = Stats[1];
 		
 		if (global.LeftItem = global.RightItem)
 		{
@@ -200,7 +200,7 @@ stateFree = function()
 		global.RightIcon = inventoryToSprite(inventoryHover.inventory[slotHover]);
 		Stats = inventoryToStats(inventoryHover.inventory[slotHover]);
 		global.RightMaxCombo = Stats[0];
-		global.Rooted = Stats[1];
+		global.RootedRight = Stats[1];
 		
 		if (global.LeftItem = global.RightItem)
 		{

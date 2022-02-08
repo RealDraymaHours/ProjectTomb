@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Spells",
-    "path": "folders/Sprites/Weapons/Spells.yy",
+    "path": "folders/Sprites/Player/Weapons/Spells.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fireball",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "path": "folders/Objects/Player/Weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "dmg_Soul_Spear",

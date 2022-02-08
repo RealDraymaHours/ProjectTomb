@@ -36,7 +36,8 @@ global.LeftCombo = 0;
 global.RightCombo = 0;
 global.LeftMaxCombo = 3;
 global.RightMaxCombo = 0;
-global.Rooted = true;
+global.RootedLeft = true;
+global.RootedRight = true;
 global.ComboResetTime = 90;
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -46,3 +47,4 @@ randomize();
 
 SaveBellLady(0);
 
+global.Points = 0;

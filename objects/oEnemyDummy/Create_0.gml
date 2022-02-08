@@ -8,6 +8,7 @@ KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
 Poise = 0;
+Active = false;
 
 //physics
 // Movement speed

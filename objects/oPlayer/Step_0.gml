@@ -130,6 +130,8 @@ if (kJump && cLeft && !onGround) {
         v = -jumpHeight * 1.1;
         h = maxH;
     }  
+	
+	CanWarp = true;
 }
 
 if (kJump && cRight && !onGround) {
@@ -146,6 +148,8 @@ if (kJump && cRight && !onGround) {
         v = -jumpHeight * 1.1;
         h = -maxH;
     }  
+	
+	CanWarp = true;
 }
   
 // Jump
@@ -212,7 +216,12 @@ if Parry = true
 	v = 0;
 }
 
-if ((!CanRight) || (!CanLeft))
+
+if ((!CanRight) && (global.RootedRight))
+{
+	IsAttacking = true;
+}
+else if ((!CanLeft) && (global.RootedLeft))
 {
 	IsAttacking = true;
 }
@@ -222,14 +231,13 @@ else
 }
 
 //stop while attacking
-if ((IsAttacking) && (global.Rooted))
+if ((IsAttacking))
 {
 	state = ACTIVE;
 	h = 0;
 	v = 0;
 }
-
-if instance_exists(oPlayerFinish)
+else if instance_exists(oPlayerFinish)
 {
 	state = ACTIVE;
 	h = 0;
@@ -237,7 +245,7 @@ if instance_exists(oPlayerFinish)
 }
 
 //Tacking damage
-if global.Staggered = true && Staggered = false
+if global.Staggered && !Staggered
 {
 	MyLight = c_black;
 	Staggered = true;

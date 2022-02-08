@@ -13,8 +13,7 @@ Tip_X_Distance = 1;
 Tip_Y_Distance = 1;
 
 Active = true;
-Damage = 30;
-Points = 15;
+Damage = 15;
 Cost = 6;
 
 KnockbackTime = 2;

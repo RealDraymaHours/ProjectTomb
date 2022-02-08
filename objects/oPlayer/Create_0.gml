@@ -51,14 +51,14 @@ m = 0.6;
 // Acceleration + friction
 groundAccel = 1.0  * m;
 groundFric  = 100.0  * m;
-airAccel    = 0.75 * m;
+airAccel    = 2 * m; //0.75
 airFric     = 100.0 * m;
 
 // Max movement speeds
 maxH        = 5.5  * m;
 maxV        = 9.0  * m;
 
-jumpHeight  = 8.0  * m;
+jumpHeight  = 10.0  * m; //8.0
 gravRise    = 0.5  * m;
 gravFall    = 0.5  * m;
 gravSlide   = 0.0 * m;
@@ -117,6 +117,4 @@ Staggered = false;
 
 //Sound
 audio_listener_orientation(0,1,0,0,0,1);
-
-
 

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Weapons",
-    "path": "folders/Sprites/Weapons.yy",
+    "path": "folders/Sprites/Player/Weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Basic_Wand",

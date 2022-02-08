@@ -33,6 +33,9 @@ function inventoryToSprite(inventoryIndex)
 		case 9:
 			InvSprite = spr_inv_fireball;
 		break;
+		case 10:
+			InvSprite = spr_inv_shield;
+		break;
 	}
 		
 	return InvSprite;
@@ -61,6 +64,9 @@ function inventoryToObject(inventoryIndex)
 		break;
 		case 9:
 			InvObj = dmg_Wand_Fireball;
+		break;
+		case 10:
+			InvObj = dmg_Soul_Shield;
 		break;
 	}
 		
@@ -104,13 +110,16 @@ function inventoryToStats(inventoryIndex)
 				Stats = [0,0];
 			break;
 			case 5:
-				Stats = [2,0];
+				Stats = [2,-5];
 			break;
 			case 6:
-				Stats = [0,10];
+				Stats = [-2,10];
 			break;
 			case 7:
 				Stats = [2,true];
+			break;
+			case 10:
+				Stats = [1,false];
 			break;
 		}
 	return Stats;
@@ -178,6 +187,10 @@ function inventoryToDescription(inventoryIndex)
 			case 9:
 				Desc = "Fireball\n\n" +
 					"Fireball that fly where you point. COST: 5 MP\n\n[INSERT FLAVOR TEXT]";
+			break;
+			case 10:
+				Desc = "Soul Shield\n\n" +
+					"Either throw or parry.\n\n[INSERT FLAVOR TEXT]";
 			break;
 				
 		}

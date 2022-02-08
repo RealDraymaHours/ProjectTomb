@@ -3,8 +3,8 @@ Tip_X_Distance = 59;
 Tip_Y_Distance = 59;
 Combo = 0;
 Active = false;
-Damage = 10;
-Points = 5;
+Damage = 5;
+
 
 if global.LeftItem = dmg_Basic_Sword
 {
@@ -48,7 +48,7 @@ Break = 1;
 
 image_angle = point_direction(x, y, mouse_x, mouse_y) -90;
 
-KnockbackDirection = direction;
+KnockbackDirection = image_angle + 90;
 //move_towards_point(mouse_x, mouse_y, 4);
 
 

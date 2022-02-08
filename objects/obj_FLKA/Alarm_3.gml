@@ -61,4 +61,6 @@ if state = "CHASE"
 	}
 }
 
+SekiroWarning();
+
 prevState = state;
