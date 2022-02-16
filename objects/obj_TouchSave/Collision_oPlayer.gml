@@ -4,8 +4,24 @@ if !Saved
 {
 	Save();
 	alarm[1] = 120;
-	global.Health = global.MaxHealth;
-	global.Mana = global.MaxMana;
+	if global.Health != global.MaxHealth
+	{
+		rep = global.MaxHealth - global.Health;
+		repeat(rep * 10)
+		{
+			instance_create(x, y, obj_ParryHealthHit);	
+		}
+	}
+	
+	if global.Mana != global.MaxMana
+	{
+		rep = global.MaxMana - global.Mana;
+		repeat(rep * 10)
+		{
+			instance_create(x, y, obj_ParryManaHit);	
+		}
+
+	}
 	
 	Saved = true;
 }
