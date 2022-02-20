@@ -31,7 +31,7 @@ if oPlayer.onGround
 }
 else
 {
-	Damage = 12;
+	Damage = 2;
 	offshoot = random_range(-40,40);
 	KnockbackTime = 2;
 	KnockbackStrenght = 1;

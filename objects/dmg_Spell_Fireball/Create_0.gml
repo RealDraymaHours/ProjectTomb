@@ -14,7 +14,7 @@ Tip_Y_Distance = 1;
 
 Active = true;
 Damage = 15;
-Cost = 6;
+Cost = 5;
 
 KnockbackTime = 2;
 KnockbackStrenght = 5;

@@ -113,7 +113,7 @@ function inventoryToStats(inventoryIndex)
 				Stats = [2,-5];
 			break;
 			case 6:
-				Stats = [-2,10];
+				Stats = [-2,5];
 			break;
 			case 7:
 				Stats = [2,true];

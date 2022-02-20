@@ -1,7 +1,6 @@
 /// @description Variables
 
 CurrentText = 0;
-
 CurrentPage = 0;
 
 TutorialStartNPCLoad()

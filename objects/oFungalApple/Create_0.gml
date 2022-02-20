@@ -1,8 +1,10 @@
-Health = 300;
+Health = 20;
 IsAttacking = false;
 Staggered = false;
-StaggerTime = 10;
+StaggerTime = 20;
 Stunned = false;
+
+Transformed = false;
 
 Knockback = false;
 KnockbackDirection = 0;

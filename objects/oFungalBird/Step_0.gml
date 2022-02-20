@@ -109,14 +109,14 @@ switch(state)
 		
 		if image_xscale = 1
 		{
-			hspeed = -4;
-			vspeed = -4;
+			h = -4;
+			v = -4;
 			image_angle -= 20;
 		}
 		else
 		{
-			hspeed = 4;
-			vspeed = -4;
+			h = 4;
+			v = -4;
 			image_angle += 20;
 		}
 		

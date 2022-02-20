@@ -5,6 +5,8 @@ CurrentPage = 0;
 npcX = x - 135;
 npcY = y - 100;
 
+NPC = "Brother";
+
 TutorialBrotherNPCLoad();
 
 // 0 = meetnotdone, 1=metnotdoneex, 2 = meetdone, 3 = questdone, 4 = newlocation , 5 = meetdone

@@ -128,17 +128,30 @@ if keyboard_check_released(ord("W"))
 	}
 	else
 	{
-
-			instance_destroy(oNPCTextBox);
+		
+		if instance_exists(oNPCTextBox)
+		{
+			if oNPCTextBox.NPC == NPC
+			{
+				instance_destroy(oNPCTextBox);
+			}
+		}
 			Textbox = instance_create_depth(npcX, npcY,-100, oNPCTextBox);
 			Textbox.Text = MyText[CurrentPage];
+			Textbox.NPC = NPC;
 			CurrentPage += 1;
 	}
 	}
 }
 else
 {
-	instance_destroy(oNPCTextBox);
+	if instance_exists(oNPCTextBox)
+	{
+		if oNPCTextBox.NPC == NPC
+		{
+			instance_destroy(oNPCTextBox);
+		}
+	}
 	CurrentPage = 0;
 	
 }

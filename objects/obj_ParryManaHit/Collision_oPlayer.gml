@@ -2,7 +2,7 @@ if MoveToPlayer
 {	
 	if global.Mana != global.MaxMana
 	{
-		global.Mana += 0.1;	
+		global.Mana += Gain;	
 	}
 	
 	rnd = irandom(9);

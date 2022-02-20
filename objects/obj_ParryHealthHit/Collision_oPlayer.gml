@@ -41,6 +41,6 @@ if MoveToPlayer
 	
 	if global.Health != global.MaxHealth
 	{
-		global.Health += 0.1;	
+		global.Health += Gain;	
 	}
 }

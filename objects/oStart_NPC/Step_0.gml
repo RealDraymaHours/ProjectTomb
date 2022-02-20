@@ -1,5 +1,7 @@
 image_speed = 0.1;
 
+
+
 switch(CurrentText)
 {
 	case(0):
@@ -38,8 +40,7 @@ if keyboard_check_released(ord("W"))
 	else
 	{
 		image_xscale = -1;
-	}
-			
+	}	
 	if(CurrentPage > LastPage)
 	{
 			instance_destroy(oNPCTextBox);

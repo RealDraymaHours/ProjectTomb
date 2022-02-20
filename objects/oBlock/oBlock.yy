@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_WallJump",
-    "path": "sprites/spr_WallJump/spr_WallJump.yy",
+    "name": "sJumpWall",
+    "path": "sprites/sJumpWall/sJumpWall.yy",
   },
   "solid": true,
   "visible": true,

@@ -4,7 +4,7 @@ alarm[0] = 240
 AnimationLock = false;
 move = 0;
 
-Health = 200;
+Health = 120;
 StaggerTime = 20;
 Staggered = false;
 Stunned = false;

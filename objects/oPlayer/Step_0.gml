@@ -256,6 +256,8 @@ if global.Staggered && !Staggered
 if global.Health < 1
 {
 	CanLeft = false;
+	if state != DEATH{}
+	
 	state = DEATH;
 	speed = 0;
 	h = 0;

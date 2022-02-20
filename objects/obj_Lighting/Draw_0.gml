@@ -17,9 +17,9 @@ if (surface_exists(LightSurf))
 
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();
-	draw_surface_ext(LightSurf,0,0,1,1,0,c_white,darkness);
+	draw_surface_ext(LightSurf,-64,-64,1,1,0,c_white,darkness);
 }
 else
 {
-	LightSurf = surface_create(room_width, room_height);
+	LightSurf = surface_create(room_width + 128, room_height + 128);
 }
