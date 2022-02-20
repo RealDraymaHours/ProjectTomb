@@ -4,14 +4,12 @@ Staggered = false;
 StaggerTime = 20;
 Stunned = false;
 
-Transformed = false;
-
 Knockback = false;
 KnockbackDirection = 0;
 KnockbackStrenght = 0;
 KnockbackTime = 0;
 Poise = 1;
-state = "IDLE"
+state = "WINDUP"
 AlarmSet = false;
 Active = false;
 

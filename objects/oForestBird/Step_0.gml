@@ -4,8 +4,7 @@ if (onGround) {
 } else {
     tempAccel = airAccel;
     tempFric  = airFric;
-	
-	if(state != "STUNNED"){state = "AIRBORNE";}
+	state = "AIRBORNE";
 }
 
 // Stick to wall //////////////////////////////////////////////////////////////
@@ -39,57 +38,37 @@ else
 }
 ///////////////////////////////////////////////////////////////////////////////
 
-if Staggered
-{
-	if alarm[11] == -1{alarm[11] = 20;}
-	state = "STAGGERED";
-}
-
 if !Stunned
 {
 	switch (state)
 	{
-		case("STAGGERED"):
-			sprite_index = sFungalAppleStaggered;
-		break;
 		case("IDLE"):
+			image_yscale = 1;
 			Active = false;
 			h = 0;
 			v = 0;
 			sprite_index = sForestBirdIdle;
-
-			if distance_to_object(oFolCam) < 80{state = "WINDUP"; image_index = 0;}
+			if (distance_to_object(oFolCam) > 20){state = "WINDUP"; image_index = 0;}
 		break;
 		case("WINDUP"):
-			sprite_index = sForestBirdCharge;
-			i = irandom(1);
-			
-			switch(i)
-			{
-				case(0):
-					state = "PARRY"
-				break;
-				
-				case(1):
-					state = "DASH"
-				break;
-			}
-			
+			sprite_index = sForestBirdCharge;		
 		break;
 		case("DASH"):
-			Active = false;
+			sprite_index = sForestBirdBash;		
+		break;
+		case("FORWARD"):
+			sprite_index = sForestBirdForward;
+
+			image_angle = point_direction(self.x, self.y, oFolCam.x, oFolCam.y) ;
+			image_yscale = 1;
+
+
+			dirX = sign(oFolCam.x - x);
+			dirY = sign(oFolCam.y + y);
 			
-			if !Active
-			{
-				sprite_index = sForestBirdCharge;
-				PlayerX = oFolCam.x;
-				PlayerY = oFolCam.y;
-			}
-			else
-			{
-				sprite_index = sForestBirdForward;
-				move_towards_point(PlayerX,PlayerY,2);
-			}			
+			h = (dirX * 2);
+			v = (dirY * 2);
+			if alarm[3] == -1{alarm[3] = 20;}
 		break;
 		case("PARRY"):
 			sprite_index = sForestBirdParry;
@@ -109,6 +88,9 @@ if !Stunned
 			}
 					
 			if alarm[3] == -1{alarm[3] = 10; hspeed = 0; vspeed = 0;}
+		break;
+		case("AIRBORNE"):
+			if onGround{state = "IDLE";}
 		break;
 
 	}

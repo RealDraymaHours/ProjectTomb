@@ -91,6 +91,7 @@
     {"id":{"name":"obj_Light_Red","path":"objects/obj_Light_Red/obj_Light_Red.yy",},"order":1,},
     {"id":{"name":"spr_Saw_Trap","path":"sprites/spr_Saw_Trap/spr_Saw_Trap.yy",},"order":5,},
     {"id":{"name":"oPlayerFinish","path":"objects/oPlayerFinish/oPlayerFinish.yy",},"order":9,},
+    {"id":{"name":"GravityFunctions","path":"scripts/GravityFunctions/GravityFunctions.yy",},"order":0,},
     {"id":{"name":"sForestBirdParry281","path":"sprites/sForestBirdParry281/sForestBirdParry281.yy",},"order":3,},
     {"id":{"name":"spr_KnightPlayerJumpD","path":"sprites/spr_KnightPlayerJumpD/spr_KnightPlayerJumpD.yy",},"order":2,},
     {"id":{"name":"obj_Collect_StarSpell","path":"objects/obj_Collect_StarSpell/obj_Collect_StarSpell.yy",},"order":2,},
@@ -682,6 +683,7 @@
     {"folderPath":"folders/Sprites/Player/Weapons/Shield.yy","order":8,"resourceVersion":"1.0","name":"Shield","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Enemies/Forest/FungalApple.yy","order":5,"resourceVersion":"1.0","name":"FungalApple","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Enemies/Forest/ForestBird.yy","order":6,"resourceVersion":"1.0","name":"ForestBird","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Gravity.yy","order":14,"resourceVersion":"1.0","name":"Gravity","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

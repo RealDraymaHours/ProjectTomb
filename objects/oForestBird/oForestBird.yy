@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFungalAppleIdle",
-    "path": "sprites/sFungalAppleIdle/sFungalAppleIdle.yy",
+    "name": "sForestBirdIdle",
+    "path": "sprites/sForestBirdIdle/sForestBirdIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,6 @@
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"dmg_Shield","path":"objects/dmg_Shield/dmg_Shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

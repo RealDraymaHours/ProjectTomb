@@ -1,16 +1,11 @@
 draw_self();
 
-if ((state == "RUNNING"))
+
+if oFolCam.x > x
 {
-	if oFolCam.x > x
-	{
-		image_xscale = 1;
-	}
-	else
-	{
-		image_xscale = -1;
-	}
+	image_xscale = 1;
 }
-
-
-draw_text(oFolCam.x,oFolCam.y - 64, Transformed);
+else
+{
+	image_xscale = -1;
+}
