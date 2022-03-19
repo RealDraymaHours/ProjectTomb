@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerParry","path":"sprites/sPlayerParry/sPlayerParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerParry",
     "tags": [],
     "resourceType": "GMSequence",

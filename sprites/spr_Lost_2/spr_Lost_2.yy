@@ -155,7 +155,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_2","path":"sprites/spr_Lost_2/spr_Lost_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_2",
     "tags": [],
     "resourceType": "GMSequence",

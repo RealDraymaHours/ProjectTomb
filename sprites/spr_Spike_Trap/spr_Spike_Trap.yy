@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Spike_Trap","path":"sprites/spr_Spike_Trap/spr_Spike_Trap.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Spike_Trap",
     "tags": [],
     "resourceType": "GMSequence",

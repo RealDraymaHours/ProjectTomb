@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerRun","path":"sprites/spr_KnightPlayerRun/spr_KnightPlayerRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerRun",
     "tags": [],
     "resourceType": "GMSequence",

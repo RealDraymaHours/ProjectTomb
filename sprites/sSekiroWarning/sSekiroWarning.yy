@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSekiroWarning","path":"sprites/sSekiroWarning/sSekiroWarning.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSekiroWarning",
     "tags": [],
     "resourceType": "GMSequence",

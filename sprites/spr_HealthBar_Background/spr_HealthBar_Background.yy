@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_HealthBar_Background","path":"sprites/spr_HealthBar_Background/spr_HealthBar_Background.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_HealthBar_Background",
     "tags": [],
     "resourceType": "GMSequence",

@@ -94,7 +94,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSZ_2","path":"sprites/sSZ_2/sSZ_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSZ_2",
     "tags": [],
     "resourceType": "GMSequence",

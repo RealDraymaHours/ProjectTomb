@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Star_Spell","path":"sprites/spr_Star_Spell/spr_Star_Spell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Star_Spell",
     "tags": [],
     "resourceType": "GMSequence",

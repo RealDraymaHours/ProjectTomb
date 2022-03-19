@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Flash","path":"sprites/spr_OKA_Flash/spr_OKA_Flash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Flash",
     "tags": [],
     "resourceType": "GMSequence",

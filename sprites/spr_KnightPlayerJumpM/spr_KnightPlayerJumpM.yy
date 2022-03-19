@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerJumpM","path":"sprites/spr_KnightPlayerJumpM/spr_KnightPlayerJumpM.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerJumpM",
     "tags": [],
     "resourceType": "GMSequence",

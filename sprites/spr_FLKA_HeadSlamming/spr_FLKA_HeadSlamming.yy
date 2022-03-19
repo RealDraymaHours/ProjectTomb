@@ -149,7 +149,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_HeadSlamming","path":"sprites/spr_FLKA_HeadSlamming/spr_FLKA_HeadSlamming.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_HeadSlamming",
     "tags": [],
     "resourceType": "GMSequence",

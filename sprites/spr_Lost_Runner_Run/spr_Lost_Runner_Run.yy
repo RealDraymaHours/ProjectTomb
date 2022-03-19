@@ -152,7 +152,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Runner_Run","path":"sprites/spr_Lost_Runner_Run/spr_Lost_Runner_Run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Runner_Run",
     "tags": [],
     "resourceType": "GMSequence",

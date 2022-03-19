@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Bahnschrift",
   "styleName": "Regular",
   "size": 8.0,
@@ -20,6 +21,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":3,"h":13,"character":32,"shift":3,"offset":0,},
     "33": {"x":25,"y":62,"w":3,"h":13,"character":33,"shift":3,"offset":0,},

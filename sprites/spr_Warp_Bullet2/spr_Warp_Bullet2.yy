@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Warp_Bullet2","path":"sprites/spr_Warp_Bullet2/spr_Warp_Bullet2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Warp_Bullet2",
     "tags": [],
     "resourceType": "GMSequence",

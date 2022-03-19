@@ -159,7 +159,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStartIdle","path":"sprites/sStartIdle/sStartIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStartIdle",
     "tags": [],
     "resourceType": "GMSequence",

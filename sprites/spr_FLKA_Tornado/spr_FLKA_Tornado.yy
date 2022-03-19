@@ -127,7 +127,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Tornado","path":"sprites/spr_FLKA_Tornado/spr_FLKA_Tornado.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Tornado",
     "tags": [],
     "resourceType": "GMSequence",

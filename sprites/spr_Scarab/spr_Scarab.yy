@@ -149,7 +149,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Scarab","path":"sprites/spr_Scarab/spr_Scarab.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Scarab",
     "tags": [],
     "resourceType": "GMSequence",

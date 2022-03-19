@@ -131,7 +131,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Walk","path":"sprites/spr_OKA_Walk/spr_OKA_Walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Walk",
     "tags": [],
     "resourceType": "GMSequence",

@@ -166,7 +166,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalSoldierSlamFinish","path":"sprites/sFungalSoldierSlamFinish/sFungalSoldierSlamFinish.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalSoldierSlamFinish",
     "tags": [],
     "resourceType": "GMSequence",

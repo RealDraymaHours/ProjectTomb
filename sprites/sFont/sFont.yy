@@ -303,7 +303,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFont","path":"sprites/sFont/sFont.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

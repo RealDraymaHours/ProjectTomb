@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"eff_ParryHit","path":"sprites/eff_ParryHit/eff_ParryHit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "eff_ParryHit",
     "tags": [],
     "resourceType": "GMSequence",

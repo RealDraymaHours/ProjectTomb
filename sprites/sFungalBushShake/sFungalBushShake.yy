@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalBushShake","path":"sprites/sFungalBushShake/sFungalBushShake.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalBushShake",
     "tags": [],
     "resourceType": "GMSequence",

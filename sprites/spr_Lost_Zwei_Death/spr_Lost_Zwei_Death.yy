@@ -176,7 +176,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Zwei_Death","path":"sprites/spr_Lost_Zwei_Death/spr_Lost_Zwei_Death.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Zwei_Death",
     "tags": [],
     "resourceType": "GMSequence",

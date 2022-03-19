@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sJumpWall","path":"sprites/sJumpWall/sJumpWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sJumpWall",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_Zweihander","path":"sprites/spr_inv_Zweihander/spr_inv_Zweihander.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_Zweihander",
     "tags": [],
     "resourceType": "GMSequence",

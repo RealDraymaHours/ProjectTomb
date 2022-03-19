@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Rock_Trap","path":"sprites/spr_Rock_Trap/spr_Rock_Trap.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Rock_Trap",
     "tags": [],
     "resourceType": "GMSequence",

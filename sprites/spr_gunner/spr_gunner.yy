@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gunner","path":"sprites/spr_gunner/spr_gunner.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gunner",
     "tags": [],
     "resourceType": "GMSequence",

@@ -127,7 +127,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Stomp","path":"sprites/spr_OKA_Stomp/spr_OKA_Stomp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Stomp",
     "tags": [],
     "resourceType": "GMSequence",

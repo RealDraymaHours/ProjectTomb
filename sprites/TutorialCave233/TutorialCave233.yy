@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"TutorialCave233","path":"sprites/TutorialCave233/TutorialCave233.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "TutorialCave",
     "tags": [],
     "resourceType": "GMSequence",

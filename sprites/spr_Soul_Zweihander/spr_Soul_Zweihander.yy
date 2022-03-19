@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Soul_Zweihander","path":"sprites/spr_Soul_Zweihander/spr_Soul_Zweihander.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Soul_Zweihander",
     "tags": [],
     "resourceType": "GMSequence",

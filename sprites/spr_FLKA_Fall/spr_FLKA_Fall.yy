@@ -122,7 +122,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Fall","path":"sprites/spr_FLKA_Fall/spr_FLKA_Fall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Fall",
     "tags": [],
     "resourceType": "GMSequence",

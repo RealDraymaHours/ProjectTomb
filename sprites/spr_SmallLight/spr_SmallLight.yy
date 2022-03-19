@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_SmallLight","path":"sprites/spr_SmallLight/spr_SmallLight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_SmallLight",
     "tags": [],
     "resourceType": "GMSequence",

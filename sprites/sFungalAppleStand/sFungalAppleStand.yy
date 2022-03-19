@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalAppleStand","path":"sprites/sFungalAppleStand/sFungalAppleStand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalAppleStand",
     "tags": [],
     "resourceType": "GMSequence",

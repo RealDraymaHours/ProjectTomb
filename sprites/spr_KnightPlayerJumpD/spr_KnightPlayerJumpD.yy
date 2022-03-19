@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerJumpD","path":"sprites/spr_KnightPlayerJumpD/spr_KnightPlayerJumpD.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerJumpD",
     "tags": [],
     "resourceType": "GMSequence",

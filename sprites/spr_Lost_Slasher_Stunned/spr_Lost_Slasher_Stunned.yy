@@ -156,7 +156,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Slasher_Stunned","path":"sprites/spr_Lost_Slasher_Stunned/spr_Lost_Slasher_Stunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Slasher_Stunned",
     "tags": [],
     "resourceType": "GMSequence",

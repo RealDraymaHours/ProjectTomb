@@ -139,7 +139,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMagePlayerDash","path":"sprites/sMagePlayerDash/sMagePlayerDash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMagePlayerDash",
     "tags": [],
     "resourceType": "GMSequence",

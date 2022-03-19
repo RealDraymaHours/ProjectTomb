@@ -167,7 +167,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Idle","path":"sprites/spr_LKA_Idle/spr_LKA_Idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Idle",
     "tags": [],
     "resourceType": "GMSequence",

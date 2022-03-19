@@ -224,7 +224,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalSoldierComboStab","path":"sprites/sFungalSoldierComboStab/sFungalSoldierComboStab.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalSoldierComboStab",
     "tags": [],
     "resourceType": "GMSequence",

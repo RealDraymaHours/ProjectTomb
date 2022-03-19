@@ -109,7 +109,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerDeath","path":"sprites/spr_KnightPlayerDeath/spr_KnightPlayerDeath.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerDeath",
     "tags": [],
     "resourceType": "GMSequence",

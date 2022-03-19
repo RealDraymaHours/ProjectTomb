@@ -158,7 +158,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_SavePerson","path":"sprites/spr_SavePerson/spr_SavePerson.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_SavePerson",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Light_Red","path":"sprites/spr_Light_Red/spr_Light_Red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Light_Red",
     "tags": [],
     "resourceType": "GMSequence",

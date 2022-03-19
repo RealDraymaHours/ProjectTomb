@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerSlide","path":"sprites/spr_MagePlayerSlide/spr_MagePlayerSlide.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerSlide",
     "tags": [],
     "resourceType": "GMSequence",

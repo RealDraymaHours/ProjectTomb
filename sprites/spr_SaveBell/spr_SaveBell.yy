@@ -154,7 +154,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_SaveBell","path":"sprites/spr_SaveBell/spr_SaveBell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_SaveBell",
     "tags": [],
     "resourceType": "GMSequence",

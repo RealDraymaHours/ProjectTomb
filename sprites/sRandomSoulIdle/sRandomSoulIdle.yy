@@ -159,7 +159,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRandomSoulIdle","path":"sprites/sRandomSoulIdle/sRandomSoulIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRandomSoulIdle",
     "tags": [],
     "resourceType": "GMSequence",

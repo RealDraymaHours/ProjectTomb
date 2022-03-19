@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Light_White","path":"sprites/spr_Light_White/spr_Light_White.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Light_White",
     "tags": [],
     "resourceType": "GMSequence",

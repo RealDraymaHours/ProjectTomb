@@ -94,7 +94,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBS_1","path":"sprites/sBS_1/sBS_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBS_1",
     "tags": [],
     "resourceType": "GMSequence",

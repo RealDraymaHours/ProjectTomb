@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_ManaBar_Border","path":"sprites/spr_ManaBar_Border/spr_ManaBar_Border.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_ManaBar_Border",
     "tags": [],
     "resourceType": "GMSequence",

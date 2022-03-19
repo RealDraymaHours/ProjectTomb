@@ -154,7 +154,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Mage_Death","path":"sprites/spr_Lost_Mage_Death/spr_Lost_Mage_Death.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Mage_Death",
     "tags": [],
     "resourceType": "GMSequence",

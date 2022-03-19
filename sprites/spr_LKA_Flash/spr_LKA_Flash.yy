@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Flash","path":"sprites/spr_LKA_Flash/spr_LKA_Flash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Flash",
     "tags": [],
     "resourceType": "GMSequence",

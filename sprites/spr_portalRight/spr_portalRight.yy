@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_portalRight","path":"sprites/spr_portalRight/spr_portalRight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_portalRight",
     "tags": [],
     "resourceType": "GMSequence",

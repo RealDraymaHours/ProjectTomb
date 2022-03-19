@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"eff_FireHit1","path":"sprites/eff_FireHit1/eff_FireHit1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "eff_FireHit1",
     "tags": [],
     "resourceType": "GMSequence",

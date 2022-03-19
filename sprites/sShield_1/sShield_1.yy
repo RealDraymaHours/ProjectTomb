@@ -64,7 +64,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShield_1","path":"sprites/sShield_1/sShield_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sShield_1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -171,7 +171,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Slasher_Death","path":"sprites/spr_Lost_Slasher_Death/spr_Lost_Slasher_Death.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Slasher_Death",
     "tags": [],
     "resourceType": "GMSequence",

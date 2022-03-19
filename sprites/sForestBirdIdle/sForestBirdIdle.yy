@@ -202,7 +202,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sForestBirdIdle","path":"sprites/sForestBirdIdle/sForestBirdIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sForestBirdIdle",
     "tags": [],
     "resourceType": "GMSequence",

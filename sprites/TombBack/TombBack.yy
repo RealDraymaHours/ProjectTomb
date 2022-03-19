@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"TombBack","path":"sprites/TombBack/TombBack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "TombBack",
     "tags": [],
     "resourceType": "GMSequence",

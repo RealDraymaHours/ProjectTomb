@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRandomSoulRun","path":"sprites/sRandomSoulRun/sRandomSoulRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRandomSoulRun",
     "tags": [],
     "resourceType": "GMSequence",

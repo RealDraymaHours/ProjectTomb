@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Spin_Start","path":"sprites/spr_LKA_Spin_Start/spr_LKA_Spin_Start.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Spin_Start",
     "tags": [],
     "resourceType": "GMSequence",

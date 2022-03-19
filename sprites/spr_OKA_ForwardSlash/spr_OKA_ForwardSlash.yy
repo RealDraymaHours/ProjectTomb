@@ -139,7 +139,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_ForwardSlash","path":"sprites/spr_OKA_ForwardSlash/spr_OKA_ForwardSlash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_ForwardSlash",
     "tags": [],
     "resourceType": "GMSequence",

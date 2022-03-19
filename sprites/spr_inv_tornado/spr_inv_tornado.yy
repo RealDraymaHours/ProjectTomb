@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_tornado","path":"sprites/spr_inv_tornado/spr_inv_tornado.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_tornado",
     "tags": [],
     "resourceType": "GMSequence",

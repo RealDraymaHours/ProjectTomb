@@ -371,7 +371,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Finish","path":"sprites/spr_FLKA_Finish/spr_FLKA_Finish.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Finish",
     "tags": [],
     "resourceType": "GMSequence",

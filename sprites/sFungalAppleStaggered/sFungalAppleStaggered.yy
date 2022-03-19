@@ -25,8 +25,6 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"05f0bd94-d60d-4682-91ba-5f115f98bb85","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05f0bd94-d60d-4682-91ba-5f115f98bb85","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"LayerId":{"name":"3ab9d38e-ab63-4384-91f3-f39587f94392","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"05f0bd94-d60d-4682-91ba-5f115f98bb85","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"LayerId":{"name":"6934a6c2-9b0b-4c1e-90b6-9ad8e11e1ba2","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"05f0bd94-d60d-4682-91ba-5f115f98bb85","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"LayerId":{"name":"f96a5743-dc53-4861-bdea-efc144cb6fa9","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sFungalAppleStaggered","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},"resourceVersion":"1.0","name":"05f0bd94-d60d-4682-91ba-5f115f98bb85","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -65,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalAppleStaggered","path":"sprites/sFungalAppleStaggered/sFungalAppleStaggered.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalAppleStaggered",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Mouse_Staggered","path":"sprites/spr_Mouse_Staggered/spr_Mouse_Staggered.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Mouse_Staggered",
     "tags": [],
     "resourceType": "GMSequence",

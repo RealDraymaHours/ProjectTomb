@@ -185,7 +185,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStartBrother","path":"sprites/sStartBrother/sStartBrother.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStartBrother",
     "tags": [],
     "resourceType": "GMSequence",

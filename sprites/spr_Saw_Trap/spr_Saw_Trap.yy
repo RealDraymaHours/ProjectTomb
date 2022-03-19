@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Saw_Trap","path":"sprites/spr_Saw_Trap/spr_Saw_Trap.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Saw_Trap",
     "tags": [],
     "resourceType": "GMSequence",

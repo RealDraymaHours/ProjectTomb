@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalAppleIdle","path":"sprites/sFungalAppleIdle/sFungalAppleIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalAppleIdle",
     "tags": [],
     "resourceType": "GMSequence",

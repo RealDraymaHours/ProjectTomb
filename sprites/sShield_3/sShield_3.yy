@@ -80,7 +80,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShield_3","path":"sprites/sShield_3/sShield_3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sShield_3",
     "tags": [],
     "resourceType": "GMSequence",

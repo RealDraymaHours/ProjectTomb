@@ -152,7 +152,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Spear_Stunned","path":"sprites/spr_Lost_Spear_Stunned/spr_Lost_Spear_Stunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Spear_Stunned",
     "tags": [],
     "resourceType": "GMSequence",

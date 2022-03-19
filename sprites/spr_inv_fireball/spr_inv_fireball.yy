@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_fireball","path":"sprites/spr_inv_fireball/spr_inv_fireball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_fireball",
     "tags": [],
     "resourceType": "GMSequence",

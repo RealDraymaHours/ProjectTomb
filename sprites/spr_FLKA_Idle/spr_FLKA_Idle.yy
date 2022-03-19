@@ -136,7 +136,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Idle","path":"sprites/spr_FLKA_Idle/spr_FLKA_Idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Idle",
     "tags": [],
     "resourceType": "GMSequence",

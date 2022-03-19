@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_Knight","path":"sprites/spr_inv_Knight/spr_inv_Knight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_Knight",
     "tags": [],
     "resourceType": "GMSequence",

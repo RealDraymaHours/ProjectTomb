@@ -407,7 +407,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Scream_Start","path":"sprites/spr_LKA_Scream_Start/spr_LKA_Scream_Start.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Scream_Start",
     "tags": [],
     "resourceType": "GMSequence",

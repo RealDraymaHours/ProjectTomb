@@ -246,7 +246,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Zwei_Idlew","path":"sprites/spr_Lost_Zwei_Idlew/spr_Lost_Zwei_Idlew.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Zwei_Idlew",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Hitbox","path":"sprites/spr_Hitbox/spr_Hitbox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Hitbox",
     "tags": [],
     "resourceType": "GMSequence",

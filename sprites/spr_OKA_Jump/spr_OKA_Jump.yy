@@ -315,7 +315,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Jump","path":"sprites/spr_OKA_Jump/spr_OKA_Jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Jump",
     "tags": [],
     "resourceType": "GMSequence",

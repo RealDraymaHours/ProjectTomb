@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Rock","path":"sprites/spr_FLKA_Rock/spr_FLKA_Rock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Rock",
     "tags": [],
     "resourceType": "GMSequence",

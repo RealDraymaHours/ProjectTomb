@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Basic_Wand","path":"sprites/spr_Basic_Wand/spr_Basic_Wand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Basic_Wand",
     "tags": [],
     "resourceType": "GMSequence",

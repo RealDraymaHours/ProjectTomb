@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Block_INV","path":"sprites/spr_Block_INV/spr_Block_INV.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Block_INV",
     "tags": [],
     "resourceType": "GMSequence",

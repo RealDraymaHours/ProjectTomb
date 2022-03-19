@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Mouse_Free","path":"sprites/spr_Mouse_Free/spr_Mouse_Free.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Mouse_Free",
     "tags": [],
     "resourceType": "GMSequence",

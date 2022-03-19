@@ -397,7 +397,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Jump","path":"sprites/spr_FLKA_Jump/spr_FLKA_Jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Jump",
     "tags": [],
     "resourceType": "GMSequence",

@@ -602,7 +602,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Spawn","path":"sprites/spr_FLKA_Spawn/spr_FLKA_Spawn.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Spawn",
     "tags": [],
     "resourceType": "GMSequence",

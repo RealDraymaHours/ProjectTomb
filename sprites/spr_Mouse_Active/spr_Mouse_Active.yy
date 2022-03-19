@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Mouse_Active","path":"sprites/spr_Mouse_Active/spr_Mouse_Active.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Mouse_Active",
     "tags": [],
     "resourceType": "GMSequence",

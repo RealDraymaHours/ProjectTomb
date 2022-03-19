@@ -173,7 +173,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalSoldierComboTop","path":"sprites/sFungalSoldierComboTop/sFungalSoldierComboTop.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalSoldierComboTop",
     "tags": [],
     "resourceType": "GMSequence",

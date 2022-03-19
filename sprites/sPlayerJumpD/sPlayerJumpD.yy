@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerJumpD","path":"sprites/sPlayerJumpD/sPlayerJumpD.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerJumpD",
     "tags": [],
     "resourceType": "GMSequence",

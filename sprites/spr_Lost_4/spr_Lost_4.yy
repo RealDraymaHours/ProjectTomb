@@ -234,7 +234,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_4","path":"sprites/spr_Lost_4/spr_Lost_4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_4",
     "tags": [],
     "resourceType": "GMSequence",

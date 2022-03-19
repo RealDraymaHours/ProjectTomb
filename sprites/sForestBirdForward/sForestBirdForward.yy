@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sForestBirdForward","path":"sprites/sForestBirdForward/sForestBirdForward.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sForestBirdForward",
     "tags": [],
     "resourceType": "GMSequence",

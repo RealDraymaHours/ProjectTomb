@@ -89,7 +89,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Staggered","path":"sprites/spr_OKA_Staggered/spr_OKA_Staggered.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Staggered",
     "tags": [],
     "resourceType": "GMSequence",

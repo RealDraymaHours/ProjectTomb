@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKATiles","path":"sprites/spr_OKATiles/spr_OKATiles.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKATiles",
     "tags": [],
     "resourceType": "GMSequence",

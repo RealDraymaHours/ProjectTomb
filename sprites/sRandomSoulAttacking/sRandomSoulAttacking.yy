@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRandomSoulAttacking","path":"sprites/sRandomSoulAttacking/sRandomSoulAttacking.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRandomSoulAttacking",
     "tags": [],
     "resourceType": "GMSequence",

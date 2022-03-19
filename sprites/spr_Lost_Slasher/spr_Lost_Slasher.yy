@@ -201,7 +201,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Slasher","path":"sprites/spr_Lost_Slasher/spr_Lost_Slasher.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Slasher",
     "tags": [],
     "resourceType": "GMSequence",

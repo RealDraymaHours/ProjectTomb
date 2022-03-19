@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Mouse_Parry","path":"sprites/spr_Mouse_Parry/spr_Mouse_Parry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Mouse_Parry",
     "tags": [],
     "resourceType": "GMSequence",

@@ -166,7 +166,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Zwei_Idle","path":"sprites/spr_Lost_Zwei_Idle/spr_Lost_Zwei_Idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Zwei_Idle",
     "tags": [],
     "resourceType": "GMSequence",

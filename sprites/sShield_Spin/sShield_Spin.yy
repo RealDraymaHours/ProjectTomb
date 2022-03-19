@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShield_Spin","path":"sprites/sShield_Spin/sShield_Spin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sShield_Spin",
     "tags": [],
     "resourceType": "GMSequence",

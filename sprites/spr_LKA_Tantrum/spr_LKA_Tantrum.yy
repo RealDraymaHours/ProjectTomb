@@ -132,7 +132,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Tantrum","path":"sprites/spr_LKA_Tantrum/spr_LKA_Tantrum.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Tantrum",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerParry","path":"sprites/spr_MagePlayerParry/spr_MagePlayerParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerParry",
     "tags": [],
     "resourceType": "GMSequence",

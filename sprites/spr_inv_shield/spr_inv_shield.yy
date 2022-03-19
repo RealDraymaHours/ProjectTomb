@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_shield","path":"sprites/spr_inv_shield/spr_inv_shield.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_shield",
     "tags": [],
     "resourceType": "GMSequence",

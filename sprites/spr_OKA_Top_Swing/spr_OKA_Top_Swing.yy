@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Top_Swing","path":"sprites/spr_OKA_Top_Swing/spr_OKA_Top_Swing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Top_Swing",
     "tags": [],
     "resourceType": "GMSequence",

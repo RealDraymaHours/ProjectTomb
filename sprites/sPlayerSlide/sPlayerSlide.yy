@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerSlide","path":"sprites/sPlayerSlide/sPlayerSlide.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerSlide",
     "tags": [],
     "resourceType": "GMSequence",

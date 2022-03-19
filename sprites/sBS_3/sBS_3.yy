@@ -86,7 +86,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBS_3","path":"sprites/sBS_3/sBS_3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBS_3",
     "tags": [],
     "resourceType": "GMSequence",

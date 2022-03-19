@@ -166,7 +166,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalSoldierBase","path":"sprites/sFungalSoldierBase/sFungalSoldierBase.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalSoldierBase",
     "tags": [],
     "resourceType": "GMSequence",

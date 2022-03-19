@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerRun","path":"sprites/spr_MagePlayerRun/spr_MagePlayerRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerRun",
     "tags": [],
     "resourceType": "GMSequence",

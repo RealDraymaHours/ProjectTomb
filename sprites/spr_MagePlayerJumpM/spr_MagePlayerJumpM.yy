@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerJumpM","path":"sprites/spr_MagePlayerJumpM/spr_MagePlayerJumpM.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerJumpM",
     "tags": [],
     "resourceType": "GMSequence",

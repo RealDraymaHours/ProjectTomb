@@ -226,7 +226,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Zwei","path":"sprites/spr_Lost_Zwei/spr_Lost_Zwei.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Zwei",
     "tags": [],
     "resourceType": "GMSequence",

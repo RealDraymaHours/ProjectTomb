@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Satue","path":"sprites/spr_OKA_Satue/spr_OKA_Satue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Satue",
     "tags": [],
     "resourceType": "GMSequence",

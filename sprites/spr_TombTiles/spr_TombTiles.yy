@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_TombTiles","path":"sprites/spr_TombTiles/spr_TombTiles.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_TombTiles",
     "tags": [],
     "resourceType": "GMSequence",

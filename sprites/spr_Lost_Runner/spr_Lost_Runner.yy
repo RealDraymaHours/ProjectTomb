@@ -154,7 +154,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Runner","path":"sprites/spr_Lost_Runner/spr_Lost_Runner.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Runner",
     "tags": [],
     "resourceType": "GMSequence",

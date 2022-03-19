@@ -68,7 +68,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Falling","path":"sprites/spr_FLKA_Falling/spr_FLKA_Falling.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Falling",
     "tags": [],
     "resourceType": "GMSequence",

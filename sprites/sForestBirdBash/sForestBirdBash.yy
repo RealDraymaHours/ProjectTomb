@@ -85,7 +85,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sForestBirdBash","path":"sprites/sForestBirdBash/sForestBirdBash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sForestBirdBash",
     "tags": [],
     "resourceType": "GMSequence",

@@ -185,7 +185,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerIdle","path":"sprites/spr_KnightPlayerIdle/spr_KnightPlayerIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerIdle",
     "tags": [],
     "resourceType": "GMSequence",

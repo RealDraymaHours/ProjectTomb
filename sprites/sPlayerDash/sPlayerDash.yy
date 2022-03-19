@@ -139,7 +139,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerDash","path":"sprites/sPlayerDash/sPlayerDash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerDash",
     "tags": [],
     "resourceType": "GMSequence",

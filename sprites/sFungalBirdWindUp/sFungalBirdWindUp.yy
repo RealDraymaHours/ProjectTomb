@@ -73,7 +73,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalBirdWindUp","path":"sprites/sFungalBirdWindUp/sFungalBirdWindUp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalBirdWindUp",
     "tags": [],
     "resourceType": "GMSequence",

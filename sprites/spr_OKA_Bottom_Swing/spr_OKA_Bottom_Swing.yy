@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Bottom_Swing","path":"sprites/spr_OKA_Bottom_Swing/spr_OKA_Bottom_Swing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Bottom_Swing",
     "tags": [],
     "resourceType": "GMSequence",

@@ -174,7 +174,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Lost_Spear_Attack2","path":"sprites/spr_Lost_Spear_Attack2/spr_Lost_Spear_Attack2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Lost_Spear_Attack2",
     "tags": [],
     "resourceType": "GMSequence",

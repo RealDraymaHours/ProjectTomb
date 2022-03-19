@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_DamageFloor","path":"sprites/spr_DamageFloor/spr_DamageFloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_DamageFloor",
     "tags": [],
     "resourceType": "GMSequence",

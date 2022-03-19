@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Stunned","path":"sprites/spr_LKA_Stunned/spr_LKA_Stunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Stunned",
     "tags": [],
     "resourceType": "GMSequence",

@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Helmbreaker","path":"sprites/spr_OKA_Helmbreaker/spr_OKA_Helmbreaker.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Helmbreaker",
     "tags": [],
     "resourceType": "GMSequence",

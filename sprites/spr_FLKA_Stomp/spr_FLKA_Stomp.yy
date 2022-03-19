@@ -127,7 +127,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_FLKA_Stomp","path":"sprites/spr_FLKA_Stomp/spr_FLKA_Stomp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_FLKA_Stomp",
     "tags": [],
     "resourceType": "GMSequence",

@@ -97,7 +97,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sForestBirdCharge","path":"sprites/sForestBirdCharge/sForestBirdCharge.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sForestBirdCharge",
     "tags": [],
     "resourceType": "GMSequence",

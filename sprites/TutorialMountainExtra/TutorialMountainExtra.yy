@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"TutorialMountainExtra","path":"sprites/TutorialMountainExtra/TutorialMountainExtra.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "TutorialMountainExtra",
     "tags": [],
     "resourceType": "GMSequence",

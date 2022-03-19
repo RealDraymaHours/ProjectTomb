@@ -101,7 +101,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalAppleRun","path":"sprites/sFungalAppleRun/sFungalAppleRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalAppleRun",
     "tags": [],
     "resourceType": "GMSequence",

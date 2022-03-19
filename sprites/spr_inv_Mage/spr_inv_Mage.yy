@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_inv_Mage","path":"sprites/spr_inv_Mage/spr_inv_Mage.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_inv_Mage",
     "tags": [],
     "resourceType": "GMSequence",

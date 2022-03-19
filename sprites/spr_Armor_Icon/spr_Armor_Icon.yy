@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Armor_Icon","path":"sprites/spr_Armor_Icon/spr_Armor_Icon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Armor_Icon",
     "tags": [],
     "resourceType": "GMSequence",

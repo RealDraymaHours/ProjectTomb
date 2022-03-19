@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalBirdAttack","path":"sprites/sFungalBirdAttack/sFungalBirdAttack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalBirdAttack",
     "tags": [],
     "resourceType": "GMSequence",

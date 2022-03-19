@@ -242,7 +242,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerIdle","path":"sprites/spr_MagePlayerIdle/spr_MagePlayerIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerIdle",
     "tags": [],
     "resourceType": "GMSequence",

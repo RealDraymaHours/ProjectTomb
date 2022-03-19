@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Awayer","path":"sprites/spr_OKA_Awayer/spr_OKA_Awayer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Awayer",
     "tags": [],
     "resourceType": "GMSequence",

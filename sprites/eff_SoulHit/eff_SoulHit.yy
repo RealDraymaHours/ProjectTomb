@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"eff_SoulHit","path":"sprites/eff_SoulHit/eff_SoulHit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "eff_SoulHit",
     "tags": [],
     "resourceType": "GMSequence",

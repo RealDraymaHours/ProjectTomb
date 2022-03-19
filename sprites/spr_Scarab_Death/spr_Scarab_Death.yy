@@ -198,7 +198,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Scarab_Death","path":"sprites/spr_Scarab_Death/spr_Scarab_Death.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Scarab_Death",
     "tags": [],
     "resourceType": "GMSequence",

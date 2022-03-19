@@ -182,7 +182,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalSoldierStunned","path":"sprites/sFungalSoldierStunned/sFungalSoldierStunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalSoldierStunned",
     "tags": [],
     "resourceType": "GMSequence",

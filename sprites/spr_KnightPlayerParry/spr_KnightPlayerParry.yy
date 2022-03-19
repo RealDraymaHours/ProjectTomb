@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerParry","path":"sprites/spr_KnightPlayerParry/spr_KnightPlayerParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerParry",
     "tags": [],
     "resourceType": "GMSequence",

@@ -127,7 +127,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Idle","path":"sprites/spr_OKA_Idle/spr_OKA_Idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Idle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Mouse_Dash","path":"sprites/spr_Mouse_Dash/spr_Mouse_Dash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Mouse_Dash",
     "tags": [],
     "resourceType": "GMSequence",

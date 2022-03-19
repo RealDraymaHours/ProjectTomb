@@ -303,7 +303,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Survivor","path":"sprites/spr_Survivor/spr_Survivor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Survivor",
     "tags": [],
     "resourceType": "GMSequence",

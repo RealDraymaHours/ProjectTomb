@@ -178,7 +178,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_MagePlayerDeath","path":"sprites/spr_MagePlayerDeath/spr_MagePlayerDeath.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_MagePlayerDeath",
     "tags": [],
     "resourceType": "GMSequence",

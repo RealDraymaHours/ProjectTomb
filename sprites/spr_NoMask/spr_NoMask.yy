@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_NoMask","path":"sprites/spr_NoMask/spr_NoMask.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_NoMask",
     "tags": [],
     "resourceType": "GMSequence",

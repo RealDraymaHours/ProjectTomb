@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerFinish","path":"sprites/sPlayerFinish/sPlayerFinish.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerFinish",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMageSoulParry","path":"sprites/sMageSoulParry/sMageSoulParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMageSoulParry",
     "tags": [],
     "resourceType": "GMSequence",

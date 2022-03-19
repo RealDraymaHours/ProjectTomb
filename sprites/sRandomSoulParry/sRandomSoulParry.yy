@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRandomSoulParry","path":"sprites/sRandomSoulParry/sRandomSoulParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRandomSoulParry",
     "tags": [],
     "resourceType": "GMSequence",

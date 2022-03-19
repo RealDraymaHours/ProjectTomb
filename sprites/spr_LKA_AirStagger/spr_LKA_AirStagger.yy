@@ -25,11 +25,11 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"c7578bd0-d5ea-4a9d-842c-61eb7fe34ac0","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"2960090b-4324-4120-b219-86befe233389","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"7424917c-ac45-413c-b4d9-2304254a10b8","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"2b5b22e9-07eb-4efb-a02a-044719957e50","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"4291b052-b8ab-4ea9-a336-8716bb99196d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"2960090b-4324-4120-b219-86befe233389","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ab421757-e21e-4965-8137-06e2dd24f23d","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"LayerId":{"name":"c7578bd0-d5ea-4a9d-842c-61eb7fe34ac0","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_LKA_AirStagger","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},"resourceVersion":"1.0","name":"ab421757-e21e-4965-8137-06e2dd24f23d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_AirStagger","path":"sprites/spr_LKA_AirStagger/spr_LKA_AirStagger.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_AirStagger",
     "tags": [],
     "resourceType": "GMSequence",

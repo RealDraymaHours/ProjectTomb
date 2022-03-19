@@ -120,7 +120,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShield_2","path":"sprites/sShield_2/sShield_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sShield_2",
     "tags": [],
     "resourceType": "GMSequence",

@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_OKA_Falling","path":"sprites/spr_OKA_Falling/spr_OKA_Falling.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_OKA_Falling",
     "tags": [],
     "resourceType": "GMSequence",

@@ -40,7 +40,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1_1_2_5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Shield","path":"objects/obj_Collect_Shield/obj_Collect_Shield.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":496.0,"resourceVersion":"1.0","name":"inst_34F414E6","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oForestBird","path":"objects/oForestBird/oForestBird.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":512.0,"resourceVersion":"1.0","name":"inst_39D7D705","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Damage_Layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TombTileSet","path":"tilesets/TombTileSet/TombTileSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":103,"SerialiseHeight":48,"TileSerialiseData":[
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -170,7 +169,6 @@
     {"name":"inst_3AC90D4D","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
     {"name":"inst_4B8C030C","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
     {"name":"inst_6F753839","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
-    {"name":"inst_39D7D705","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

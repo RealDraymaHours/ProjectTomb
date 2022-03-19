@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sForestBirdParry","path":"sprites/sForestBirdParry/sForestBirdParry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sForestBirdParry",
     "tags": [],
     "resourceType": "GMSequence",

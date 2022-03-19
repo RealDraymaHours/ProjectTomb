@@ -73,7 +73,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalBirdIdle","path":"sprites/sFungalBirdIdle/sFungalBirdIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalBirdIdle",
     "tags": [],
     "resourceType": "GMSequence",

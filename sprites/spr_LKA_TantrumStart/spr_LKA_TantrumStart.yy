@@ -217,7 +217,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_TantrumStart","path":"sprites/spr_LKA_TantrumStart/spr_LKA_TantrumStart.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_TantrumStart",
     "tags": [],
     "resourceType": "GMSequence",

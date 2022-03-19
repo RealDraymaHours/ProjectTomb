@@ -1139,7 +1139,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_LKA_Spawn","path":"sprites/spr_LKA_Spawn/spr_LKA_Spawn.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_LKA_Spawn",
     "tags": [],
     "resourceType": "GMSequence",

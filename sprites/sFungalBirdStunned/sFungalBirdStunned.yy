@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFungalBirdStunned","path":"sprites/sFungalBirdStunned/sFungalBirdStunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFungalBirdStunned",
     "tags": [],
     "resourceType": "GMSequence",

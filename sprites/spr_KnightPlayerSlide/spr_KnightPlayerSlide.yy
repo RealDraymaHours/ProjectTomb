@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_KnightPlayerSlide","path":"sprites/spr_KnightPlayerSlide/spr_KnightPlayerSlide.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_KnightPlayerSlide",
     "tags": [],
     "resourceType": "GMSequence",
